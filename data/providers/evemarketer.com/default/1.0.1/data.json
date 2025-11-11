@@ -1,0 +1,14 @@
+{
+  "name": "EVEMarketer Marketstat API",
+  "description": "EVEMarketer Marketstat API is almost compatible with EVE-Central's Marketstat API.",
+  "categories": [
+    "entertainment"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/evemarketer.com/1.0.1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/evemarketer.com/1.0.1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

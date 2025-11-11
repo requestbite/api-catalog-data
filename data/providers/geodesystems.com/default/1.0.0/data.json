@@ -1,0 +1,12 @@
+{
+  "name": "geodesystems.com:443",
+  "description": "Search for data in lots of places - manage your documents, photos and critical business knowledge - communicate and coordinate with blogs, interactive wikis, and data integration dashboards.",
+  "categories": [],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/geodesystems.com/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/geodesystems.com/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

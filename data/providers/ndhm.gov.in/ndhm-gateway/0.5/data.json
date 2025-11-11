@@ -1,0 +1,14 @@
+{
+  "name": "Gateway",
+  "description": "Gateway is the hub that routes/orchestrates the interaction between consent managers and API bridges. There are 5 categories of APIs; discovery, link, consent flow, data flow and  monitoring. To reflect the consumers of APIs, the above apis are also categorized under cm facing, hiu facing and hip facing ",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/ndhm.gov.in/ndhm-gateway/0.5/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/ndhm.gov.in/ndhm-gateway/0.5/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

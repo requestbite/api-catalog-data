@@ -1,0 +1,14 @@
+{
+  "name": "LetMC Api V2, Basic (Tier 2)",
+  "description": null,
+  "categories": [
+    "ecommerce"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/letmc.com/basic-tier/v2-basic-tier/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/letmc.com/basic-tier/v2-basic-tier/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

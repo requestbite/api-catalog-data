@@ -1,0 +1,14 @@
+{
+  "name": "DeviceServices",
+  "description": "Use this API to manage the Windows IoT device services in your Azure subscription.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/windowsiot-WindowsIotServices/2019-06-01/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/windowsiot-WindowsIotServices/2019-06-01/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

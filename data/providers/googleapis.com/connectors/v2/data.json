@@ -1,0 +1,15 @@
+{
+  "name": "Connectors API",
+  "description": "Enables users to create and manage connections to Google Cloud services and third-party business applications using the Connectors interface.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/connectors/v2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/connectors/v2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/apigee/docs/api-platform/connectors/about-connectors",
+  "source": "apis.guru"
+}

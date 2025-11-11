@@ -1,0 +1,14 @@
+{
+  "name": "Remote Diagnostic Support",
+  "description": "The Remote Diagnostic Support API will provide the possibility for 3rd party applications (e.g. ADAC, ATU, etc.) to access vehicle diagnostics data remotely on behalf of the Daimler customer. To use the endpoints you need a valid vin/fin (vehicleId).",
+  "categories": [
+    "transport"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mercedes-benz.com/diagnostics/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mercedes-benz.com/diagnostics/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "The Mercure protocol",
+  "description": "[Mercure](https://mercure.rocks) is a protocol allowing to push data updates to web browsers and other HTTP clients in a convenient, fast, reliable and battery-efficient way.",
+  "categories": [
+    "messaging"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mercure.local/0.3.2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mercure.local/0.3.2/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": "https://mercure.rocks/spec",
+  "source": "apis.guru"
+}

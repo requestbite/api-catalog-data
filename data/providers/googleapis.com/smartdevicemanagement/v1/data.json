@@ -1,0 +1,15 @@
+{
+  "name": "Smart Device Management API",
+  "description": "Allow select enterprise partners to access, control, and manage Google and Nest devices programmatically.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/smartdevicemanagement/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/smartdevicemanagement/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/nest/device-access",
+  "source": "apis.guru"
+}

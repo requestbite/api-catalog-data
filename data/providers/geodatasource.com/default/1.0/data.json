@@ -1,0 +1,14 @@
+{
+  "name": "GeoDataSource Location Search",
+  "description": "GeoDataSource™ Web Service is a REST API enable user to lookup for a city by using latitude and longitude coordinate. It will return the result in either JSON or XML containing the information of country, region, city, latitude and longitude. Visit https://www.geodatasource.com/web-service for further information.",
+  "categories": [
+    "location"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/geodatasource.com/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/geodatasource.com/1.0/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

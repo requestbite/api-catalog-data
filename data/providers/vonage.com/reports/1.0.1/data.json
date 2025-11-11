@@ -1,0 +1,12 @@
+{
+  "name": "Reports API",
+  "description": "The Vonage Business Cloud Reports API enables you to retrieve call logs for your account.\n\nYour application must subscribe to the Reports API suite to use this API.",
+  "categories": [],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/vonage.com/reports/1.0.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/vonage.com/reports/1.0.1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

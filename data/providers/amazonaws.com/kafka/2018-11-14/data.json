@@ -1,0 +1,14 @@
+{
+  "name": "Managed Streaming for Kafka",
+  "description": "\n               <p>The operations for managing an Amazon MSK cluster.</p>",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/kafka/2018-11-14/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/kafka/2018-11-14/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/kafka/",
+  "source": "apis.guru"
+}

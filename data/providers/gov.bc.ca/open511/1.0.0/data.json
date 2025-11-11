@@ -1,0 +1,14 @@
+{
+  "name": "DriveBC's Open511 API",
+  "description": "This API is DriveBC's implementation of the Open511 specification.  It provides information about known road events (traffic accidents, construction, etc.) in British Columbia, Canada.  Please note that you may experience issues when submitting requests to the delivery or test environment if using this [OpenAPI specification](https://github.com/bcgov/api-specs) in other API console viewers.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/gov.bc.ca/open511/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/gov.bc.ca/open511/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "http://api.open511.gov.bc.ca/help",
+  "source": "apis.guru"
+}

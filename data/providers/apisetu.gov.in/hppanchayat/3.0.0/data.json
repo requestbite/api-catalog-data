@@ -1,0 +1,14 @@
+{
+  "name": "Panchayati Raj Department, Himachal Pradesh, Himachal Pradesh",
+  "description": "Parivar Patra (http://aadhaar.hp.gov.in/epanchayat/) is the online service  portal by Govt. of Himachal Pradesh. Parivar Register issued online certificate can be pulled into citizens' DigiLocker accounts.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/hppanchayat/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/hppanchayat/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

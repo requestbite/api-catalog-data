@@ -1,0 +1,15 @@
+{
+  "name": "Cloud Healthcare API",
+  "description": "Manage, store, and access healthcare data in Google Cloud Platform.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/healthcare/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/healthcare/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/healthcare",
+  "source": "apis.guru"
+}

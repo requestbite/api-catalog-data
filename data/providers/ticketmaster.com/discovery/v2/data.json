@@ -1,0 +1,14 @@
+{
+  "name": "Discovery API",
+  "description": "The Ticketmaster Discovery API allows you to search for events, attractions, or venues.",
+  "categories": [
+    "ecommerce"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/ticketmaster.com/discovery/v2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/ticketmaster.com/discovery/v2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

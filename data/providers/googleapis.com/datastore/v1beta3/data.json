@@ -1,0 +1,15 @@
+{
+  "name": "Cloud Datastore API",
+  "description": "Accesses the schemaless NoSQL database to provide fully managed, robust, scalable storage for your application. ",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/datastore/v1beta3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/datastore/v1beta3/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/datastore/",
+  "source": "apis.guru"
+}

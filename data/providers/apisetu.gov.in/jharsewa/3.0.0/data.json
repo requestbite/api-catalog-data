@@ -1,0 +1,14 @@
+{
+  "name": "Jharsewa (eDistrict), Jharkhand",
+  "description": "Jharkhand e-District is a comprehensive and web enabled service portal that acts as an electronic gateway into the Government's portfolio of services. Jharsewa provides Certificates  like Birth, Death, Income, Caste and Residence Certificates in Digilocker.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/jharsewa/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/jharsewa/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

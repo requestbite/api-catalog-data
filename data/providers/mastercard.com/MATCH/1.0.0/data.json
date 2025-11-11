@@ -1,0 +1,12 @@
+{
+  "name": "MATCH API",
+  "description": "Helps acquirers identify potentially high-risk merchants before entering to a merchant agreement.",
+  "categories": [],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mastercard.com/MATCH/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mastercard.com/MATCH/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

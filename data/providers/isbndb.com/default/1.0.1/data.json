@@ -1,0 +1,14 @@
+{
+  "name": "ISBNdb API",
+  "description": "Definition of ISBNdb.com API",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/isbndb.com/1.0.1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/isbndb.com/1.0.1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

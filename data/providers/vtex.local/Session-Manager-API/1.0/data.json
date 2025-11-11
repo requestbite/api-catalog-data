@@ -1,0 +1,12 @@
+{
+  "name": "Session Manager API",
+  "description": "This documentation goes in detail how to interact with Session Manager's API. For a more top-level approach, check the [design documentation](https://help.vtex.com/tutorial/using-session-manager-to-track-browsing-sessions-in-vtex-stores--1pA0tqsD4BFnJYhQ7ORQBd).",
+  "categories": [],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/vtex.local/Session-Manager-API/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/vtex.local/Session-Manager-API/1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

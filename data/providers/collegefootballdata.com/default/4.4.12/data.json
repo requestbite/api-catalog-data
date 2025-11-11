@@ -1,0 +1,14 @@
+{
+  "name": "College Football Data API",
+  "description": "This is an API for accessing all sorts of college football data.  Please note that API keys should be supplied with \"Bearer \" prepended (e.g. \"Bearer your_key\"). API keys can be acquired from the CollegeFootballData.com website.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/collegefootballdata.com/4.4.12/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/collegefootballdata.com/4.4.12/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

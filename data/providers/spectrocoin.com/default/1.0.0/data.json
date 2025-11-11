@@ -1,0 +1,16 @@
+{
+  "name": "SpectroCoin Merchant",
+  "description": "This is an API designed for merchants who are using SpectroCoin services and wishes to integrate them locally.",
+  "categories": [
+    "finance",
+    "payment",
+    "ecommerce"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/spectrocoin.com/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/spectrocoin.com/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

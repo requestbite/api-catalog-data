@@ -1,0 +1,14 @@
+{
+  "name": "ODWeather",
+  "description": "This is the api to access the ODWeather API information",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/oceandrivers.com/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/oceandrivers.com/1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

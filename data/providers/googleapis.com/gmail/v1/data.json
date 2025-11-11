@@ -1,0 +1,15 @@
+{
+  "name": "Gmail API",
+  "description": "The Gmail API lets you view and manage Gmail mailbox data like threads, messages, and labels.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/gmail/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/gmail/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/gmail/api/",
+  "source": "apis.guru"
+}

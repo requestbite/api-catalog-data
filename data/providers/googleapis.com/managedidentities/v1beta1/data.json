@@ -1,0 +1,15 @@
+{
+  "name": "Managed Service for Microsoft Active Directory API",
+  "description": "The Managed Service for Microsoft Active Directory API is used for managing a highly available, hardened service running Microsoft Active Directory (AD).",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/managedidentities/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/managedidentities/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/managed-microsoft-ad/",
+  "source": "apis.guru"
+}

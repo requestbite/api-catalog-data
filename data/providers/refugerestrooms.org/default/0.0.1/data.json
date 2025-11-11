@@ -1,0 +1,14 @@
+{
+  "name": "Refuge Restrooms API",
+  "description": "REFUGE is a web application that seeks to provide safe restroom access for transgender, intersex, and gender nonconforming individuals.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/refugerestrooms.org/0.0.1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/refugerestrooms.org/0.0.1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

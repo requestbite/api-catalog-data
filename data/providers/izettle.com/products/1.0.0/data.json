@@ -1,0 +1,14 @@
+{
+  "name": "Product Library API",
+  "description": "The Product Library API is used for managing merchant's product information and product images.",
+  "categories": [
+    "ecommerce"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/izettle.com/products/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/izettle.com/products/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

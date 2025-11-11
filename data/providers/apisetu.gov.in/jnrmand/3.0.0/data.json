@@ -1,0 +1,14 @@
+{
+  "name": "Jawaharlal Nehru Rajkeeya Mahavidyalaya",
+  "description": "Transfer Certificates issued by JNRM can be downloaded in citizen's DigiLocker account.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/jnrmand/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/jnrmand/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

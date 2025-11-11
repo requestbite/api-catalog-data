@@ -1,0 +1,12 @@
+{
+  "name": "Lucidtech API",
+  "description": null,
+  "categories": [],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/webflow.com/2023-03-01T164537Z/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/webflow.com/2023-03-01T164537Z/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

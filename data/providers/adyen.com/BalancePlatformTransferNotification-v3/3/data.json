@@ -1,0 +1,14 @@
+{
+  "name": "Transfer webhooks",
+  "description": "Adyen sends notifications through webhooks to inform your system about incoming and outgoing transfers in your platform.\n\nYou can use these webhooks to build your implementation. For example, you can use this information to update balances in your own dashboards or to keep track of incoming funds.",
+  "categories": [
+    "payment"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/adyen.com/BalancePlatformTransferNotification-v3/3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/adyen.com/BalancePlatformTransferNotification-v3/3/openapi.yaml",
+  "openApiVersion": "3.1.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "AIception Interactive",
+  "description": "Here you can play & test & prototype all the endpoints using just your browser! Go ahead!",
+  "categories": [
+    "machine_learning"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/aiception.com/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/aiception.com/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Interzoid City Data Standardization API",
+  "description": "This API provides a standard for US and international cities for the purposes of standardizing city name data, improving query results, analytics, and data merging.",
+  "categories": [
+    "developer_tools"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/interzoid.com/getcitystandard/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/interzoid.com/getcitystandard/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://www.interzoid.com/services/getcitystandard",
+  "source": "apis.guru"
+}

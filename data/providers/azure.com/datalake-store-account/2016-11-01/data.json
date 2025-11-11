@@ -1,0 +1,14 @@
+{
+  "name": "DataLakeStoreAccountManagementClient",
+  "description": "Creates an Azure Data Lake Store account management client.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/datalake-store-account/2016-11-01/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/datalake-store-account/2016-11-01/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

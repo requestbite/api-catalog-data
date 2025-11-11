@@ -1,0 +1,14 @@
+{
+  "name": "Azure Log Analytics - Operations Management",
+  "description": "Azure Log Analytics API reference for Solution.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/operationsmanagement-OperationsManagement/2015-11-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/operationsmanagement-OperationsManagement/2015-11-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

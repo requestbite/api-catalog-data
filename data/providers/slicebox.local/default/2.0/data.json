@@ -1,0 +1,14 @@
+{
+  "name": "Slicebox API",
+  "description": "Slicebox - safe sharing of medical images",
+  "categories": [
+    "collaboration"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/slicebox.local/2.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/slicebox.local/2.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

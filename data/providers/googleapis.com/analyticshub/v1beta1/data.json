@@ -1,0 +1,15 @@
+{
+  "name": "Analytics Hub API",
+  "description": "Exchange data and analytics assets securely and efficiently.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/analyticshub/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/analyticshub/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/bigquery/docs/analytics-hub-introduction",
+  "source": "apis.guru"
+}

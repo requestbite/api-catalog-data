@@ -1,0 +1,14 @@
+{
+  "name": "1Password Connect",
+  "description": "REST API interface for 1Password Connect.",
+  "categories": [
+    "security"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/1password.local/connect/1.5.7/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/1password.local/connect/1.5.7/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

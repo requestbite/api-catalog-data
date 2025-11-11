@@ -1,0 +1,12 @@
+{
+  "name": "OrgHunter",
+  "description": "Get the latest IRS data and most up to date charity information for your website or application",
+  "categories": [],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/orghunter.com/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/orghunter.com/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

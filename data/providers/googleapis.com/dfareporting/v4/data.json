@@ -1,0 +1,15 @@
+{
+  "name": "Campaign Manager 360 API",
+  "description": "Build applications to efficiently manage large or complex trafficking, reporting, and attribution workflows for Campaign Manager 360.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/dfareporting/v4/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/dfareporting/v4/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/doubleclick-advertisers/",
+  "source": "apis.guru"
+}

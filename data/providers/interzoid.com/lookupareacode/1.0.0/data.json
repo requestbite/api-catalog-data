@@ -1,0 +1,14 @@
+{
+  "name": "Interzoid Get Area Code API",
+  "description": "This API provides area code information for a given telephone area code.",
+  "categories": [
+    "developer_tools"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/interzoid.com/lookupareacode/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/interzoid.com/lookupareacode/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://www.interzoid.com/services/lookupareacode",
+  "source": "apis.guru"
+}

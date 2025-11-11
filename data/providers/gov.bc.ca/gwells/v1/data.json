@@ -1,0 +1,14 @@
+{
+  "name": "Groundwater Wells, Aquifers and Registry API",
+  "description": "The groundwater wells, aquifers and registry API contains information related to groundwater wells and aquifers as well as a register of qualified well drillers and well pump installers registered to operate in B.C.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/gov.bc.ca/gwells/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/gov.bc.ca/gwells/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

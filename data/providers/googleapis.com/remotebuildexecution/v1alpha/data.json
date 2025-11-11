@@ -1,0 +1,15 @@
+{
+  "name": "Remote Build Execution API",
+  "description": "Supplies a Remote Execution API service for tools such as bazel.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/remotebuildexecution/v1alpha/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/remotebuildexecution/v1alpha/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/remote-build-execution/docs/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Cloud OS Login API",
+  "description": "You can use OS Login to manage access to your VM instances using IAM roles.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/oslogin/v1beta/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/oslogin/v1beta/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/compute/docs/oslogin/",
+  "source": "apis.guru"
+}

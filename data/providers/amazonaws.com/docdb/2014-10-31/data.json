@@ -1,0 +1,14 @@
+{
+  "name": "Amazon DocumentDB with MongoDB compatibility",
+  "description": "Amazon DocumentDB API documentation",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/docdb/2014-10-31/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/docdb/2014-10-31/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/rds/",
+  "source": "apis.guru"
+}

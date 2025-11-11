@@ -1,0 +1,14 @@
+{
+  "name": "Orbit API",
+  "description": "Please see the complete Orbit API documentation at [https://api.orbit.love/](https://api.orbit.love/).",
+  "categories": [
+    "crm"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/orbit.love/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/orbit.love/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

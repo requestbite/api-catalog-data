@@ -1,0 +1,14 @@
+{
+  "name": "Directorate of Municipal Administration, Karnataka",
+  "description": "APIs provided by Directorate of Municipal Administration, Karnataka.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/municipaladmin/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/municipaladmin/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

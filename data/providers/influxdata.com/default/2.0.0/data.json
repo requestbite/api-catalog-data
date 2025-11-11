@@ -1,0 +1,14 @@
+{
+  "name": "Influx OSS API Service",
+  "description": "# Authentication\n\n&lt;!-- ReDoc-Inject: &lt;security-definitions&gt; --&gt;",
+  "categories": [
+    "iot"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/influxdata.com/2.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/influxdata.com/2.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

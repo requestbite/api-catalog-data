@@ -1,0 +1,14 @@
+{
+  "name": "Amazon Sagemaker Edge Manager",
+  "description": "SageMaker Edge Manager dataplane service for communicating with active agents.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/sagemaker-edge/2020-09-23/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/sagemaker-edge/2020-09-23/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/sagemaker/",
+  "source": "apis.guru"
+}

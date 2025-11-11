@@ -1,0 +1,14 @@
+{
+  "name": "National e-Governance Division",
+  "description": "NeGD (http://negd.gov.in/) conducts trainings in the area of egovernance. Certificates for certain training programmes by NeGD are made available in participants' DigiLocker accounts.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/negd/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/negd/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "BigQuery API",
+  "description": "A data platform for customers to create, manage, share and query data.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/bigquery/v2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/bigquery/v2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/bigquery/",
+  "source": "apis.guru"
+}

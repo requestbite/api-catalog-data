@@ -1,0 +1,15 @@
+{
+  "name": "Bitbucket API",
+  "description": "Code against the Bitbucket API to automate simple tasks, embed Bitbucket data into your own site, build mobile or desktop apps, or even add custom UI add-ons into Bitbucket itself using the Connect framework.",
+  "categories": [
+    "developer_tools",
+    "collaboration"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/bitbucket.org/2.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/bitbucket.org/2.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://bitbucket.org/api",
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ApplicationInsightsManagementClient",
+  "description": "Azure Application Insights client for web test based alerting.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/applicationinsights-webTests_API/2015-05-01/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/applicationinsights-webTests_API/2015-05-01/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

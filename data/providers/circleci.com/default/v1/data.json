@@ -1,0 +1,14 @@
+{
+  "name": "CircleCI REST API",
+  "description": "The CircleCI API is a RESTful, fully-featured API that allows you to do almost anything in CircleCI.\nYou can access all information and trigger all actions.\nThe only thing we don’t provide access to is billing functions, which must be done from the CircleCI web UI.",
+  "categories": [
+    "developer_tools"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/circleci.com/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/circleci.com/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

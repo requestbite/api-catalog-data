@@ -1,0 +1,14 @@
+{
+  "name": "AzureAnalysisServices",
+  "description": "The Azure Analysis Services Web API provides a RESTful set of web services that enables users to create, retrieve, update, and delete Analysis Services servers",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/analysisservices/2017-08-01-beta/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/analysisservices/2017-08-01-beta/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

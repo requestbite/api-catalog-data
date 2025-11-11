@@ -1,0 +1,15 @@
+{
+  "name": "My Business Account Management API",
+  "description": "The My Business Account Management API provides an interface for managing access to a location on Google. Note - If you have a quota of 0 after enabling the API, please request for GBP API access.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/mybusinessaccountmanagement/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/mybusinessaccountmanagement/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/my-business/",
+  "source": "apis.guru"
+}

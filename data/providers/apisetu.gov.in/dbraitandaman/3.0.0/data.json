@@ -1,0 +1,14 @@
+{
+  "name": "Dr. B.R. Ambedkar Institute of Technology,Andaman & Nicobar Islands",
+  "description": "APIs provided by Dr. B.R. Ambedkar Institute of Technology,Andaman & Nicobar Islands.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/dbraitandaman/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/dbraitandaman/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

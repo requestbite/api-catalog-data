@@ -1,0 +1,14 @@
+{
+  "name": "BIN Lookup API",
+  "description": "BIN lookup API, the free api service from bintable.com to lookup card information using it's BIN. the service maintains updated database based on the comunity and other third party services to make sure all BINs in the database are accurate and up to date.",
+  "categories": [
+    "finance"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/bintable.com/1.0.0-oas3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/bintable.com/1.0.0-oas3/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

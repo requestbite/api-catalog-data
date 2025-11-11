@@ -1,0 +1,14 @@
+{
+  "name": "GameSparks Game Details API",
+  "description": "The API to manage the GameSparks game details",
+  "categories": [
+    "developer_tools"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/gamesparks.net/game-details/v2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/gamesparks.net/game-details/v2/openapi.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

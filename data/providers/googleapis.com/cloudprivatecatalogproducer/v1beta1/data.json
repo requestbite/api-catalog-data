@@ -1,0 +1,12 @@
+{
+  "name": "Cloud Private Catalog Producer",
+  "description": "Enables cloud users to manage and share enterprise catalogs intheir organizations.",
+  "categories": [],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/cloudprivatecatalogproducer/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/cloudprivatecatalogproducer/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/private-catalog/",
+  "source": "apis.guru"
+}

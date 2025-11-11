@@ -1,0 +1,14 @@
+{
+  "name": "EngagementFabric",
+  "description": "Microsoft Customer Engagement Fabric",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/engagementfabric-EngagementFabric/2018-09-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/engagementfabric-EngagementFabric/2018-09-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "papiNet API",
+  "description": "papinet API is a global initiative for the Forst and Paper supply chain.",
+  "categories": [
+    "ecommerce"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/papinet.io/order_status/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/papinet.io/order_status/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.3",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Authentiq Connect API",
+  "description": "Authentiq Connect OAuth 2.0 and OpenID Connect API reference.\nLearn about [Authentiq ID](https://www.authentiq.com/) or check out the [Authentiq Connect](https://developers.authentiq.com) developer documentation.",
+  "categories": [
+    "security"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/authentiq.io/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/authentiq.io/1.0/openapi.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://developers.authentiq.com/",
+  "source": "apis.guru"
+}

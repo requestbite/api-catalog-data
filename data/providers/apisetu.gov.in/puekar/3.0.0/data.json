@@ -1,0 +1,14 @@
+{
+  "name": "Karnataka State Board (Department of Pre University Education), Karnataka",
+  "description": "Department of Pre University Education (http://pue.kar.nic.in) is providing certificates of II PUC (Class XII) March, July 2018 and March 2019  Examination marksheets.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/puekar/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/puekar/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

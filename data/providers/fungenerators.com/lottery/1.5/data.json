@@ -1,0 +1,14 @@
+{
+  "name": "Random Lottery Number generator API",
+  "description": "Below is the documentation for the API calls. You can try them out right here. ",
+  "categories": [
+    "text"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/fungenerators.com/lottery/1.5/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/fungenerators.com/lottery/1.5/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

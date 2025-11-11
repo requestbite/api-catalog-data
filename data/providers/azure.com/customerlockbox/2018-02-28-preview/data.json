@@ -1,0 +1,14 @@
+{
+  "name": "Customer Lockbox",
+  "description": "Azure Customer Lockbox API Reference",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/customerlockbox/2018-02-28-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/customerlockbox/2018-02-28-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

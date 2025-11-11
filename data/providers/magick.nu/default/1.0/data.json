@@ -1,0 +1,14 @@
+{
+  "name": "Tradeworks",
+  "description": "Authentication is required to access all methods of the API. Enter username and password.\n                Credentials are automatically set as you type.",
+  "categories": [
+    "finance"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/magick.nu/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/magick.nu/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

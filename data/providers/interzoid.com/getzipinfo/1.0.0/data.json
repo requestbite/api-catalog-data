@@ -1,0 +1,14 @@
+{
+  "name": "Interzoid Zip Code Detailed Info API",
+  "description": "This API provides detailed information for a given zip code, including city, state, latitude, longitude, area size, and various population demographics.",
+  "categories": [
+    "developer_tools"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/interzoid.com/getzipinfo/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/interzoid.com/getzipinfo/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://www.interzoid.com/services/getzipcodeinfo",
+  "source": "apis.guru"
+}

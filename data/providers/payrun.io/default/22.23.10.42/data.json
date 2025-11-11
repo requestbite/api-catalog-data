@@ -1,0 +1,14 @@
+{
+  "name": "PayRun.IO",
+  "description": "Open, scableable, transparent payroll API.",
+  "categories": [
+    "finance"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/payrun.io/22.23.10.42/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/payrun.io/22.23.10.42/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developer.test.payrun.io/docs",
+  "source": "apis.guru"
+}

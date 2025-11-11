@@ -1,0 +1,14 @@
+{
+  "name": "Deep Art Effects",
+  "description": null,
+  "categories": [
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/deeparteffects.com/2017-02-10T162446Z/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/deeparteffects.com/2017-02-10T162446Z/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

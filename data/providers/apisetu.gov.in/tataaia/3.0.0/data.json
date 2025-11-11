@@ -1,0 +1,14 @@
+{
+  "name": "Tata AIA Life Insurance Co. Ltd.",
+  "description": "Tata AIA Life Insurance Company Limited provides life insurance solutions to its consumers. Customers can access their policy details [Insurance Policy � Life] and premium receipts [Premium Receipt] that are available to be pulled by the policy holders into their DigiLocker account (only documents issued on or after 28-June-2019 are currently available)",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/tataaia/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/tataaia/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

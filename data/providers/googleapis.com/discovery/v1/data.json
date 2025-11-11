@@ -1,0 +1,15 @@
+{
+  "name": "API Discovery Service",
+  "description": "Provides information about other Google APIs, such as what APIs are available, the resource, and method details for each API.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/discovery/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/discovery/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/discovery/",
+  "source": "apis.guru"
+}

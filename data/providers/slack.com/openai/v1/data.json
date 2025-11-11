@@ -1,0 +1,16 @@
+{
+  "name": "Slack AI Plugin",
+  "description": "A plugin that allows users to interact with Slack using ChatGPT",
+  "categories": [
+    "developer_tools",
+    "collaboration",
+    "messaging"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/slack.com/openai/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/slack.com/openai/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

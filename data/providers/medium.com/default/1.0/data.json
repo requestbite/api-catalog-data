@@ -1,0 +1,15 @@
+{
+  "name": "Medium API",
+  "description": "Medium API helps you to quickly extract data from Medium's Website (https://medium.com). \n\nYou can gather data related to users, publications, articles (including its textual content), latest posts &amp; top writers within a topic/niche, etc…",
+  "categories": [
+    "media",
+    "social"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/medium.com/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/medium.com/1.0/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": "https://github.com/Medium/medium-api-docs",
+  "source": "apis.guru"
+}

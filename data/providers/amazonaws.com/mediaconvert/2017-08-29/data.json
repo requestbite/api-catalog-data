@@ -1,0 +1,14 @@
+{
+  "name": "AWS Elemental MediaConvert",
+  "description": "AWS Elemental MediaConvert",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/mediaconvert/2017-08-29/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/mediaconvert/2017-08-29/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/mediaconvert/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Giphy API",
+  "description": "Giphy API",
+  "categories": [
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/giphy.com/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/giphy.com/1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.giphy.com/docs/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Events API",
+  "description": "1Password Events API Specification.",
+  "categories": [
+    "security"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/1password.com/events/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/1password.com/events/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "M-Bus HTTPD API",
+  "description": null,
+  "categories": [
+    "iot"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mbus.local/0.3.5/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mbus.local/0.3.5/openapi.yaml",
+  "openApiVersion": "3.0.3",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Qualtrics API",
+  "description": "Work with Qualtrics surveys, distributions and response events",
+  "categories": [
+    "forms"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/qualtrics.com/0.2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/qualtrics.com/0.2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

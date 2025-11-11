@@ -1,0 +1,14 @@
+{
+  "name": "StorageManagementClient",
+  "description": "The Admin Storage Management Client.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/azsadmin-storageaccounts/2019-08-08-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/azsadmin-storageaccounts/2019-08-08-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

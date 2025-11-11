@@ -1,0 +1,15 @@
+{
+  "name": "Serverless VPC Access API",
+  "description": "API for managing VPC access connectors.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/vpcaccess/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/vpcaccess/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/vpc/docs/configure-serverless-vpc-access",
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "CallFire API Documentation",
+  "description": "CallFire",
+  "categories": [
+    "telecom"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/callfire.com/V2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/callfire.com/V2/openapi.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Bungie.Net API",
+  "description": "These endpoints constitute the functionality exposed by Bungie.net, both for more traditional website functionality and for connectivity to Bungie video games and their related functionality.",
+  "categories": [
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/bungie.net/2.18.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/bungie.net/2.18.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://github.com/Bungie-net/api/wiki/OAuth-Documentation",
+  "source": "apis.guru"
+}

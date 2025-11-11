@@ -1,0 +1,14 @@
+{
+  "name": "NetBox API",
+  "description": "API to access NetBox",
+  "categories": [
+    "enterprise"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/netbox.dev/3.4/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/netbox.dev/3.4/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

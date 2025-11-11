@@ -1,0 +1,15 @@
+{
+  "name": "Twilio - Serverless",
+  "description": "This is the public Twilio REST API.",
+  "categories": [
+    "telecom",
+    "messaging"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/twilio.com/twilio_serverless_v1/1.42.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/twilio.com/twilio_serverless_v1/1.42.0/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

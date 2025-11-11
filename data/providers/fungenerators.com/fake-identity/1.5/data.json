@@ -1,0 +1,14 @@
+{
+  "name": "Fake identity generation API",
+  "description": "Generate random fake identities (name, address, email, phone , credit card info etc). [Click here to subscribe](http://fungenerators.com/api/fakeidentity/)",
+  "categories": [
+    "text"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/fungenerators.com/fake-identity/1.5/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/fungenerators.com/fake-identity/1.5/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

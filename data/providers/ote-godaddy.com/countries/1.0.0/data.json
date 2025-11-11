@@ -1,0 +1,14 @@
+{
+  "name": "",
+  "description": null,
+  "categories": [
+    "hosting"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/ote-godaddy.com/countries/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/ote-godaddy.com/countries/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

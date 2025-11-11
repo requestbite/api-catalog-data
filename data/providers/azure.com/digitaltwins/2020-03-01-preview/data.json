@@ -1,0 +1,14 @@
+{
+  "name": "AzureDigitalTwinsManagementClient",
+  "description": "Azure Digital Twins Client for managing DigitalTwinsInstance",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/digitaltwins/2020-03-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/digitaltwins/2020-03-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

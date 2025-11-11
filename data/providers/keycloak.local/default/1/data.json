@@ -1,0 +1,14 @@
+{
+  "name": "Keycloak Admin REST API",
+  "description": "This is a REST API reference for the Keycloak Admin",
+  "categories": [
+    "developer_tools"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/keycloak.local/1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/keycloak.local/1/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": "https://github.com/keycloak/keycloak/tree/6.0.1/core/src/main/java/org/keycloak/representations",
+  "source": "apis.guru"
+}

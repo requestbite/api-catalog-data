@@ -1,0 +1,14 @@
+{
+  "name": "NPR Sponsorship Service",
+  "description": "Sponsorship for non-NPR One client applications",
+  "categories": [
+    "entertainment"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/npr.org/sponsorship/2/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/npr.org/sponsorship/2/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://dev.npr.org/guide/app-experience/sponsorship/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "MDES Customer Service",
+  "description": "This API provides our Issuer partners with resources to help resolve consumer queries about payment accounts enabled through our digitization platform.",
+  "categories": [],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mastercard.com/MDES/2.0.7/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mastercard.com/MDES/2.0.7/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

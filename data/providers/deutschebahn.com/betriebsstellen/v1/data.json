@@ -1,0 +1,15 @@
+{
+  "name": "Betriebsstellen",
+  "description": "This REST-API enables you to query station and stop infos",
+  "categories": [
+    "transport",
+    "open_data"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/deutschebahn.com/betriebsstellen/v1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/deutschebahn.com/betriebsstellen/v1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

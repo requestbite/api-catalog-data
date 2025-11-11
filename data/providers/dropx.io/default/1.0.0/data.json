@@ -1,0 +1,14 @@
+{
+  "name": "DropX",
+  "description": "dropX.io API provides programmatic access to the e-commerce intelligence data.",
+  "categories": [
+    "ecommerce"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/dropx.io/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/dropx.io/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

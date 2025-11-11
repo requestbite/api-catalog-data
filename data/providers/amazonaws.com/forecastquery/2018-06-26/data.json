@@ -1,0 +1,14 @@
+{
+  "name": "Amazon Forecast Query Service",
+  "description": "Provides APIs for creating and managing Amazon Forecast resources.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/forecastquery/2018-06-26/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/forecastquery/2018-06-26/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/forecastquery/",
+  "source": "apis.guru"
+}

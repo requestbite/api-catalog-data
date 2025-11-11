@@ -1,0 +1,12 @@
+{
+  "name": "Extension API",
+  "description": "The Vonage Business Cloud Extension API enables you to retrieve information about extensions.\n\nYour application must subscribe to the Provisioning API suite to use this API.",
+  "categories": [],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/vonage.com/extension/1.11.8/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/vonage.com/extension/1.11.8/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

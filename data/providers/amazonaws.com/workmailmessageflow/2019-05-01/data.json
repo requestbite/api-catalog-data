@@ -1,0 +1,14 @@
+{
+  "name": "Amazon WorkMail Message Flow",
+  "description": "The WorkMail Message Flow API provides access to email messages as they are being sent and received by a WorkMail organization.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/workmailmessageflow/2019-05-01/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/workmailmessageflow/2019-05-01/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/workmailmessageflow/",
+  "source": "apis.guru"
+}

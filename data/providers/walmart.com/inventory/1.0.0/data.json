@@ -1,0 +1,14 @@
+{
+  "name": "Inventory Management",
+  "description": "Maintaining up-to-date inventory for your items on Walmart.com ensures a great experience for your customers and greater sales opportunities for you.",
+  "categories": [
+    "ecommerce"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/walmart.com/inventory/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/walmart.com/inventory/1.0.0/openapi.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

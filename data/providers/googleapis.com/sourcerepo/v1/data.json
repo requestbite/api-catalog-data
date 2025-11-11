@@ -1,0 +1,15 @@
+{
+  "name": "Cloud Source Repositories API",
+  "description": "Accesses source code repositories hosted by Google.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/sourcerepo/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/sourcerepo/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/source-repositories/docs/apis",
+  "source": "apis.guru"
+}

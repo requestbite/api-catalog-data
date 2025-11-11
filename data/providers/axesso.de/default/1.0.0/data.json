@@ -1,0 +1,14 @@
+{
+  "name": "Axesso Api",
+  "description": "Use this api to fetch information to Amazon products and more.",
+  "categories": [
+    "ecommerce"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/axesso.de/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/axesso.de/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "http://api-doc.axesso.de/",
+  "source": "apis.guru"
+}

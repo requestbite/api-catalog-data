@@ -1,0 +1,14 @@
+{
+  "name": "NFL v3 Scores",
+  "description": "NFL schedules, scores, odds, weather, and news API.",
+  "categories": [
+    "entertainment"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/sportsdata.io/nfl-v3-scores/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/sportsdata.io/nfl-v3-scores/1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Interzoid Convert Currency Rate API",
+  "description": "This API enables you to convert an amount of one currency into another currency using current foreign exchange rates.",
+  "categories": [
+    "developer_tools"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/interzoid.com/convertcurrency/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/interzoid.com/convertcurrency/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://www.interzoid.com/services/convertcurrency",
+  "source": "apis.guru"
+}

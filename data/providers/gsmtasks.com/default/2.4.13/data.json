@@ -1,0 +1,12 @@
+{
+  "name": "GSMTasks Project API",
+  "description": "The GSMtasks API is a RESTful web service for developers to programmatically interact with GSMtasks data, real-time delivery and task management and route optimization functionality.",
+  "categories": [],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/gsmtasks.com/2.4.13/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/gsmtasks.com/2.4.13/openapi.yaml",
+  "openApiVersion": "3.0.3",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

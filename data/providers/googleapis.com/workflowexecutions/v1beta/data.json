@@ -1,0 +1,15 @@
+{
+  "name": "Workflow Executions API",
+  "description": "Execute workflows created with Workflows API.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/workflowexecutions/v1beta/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/workflowexecutions/v1beta/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/workflows",
+  "source": "apis.guru"
+}

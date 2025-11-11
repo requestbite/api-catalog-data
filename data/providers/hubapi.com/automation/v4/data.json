@@ -1,0 +1,12 @@
+{
+  "name": "Custom Workflow Actions",
+  "description": "Create custom workflow actions",
+  "categories": [],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/hubapi.com/automation/v4/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/hubapi.com/automation/v4/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

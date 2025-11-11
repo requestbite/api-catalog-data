@@ -1,0 +1,12 @@
+{
+  "name": "Orders API (PII version)",
+  "description": "Endpoints that deal with order management. New version of the orders API.",
+  "categories": [],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/vtex.local/Orders-API-(PII-version)/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/vtex.local/Orders-API-(PII-version)/1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

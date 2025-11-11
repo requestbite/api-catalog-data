@@ -1,0 +1,15 @@
+{
+  "name": "Google Workspace Reseller API",
+  "description": "Perform common functions that are available on the Channel Services console at scale, like placing orders and viewing customer information",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/reseller/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/reseller/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/google-apps/reseller/",
+  "source": "apis.guru"
+}

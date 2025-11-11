@@ -1,0 +1,14 @@
+{
+  "name": "Assess API",
+  "description": "Codat's Assess API enable you to make smarter credit decisions on your small business customers. Assess enriches your customer's accounting, commerce and banking data to surface actionable insights you didn't have before.\n\n[Read more...](https://www.codat.io/assess/)\n\n[See our OpenAPI spec](https://github.com/codatio/oas) ",
+  "categories": [
+    "finance"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/codat.io/assess/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/codat.io/assess/1.0/openapi.yaml",
+  "openApiVersion": "3.1.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

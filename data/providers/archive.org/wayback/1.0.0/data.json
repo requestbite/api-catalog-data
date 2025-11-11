@@ -1,0 +1,14 @@
+{
+  "name": "Wayback API",
+  "description": "API for Internet Archive's Wayback Machine",
+  "categories": [
+    "search"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/archive.org/wayback/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/archive.org/wayback/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

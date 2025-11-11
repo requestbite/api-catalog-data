@@ -1,0 +1,12 @@
+{
+  "name": "Nexmo Application API",
+  "description": "<div class=\"Vlt-callout Vlt-callout--critical\"> <i></i> <div class=\"Vlt-callout__content\">\n  <h4>Applications V1 is deprecated</h4>\n  This version of the API has been deprecated. Please use <a href=\"/api/application.v2\">version 2</a> going forwards\n</div> </div>\nA Nexmo application contains the security and configuration information you need to connect to Nexmo endpoints and easily use our products.",
+  "categories": [],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/nexmo.com/application/1.0.2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/nexmo.com/application/1.0.2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developer.nexmo.com/api/developer/application",
+  "source": "apis.guru"
+}

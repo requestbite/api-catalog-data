@@ -1,0 +1,14 @@
+{
+  "name": "AWS IoT 1-Click Projects Service",
+  "description": "The AWS IoT 1-Click Projects API Reference",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/iot1click-projects/2018-05-14/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/iot1click-projects/2018-05-14/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/iot1click/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "eBay Finances API",
+  "description": "This API is used to retrieve seller payouts and monetary transaction details related to those payouts.",
+  "categories": [
+    "ecommerce"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apiz.ebay.com/sell-finances/v1.15.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apiz.ebay.com/sell-finances/v1.15.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

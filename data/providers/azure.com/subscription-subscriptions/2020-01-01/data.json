@@ -1,0 +1,14 @@
+{
+  "name": "SubscriptionClient",
+  "description": "Subscription client provides an interface to create and manage Azure subscriptions programmatically.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/subscription-subscriptions/2020-01-01/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/subscription-subscriptions/2020-01-01/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Custom Search API",
+  "description": "Searches over a website or collection of websites",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/customsearch/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/customsearch/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/custom-search/v1/introduction",
+  "source": "apis.guru"
+}

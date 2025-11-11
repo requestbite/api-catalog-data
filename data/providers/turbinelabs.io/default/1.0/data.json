@@ -1,0 +1,14 @@
+{
+  "name": "Turbine Labs API",
+  "description": "The Turbine Labs API provides CRUD operations for core object types, and is\nmostly RESTy. The easiest way to interact with the API is with\n[tbnctl](https://docs.turbinelabs.io/advanced/tbnctl.html).\nIf you want to make direct HTTP calls, however, you can obtain an access\ntoken using tbnctl, and then pass it in the Authorization header,\nprefixed by `Token `:\n```console\ncurl -H \"Authorization: Token <access token>\" https://api.turbinelabs.io/v1.0/cluster\n```",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/turbinelabs.io/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/turbinelabs.io/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

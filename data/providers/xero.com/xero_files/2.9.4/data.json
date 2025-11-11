@@ -1,0 +1,14 @@
+{
+  "name": "Xero Files API",
+  "description": "These endpoints are specific to Xero Files API",
+  "categories": [
+    "finance"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/xero.com/xero_files/2.9.4/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/xero.com/xero_files/2.9.4/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Nordigen Account Information Services API",
+  "description": null,
+  "categories": [
+    "finance"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/nordigen.com/2.0 (v2)/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/nordigen.com/2.0 (v2)/openapi.yaml",
+  "openApiVersion": "3.0.3",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

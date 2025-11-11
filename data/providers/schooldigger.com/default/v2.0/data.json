@@ -1,0 +1,15 @@
+{
+  "name": "SchoolDigger API V2.0",
+  "description": "Get detailed data on over 120,000 schools and 18,500 districts in the U.S.<br />Version 2.0 incorporates the ATTOM School Boundary Level add-on and spending per pupil metrics",
+  "categories": [
+    "open_data",
+    "education"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/schooldigger.com/v2.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/schooldigger.com/v2.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

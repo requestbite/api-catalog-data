@@ -1,0 +1,14 @@
+{
+  "name": "Open Skills API",
+  "description": "A complete and standard data store for canonical and emerging skills, knowledge, abilities, tools, technolgies, and how they relate to jobs.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/dataatwork.org/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/dataatwork.org/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

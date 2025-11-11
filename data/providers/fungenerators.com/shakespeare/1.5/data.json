@@ -1,0 +1,14 @@
+{
+  "name": "Shakespeare API",
+  "description": "Shakespeare API. Generate random Shakespeare quotes, names, insults, lorem ipsum etc. Translate normal English to Shakespeare English.  [Click here to subscribe](http://fungenerators.com/api/shakespeare/) ",
+  "categories": [
+    "text"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/fungenerators.com/shakespeare/1.5/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/fungenerators.com/shakespeare/1.5/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

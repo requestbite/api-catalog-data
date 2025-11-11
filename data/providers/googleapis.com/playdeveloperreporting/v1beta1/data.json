@@ -1,0 +1,15 @@
+{
+  "name": "Google Play Developer Reporting API",
+  "description": null,
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/playdeveloperreporting/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/playdeveloperreporting/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/play/developer/reporting",
+  "source": "apis.guru"
+}

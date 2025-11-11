@@ -1,0 +1,14 @@
+{
+  "name": "NPR Station Finder Service",
+  "description": "Allows clients to look up NPR member station information",
+  "categories": [
+    "entertainment"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/npr.org/station-finder/3/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/npr.org/station-finder/3/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://dev.npr.org/guide/services/station-finder",
+  "source": "apis.guru"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "CRM cards",
+  "description": "Allows an app to extend the CRM UI by surfacing custom cards in the sidebar of record pages. These cards are defined up-front as part of app configuration, then populated by external data fetch requests when the record page is accessed by a user.",
+  "categories": [],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/hubapi.com/crm/v3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/hubapi.com/crm/v3/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

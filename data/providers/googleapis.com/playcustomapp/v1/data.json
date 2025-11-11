@@ -1,0 +1,15 @@
+{
+  "name": "Google Play Custom App Publishing API",
+  "description": "API to create and publish custom Android apps",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/playcustomapp/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/playcustomapp/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/android/work/play/custom-app-api/",
+  "source": "apis.guru"
+}

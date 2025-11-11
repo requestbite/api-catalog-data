@@ -1,0 +1,14 @@
+{
+  "name": "Postmark Account-level API",
+  "description": "Postmark makes sending and receiving email\nincredibly easy. The Account-level API allows users to\nconfigure all Servers, Domains, and Sender Signatures associated\nwith an Account.",
+  "categories": [
+    "email"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/postmarkapp.com/account/0.9.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/postmarkapp.com/account/0.9.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

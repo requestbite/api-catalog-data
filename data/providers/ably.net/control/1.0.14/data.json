@@ -1,0 +1,14 @@
+{
+  "name": "Control API v1",
+  "description": "Use the Control API to manage your applications, namespaces, keys, queues, rules, and more.\n\nDetailed information on using this API can be found in the Ably <a href=\"https://ably.com/documentation/control-api\">developer documentation</a>.\n\nControl API is currently in Beta.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/ably.net/control/1.0.14/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/ably.net/control/1.0.14/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

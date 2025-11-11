@@ -1,0 +1,15 @@
+{
+  "name": "Cloud Text-to-Speech API",
+  "description": "Synthesizes natural-sounding speech by applying powerful neural network models.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/texttospeech/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/texttospeech/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/text-to-speech/",
+  "source": "apis.guru"
+}

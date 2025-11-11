@@ -1,0 +1,15 @@
+{
+  "name": "Certificate Manager API",
+  "description": null,
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/certificatemanager/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/certificatemanager/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/certificate-manager",
+  "source": "apis.guru"
+}

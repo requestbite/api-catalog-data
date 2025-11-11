@@ -1,0 +1,14 @@
+{
+  "name": "Confirmation of Funds API Specification",
+  "description": "Swagger for Confirmation of Funds API Specification",
+  "categories": [
+    "finance"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/openbanking.org.uk/confirmation-funds-openapi/3.1.7/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/openbanking.org.uk/confirmation-funds-openapi/3.1.7/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

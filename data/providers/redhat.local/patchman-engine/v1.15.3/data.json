@@ -1,0 +1,14 @@
+{
+  "name": "Patchman-engine API",
+  "description": "API of the Patch application on [cloud.redhat.com](cloud.redhat.com)\n\nSyntax of the `filter[name]` query parameters is described in  [Filters documentation](https://github.com/RedHatInsights/patchman-engine/wiki/API-custom-filters)",
+  "categories": [
+    "developer_tools"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/redhat.local/patchman-engine/v1.15.3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/redhat.local/patchman-engine/v1.15.3/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

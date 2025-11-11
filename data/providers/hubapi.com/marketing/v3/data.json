@@ -1,0 +1,12 @@
+{
+  "name": "Marketing Events Extension",
+  "description": "These APIs allow you to interact with HubSpot's Marketing Events Extension. It allows you to:\n* Create, Read or update Marketing Event information in HubSpot\n* Specify whether a HubSpot contact has registered, attended or cancelled a registration to a Marketing Event.\n* Specify a URL that can be called to get the details of a Marketing Event.",
+  "categories": [],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/hubapi.com/marketing/v3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/hubapi.com/marketing/v3/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

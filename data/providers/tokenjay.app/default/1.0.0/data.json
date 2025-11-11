@@ -1,0 +1,14 @@
+{
+  "name": "TokenJay API services",
+  "description": "Please see usage policies on tokenjay.app",
+  "categories": [
+    "finance"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/tokenjay.app/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/tokenjay.app/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

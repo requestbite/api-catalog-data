@@ -1,0 +1,14 @@
+{
+  "name": "Deed API",
+  "description": "Land Registry Deed API",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/landregistry.gov.uk/deed/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/landregistry.gov.uk/deed/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

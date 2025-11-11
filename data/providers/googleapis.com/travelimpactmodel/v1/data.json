@@ -1,0 +1,15 @@
+{
+  "name": "Travel Impact Model API",
+  "description": "Travel Impact Model API lets you query travel carbon emission estimates.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/travelimpactmodel/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/travelimpactmodel/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/travel/impact-model",
+  "source": "apis.guru"
+}

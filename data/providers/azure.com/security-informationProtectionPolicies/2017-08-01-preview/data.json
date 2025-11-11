@@ -1,0 +1,14 @@
+{
+  "name": "Security Center",
+  "description": "API spec for Microsoft.Security (Azure Security Center) resource provider",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/security-informationProtectionPolicies/2017-08-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/security-informationProtectionPolicies/2017-08-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

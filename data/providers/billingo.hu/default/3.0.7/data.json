@@ -1,0 +1,14 @@
+{
+  "name": "Billingo API v3",
+  "description": "This is a Billingo API v3 documentation. Our API based on REST software architectural style. API has resource-oriented URLs, accepts JSON-encoded request bodies and returns JSON-encoded responses. To use this API you have to generate a new API key on our [site](https://app.billingo.hu/api-key). After that, you can test your API key on this page.",
+  "categories": [
+    "finance"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/billingo.hu/3.0.7/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/billingo.hu/3.0.7/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://support.billingo.hu/content/446136358",
+  "source": "apis.guru"
+}

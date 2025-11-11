@@ -1,0 +1,14 @@
+{
+  "name": "import.io",
+  "description": null,
+  "categories": [
+    "tools"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/import.io/rss/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/import.io/rss/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "http://api.docs.import.io/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Firebase Cloud Messaging API",
+  "description": "FCM send API that provides a cross-platform messaging solution to reliably deliver messages at no cost.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/fcm/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/fcm/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://firebase.google.com/docs/cloud-messaging",
+  "source": "apis.guru"
+}

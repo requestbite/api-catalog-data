@@ -1,0 +1,14 @@
+{
+  "name": "TimeSeriesInsightsClient",
+  "description": "Time Series Insights environment data plane client for PAYG (Preview L1 SKU) environments.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/timeseriesinsights/2018-11-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/timeseriesinsights/2018-11-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Google Analytics Admin API",
+  "description": null,
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/analyticsadmin/v1beta/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/analyticsadmin/v1beta/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "http://code.google.com/apis/analytics/docs/mgmt/home.html",
+  "source": "apis.guru"
+}

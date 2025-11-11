@@ -1,0 +1,14 @@
+{
+  "name": "IntuneResourceManagementClient",
+  "description": "Microsoft.Intune Resource provider Api features in the swagger-2.0 specification",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/intune/2015-01-14-privatepreview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/intune/2015-01-14-privatepreview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

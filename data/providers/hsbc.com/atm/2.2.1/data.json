@@ -1,0 +1,14 @@
+{
+  "name": "ATM Locator API",
+  "description": null,
+  "categories": [
+    "finance"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/hsbc.com/atm/2.2.1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/hsbc.com/atm/2.2.1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Api Documentation",
+  "description": "Api Documentation",
+  "categories": [
+    "security"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/faceidentity-beta.azurewebsites.net/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/faceidentity-beta.azurewebsites.net/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

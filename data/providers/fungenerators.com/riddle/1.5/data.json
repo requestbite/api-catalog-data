@@ -1,0 +1,14 @@
+{
+  "name": "Fun Generators API",
+  "description": "Below is the documentation for the API calls. You can try them out right here. ",
+  "categories": [
+    "text"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/fungenerators.com/riddle/1.5/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/fungenerators.com/riddle/1.5/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

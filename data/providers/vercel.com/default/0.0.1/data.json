@@ -1,0 +1,14 @@
+{
+  "name": "Vercel API",
+  "description": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
+  "categories": [
+    "hosting"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/vercel.com/0.0.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/vercel.com/0.0.1/openapi.yaml",
+  "openApiVersion": "3.1.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

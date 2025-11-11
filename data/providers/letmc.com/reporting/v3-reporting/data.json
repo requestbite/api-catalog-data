@@ -1,0 +1,14 @@
+{
+  "name": "LetMC Api V3, reporting",
+  "description": null,
+  "categories": [
+    "ecommerce"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/letmc.com/reporting/v3-reporting/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/letmc.com/reporting/v3-reporting/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

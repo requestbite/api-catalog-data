@@ -1,0 +1,14 @@
+{
+  "name": "ProxyKingdom-Api",
+  "description": null,
+  "categories": [
+    "developer_tools"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/proxykingdom.com/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/proxykingdom.com/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": "https://proxykingdom.com/documentation",
+  "source": "apis.guru"
+}

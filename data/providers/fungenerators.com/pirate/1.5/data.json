@@ -1,0 +1,14 @@
+{
+  "name": "Pirates API",
+  "description": "Ahoy matey! We help the landlubbers to get to know about the seamen way! You can generate pirate names, get some real pirate insults and pirate filler text. Oh you can translate to pirate lingo as well. [Click here to subscribe](http://fungenerators.com/api/pirate/) ",
+  "categories": [
+    "text"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/fungenerators.com/pirate/1.5/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/fungenerators.com/pirate/1.5/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

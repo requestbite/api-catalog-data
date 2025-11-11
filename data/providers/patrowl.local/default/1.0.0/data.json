@@ -1,0 +1,14 @@
+{
+  "name": "Swagger API-REST for Patrowl Engines",
+  "description": "This is the API documentation for Patrowl Engines usage.",
+  "categories": [
+    "security"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/patrowl.local/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/patrowl.local/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://github.com/Patrowl/PatrowlDocs",
+  "source": "apis.guru"
+}

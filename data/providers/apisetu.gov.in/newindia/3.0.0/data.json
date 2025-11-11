@@ -1,0 +1,14 @@
+{
+  "name": "New India Assurance Co. Ltd.",
+  "description": "General Insurance policies such as Motor, Health, Travel, Rural, Marine e.t.c  issued by The New India Assurance Co. Ltd. are available to be pulled for citizens of India.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/newindia/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/newindia/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

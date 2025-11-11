@@ -1,0 +1,14 @@
+{
+  "name": "OOXML Automation",
+  "description": "This API helps users convert Excel and Powerpoint documents into rich, live dashboards and stories.",
+  "categories": [
+    "analytics"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/presalytics.io/ooxml/0.1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/presalytics.io/ooxml/0.1.0/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

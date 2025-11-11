@@ -1,0 +1,12 @@
+{
+  "name": "Number Insight API",
+  "description": "The Number Insight API delivers real-time intelligence about the validity, reachability and roaming status of a phone number and tells you how to format the number correctly in your application. There are three levels of Number Insight API available: [Basic, Standard and Advanced](https://developer.nexmo.com/number-insight/overview#basic-standard-and-advanced-apis). The advanced API is available asynchronously as well as synchronously.",
+  "categories": [],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/nexmo.com/number-insight/1.2.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/nexmo.com/number-insight/1.2.1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developer.nexmo.com/api/number-insight",
+  "source": "apis.guru"
+}

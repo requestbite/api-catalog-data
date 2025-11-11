@@ -1,0 +1,14 @@
+{
+  "name": "Conjur",
+  "description": "This is an API definition for CyberArk Conjur Open Source. You can find out more at [Conjur.org](https://www.conjur.org/).",
+  "categories": [
+    "security"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/conjur.local/5.3.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/conjur.local/5.3.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://conjur.org",
+  "source": "apis.guru"
+}

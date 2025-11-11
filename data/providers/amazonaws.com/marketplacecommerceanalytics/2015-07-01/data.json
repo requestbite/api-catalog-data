@@ -1,0 +1,14 @@
+{
+  "name": "AWS Marketplace Commerce Analytics",
+  "description": "Provides AWS Marketplace business intelligence data on-demand.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/marketplacecommerceanalytics/2015-07-01/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/marketplacecommerceanalytics/2015-07-01/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/marketplacecommerceanalytics/",
+  "source": "apis.guru"
+}

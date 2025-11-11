@@ -1,0 +1,14 @@
+{
+  "name": "AltoroJ REST API",
+  "description": null,
+  "categories": [
+    "security"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/testfire.net/altoroj/1.0.2/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/testfire.net/altoroj/1.0.2/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

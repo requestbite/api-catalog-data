@@ -1,0 +1,15 @@
+{
+  "name": "BBC Nitro API",
+  "description": "BBC Nitro is the BBC's application programming interface (API) for BBC Programmes Metadata.",
+  "categories": [
+    "media",
+    "open_data"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/bbc.com/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/bbc.com/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developer.bbc.co.uk/nitro",
+  "source": "apis.guru"
+}

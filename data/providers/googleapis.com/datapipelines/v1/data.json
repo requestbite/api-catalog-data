@@ -1,0 +1,15 @@
+{
+  "name": "Data pipelines API",
+  "description": "Data Pipelines provides an interface for creating, updating, and managing recurring Data Analytics jobs.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/datapipelines/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/datapipelines/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/dataflow/docs/guides/data-pipelines",
+  "source": "apis.guru"
+}

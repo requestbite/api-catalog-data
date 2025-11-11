@@ -1,0 +1,14 @@
+{
+  "name": "Ecosystem API",
+  "description": "Ecosystem API",
+  "categories": [
+    "developer_tools"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apideck.com/ecosystem/0.0.6/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apideck.com/ecosystem/0.0.6/openapi.yaml",
+  "openApiVersion": "3.0.3",
+  "externalDocsUrl": "https://developers.apideck.com",
+  "source": "apis.guru"
+}

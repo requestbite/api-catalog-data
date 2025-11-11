@@ -1,0 +1,12 @@
+{
+  "name": "Merchant Identifier API V2",
+  "description": "API for Merchant Identifier",
+  "categories": [],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mastercard.com/MerchantIdentifier/2.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mastercard.com/MerchantIdentifier/2.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

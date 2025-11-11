@@ -1,0 +1,14 @@
+{
+  "name": "ClearBlade API",
+  "description": "A friendly little API to help you interact with the ClearBlade platform.",
+  "categories": [
+    "iot"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/clearblade.com/3.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/clearblade.com/3.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "TransitFeeds API",
+  "description": "API to view feed information and download feeds from TransitFeeds.com",
+  "categories": [
+    "location"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/transitfeeds.com/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/transitfeeds.com/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

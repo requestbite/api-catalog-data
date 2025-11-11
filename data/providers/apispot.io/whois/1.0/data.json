@@ -1,0 +1,14 @@
+{
+  "name": "Bulk WHOIS API",
+  "description": "Domain API (WHOIS, Check, Batch)",
+  "categories": [
+    "developer_tools"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apispot.io/whois/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apispot.io/whois/1.0/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

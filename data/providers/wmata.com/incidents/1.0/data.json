@@ -1,0 +1,14 @@
+{
+  "name": "Incidents",
+  "description": "Rail, bus, and elevator disruptions/outages.",
+  "categories": [
+    "transport"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/wmata.com/incidents/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/wmata.com/incidents/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

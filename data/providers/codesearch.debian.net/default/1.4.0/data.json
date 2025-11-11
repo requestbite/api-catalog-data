@@ -1,0 +1,14 @@
+{
+  "name": "Debian Code Search",
+  "description": "OpenAPI for https://codesearch.debian.net/",
+  "categories": [
+    "developer_tools"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/codesearch.debian.net/1.4.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/codesearch.debian.net/1.4.0/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": "https://codesearch.debian.net/apikeys/",
+  "source": "apis.guru"
+}

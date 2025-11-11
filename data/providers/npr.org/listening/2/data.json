@@ -1,0 +1,14 @@
+{
+  "name": "NPR Listening Service",
+  "description": "Audio recommendations tailored to a user's preferences",
+  "categories": [
+    "entertainment"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/npr.org/listening/2/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/npr.org/listening/2/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://dev.npr.org/guide/services/listening",
+  "source": "apis.guru"
+}

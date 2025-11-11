@@ -1,0 +1,12 @@
+{
+  "name": "Spending Pulse",
+  "description": "This API will provide monthly data which includes metrics such as sales volume and growth rate.",
+  "categories": [],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mastercard.com/SpendingPulse/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mastercard.com/SpendingPulse/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

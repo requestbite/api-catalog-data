@@ -1,0 +1,14 @@
+{
+  "name": "AWS S3 Control",
+  "description": " Amazon Web Services S3 Control provides access to Amazon S3 control plane actions. ",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/s3control/2018-08-20/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/s3control/2018-08-20/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/s3-control/",
+  "source": "apis.guru"
+}

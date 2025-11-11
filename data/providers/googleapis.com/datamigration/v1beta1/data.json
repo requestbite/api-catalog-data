@@ -1,0 +1,15 @@
+{
+  "name": "Database Migration API",
+  "description": "Manage Cloud Database Migration Service resources on Google Cloud Platform.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/datamigration/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/datamigration/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/database-migration/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "SheerSEO API",
+  "description": "Sheerseo API has 2 stages:<br>First stage - initiating the task: You fill in your task and receive in return the task id. <br>Second stage - collecting the results: send a request containing the task ids you got at the first stage and collecting the results.",
+  "categories": [
+    "hosting"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/sheerseo.com/0.0.1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/sheerseo.com/0.0.1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

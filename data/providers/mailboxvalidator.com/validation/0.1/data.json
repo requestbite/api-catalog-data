@@ -1,0 +1,14 @@
+{
+  "name": "MailboxValidator Email Validation",
+  "description": "The Single Validation API does validation on a single email address and returns all the validation results in either JSON or XML format. Refer to https://www.mailboxvalidator.com for further information.",
+  "categories": [
+    "email"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mailboxvalidator.com/validation/0.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mailboxvalidator.com/validation/0.1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "MIMIC REST API",
+  "description": "This is the API for MIMIC client to connect to MIMIC daemon.",
+  "categories": [
+    "iot"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/gambitcomm.local/mimic/21.00/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/gambitcomm.local/mimic/21.00/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://www.gambitcomm.com/site/about.php",
+  "source": "apis.guru"
+}

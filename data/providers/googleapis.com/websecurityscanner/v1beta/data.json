@@ -1,0 +1,15 @@
+{
+  "name": "Web Security Scanner API",
+  "description": "Scans your Compute and App Engine apps for common web vulnerabilities.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/websecurityscanner/v1beta/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/websecurityscanner/v1beta/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/security-command-center/docs/concepts-web-security-scanner-overview/",
+  "source": "apis.guru"
+}

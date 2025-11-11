@@ -1,0 +1,15 @@
+{
+  "name": "Firebase ML API",
+  "description": "Access custom machine learning models hosted via Firebase ML.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/firebaseml/v1beta2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/firebaseml/v1beta2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://firebase.google.com",
+  "source": "apis.guru"
+}

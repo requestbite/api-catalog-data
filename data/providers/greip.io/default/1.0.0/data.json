@@ -1,0 +1,12 @@
+{
+  "name": "Greip API",
+  "description": "This documentation shows how to use Greip API, By highlighting the API methods, options and some other features that allow you to get the most of this API.",
+  "categories": [],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/greip.io/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/greip.io/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.greip.io",
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Telnyx API",
+  "description": "SIP trunking, SMS, MMS, Call Control and Telephony Data Services.",
+  "categories": [
+    "telecom"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/telnyx.com/2.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/telnyx.com/2.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

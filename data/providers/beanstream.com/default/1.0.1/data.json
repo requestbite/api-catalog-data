@@ -1,0 +1,16 @@
+{
+  "name": "Beanstream Payments",
+  "description": "https://www.beanstream.com/api/v1",
+  "categories": [
+    "payment",
+    "ecommerce",
+    "finance"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/beanstream.com/1.0.1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/beanstream.com/1.0.1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

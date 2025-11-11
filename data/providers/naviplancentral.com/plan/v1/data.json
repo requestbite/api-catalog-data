@@ -1,0 +1,14 @@
+{
+  "name": "NaviPlan API",
+  "description": "An API for accessing NaviPlan plan data for a client.",
+  "categories": [
+    "finance"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/naviplancentral.com/plan/v1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/naviplancentral.com/plan/v1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

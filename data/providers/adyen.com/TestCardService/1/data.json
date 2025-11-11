@@ -1,0 +1,14 @@
+{
+  "name": "Adyen Test Cards API",
+  "description": "The Test Cards API provides endpoints for generating custom test card numbers. For more information, refer to [Custom test cards](https://docs.adyen.com/development-resources/testing/create-test-cards) documentation.",
+  "categories": [
+    "payment"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/adyen.com/TestCardService/1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/adyen.com/TestCardService/1/openapi.yaml",
+  "openApiVersion": "3.1.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

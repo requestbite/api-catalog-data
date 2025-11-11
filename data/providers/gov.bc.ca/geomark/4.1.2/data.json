@@ -1,0 +1,14 @@
+{
+  "name": "GeoMark Web Service REST API",
+  "description": "The Geomark Web Service allows you to create and share geographic areas of interest over the web in a variety of formats and coordinate systems. This service is especially helpful when you need to share an area of interest with people who require that the data be in a different format, or they use different mapping software. \n\nPlease note that you may experience issues when submitting requests to the delivery or test environment if using this [OpenAPI specification](https://github.com/bcgov/api-specs/tree/master/geomark) in other API console viewers.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/gov.bc.ca/geomark/4.1.2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/gov.bc.ca/geomark/4.1.2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://www2.gov.bc.ca/gov/content?id=F6BAF45131954020BCFD2EBCC456F084",
+  "source": "apis.guru"
+}

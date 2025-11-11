@@ -1,0 +1,15 @@
+{
+  "name": "Stationsdatenbereitstellung",
+  "description": "An API providing master data for German railway stations by DB Station&Service AG.",
+  "categories": [
+    "transport",
+    "open_data"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/deutschebahn.com/stada/2.2.01/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/deutschebahn.com/stada/2.2.01/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

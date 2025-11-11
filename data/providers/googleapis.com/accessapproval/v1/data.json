@@ -1,0 +1,15 @@
+{
+  "name": "Access Approval API",
+  "description": "An API for controlling access to data by Google personnel.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/accessapproval/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/accessapproval/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/cloud-provider-access-management/access-approval/docs",
+  "source": "apis.guru"
+}

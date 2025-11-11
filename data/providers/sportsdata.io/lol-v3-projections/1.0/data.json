@@ -1,0 +1,14 @@
+{
+  "name": "LoL v3 Projections",
+  "description": "LoL v3 Projections",
+  "categories": [
+    "entertainment"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/sportsdata.io/lol-v3-projections/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/sportsdata.io/lol-v3-projections/1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

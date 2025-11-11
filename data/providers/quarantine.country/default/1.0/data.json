@@ -1,0 +1,14 @@
+{
+  "name": "Coronavirus API",
+  "description": "Coronavirus API with free COVID-19 live updates. The best free coronavirus API and COVID-19 update source. Programmatically access live corona virus updates for statistics with historical data, maps, charts, graphs. COVID-19 API and corona virus live updates.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/quarantine.country/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/quarantine.country/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "http://swagger.io",
+  "source": "apis.guru"
+}

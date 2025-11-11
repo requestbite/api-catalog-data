@@ -1,0 +1,14 @@
+{
+  "name": "ExchangeRate-API",
+  "description": "Fetch the latest currency exchange rates via API. ExchangeRate-API is free and unlimited.",
+  "categories": [
+    "finance"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/exchangerate-api.com/4/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/exchangerate-api.com/4/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": "https://www.exchangerate-api.com/docs/documentation",
+  "source": "apis.guru"
+}

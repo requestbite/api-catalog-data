@@ -1,0 +1,14 @@
+{
+  "name": "Clever-Cloud API",
+  "description": "Public API for managing Clever-Cloud data and products",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/clever-cloud.com/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/clever-cloud.com/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

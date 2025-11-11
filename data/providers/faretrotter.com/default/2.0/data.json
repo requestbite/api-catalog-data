@@ -1,0 +1,14 @@
+{
+  "name": "Faretrotter Travel API",
+  "description": "Multimodal travel API to return modes of transportation between cities and points of interest.",
+  "categories": [
+    "transport"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/faretrotter.com/2.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/faretrotter.com/2.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

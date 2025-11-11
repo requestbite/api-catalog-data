@@ -1,0 +1,14 @@
+{
+  "name": "HERE Tracking",
+  "description": "HERE Tracking is a cloud product designed to address location tracking problems for a wide range of Location IoT industry verticals.\n\nHERE Tracking also includes end-user mobile and web applications that can be used to demonstrate the product.",
+  "categories": [
+    "location"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/here.com/tracking/2.1.191/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/here.com/tracking/2.1.191/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "OpenAQ",
+  "description": "API for OpenAQ LCS",
+  "categories": [
+    "location"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/openaq.local/2.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/openaq.local/2.0.0/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

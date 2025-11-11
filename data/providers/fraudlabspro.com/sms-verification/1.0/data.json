@@ -1,0 +1,15 @@
+{
+  "name": "FraudLabs Pro SMS Verification",
+  "description": "Send an SMS with verification code and a custom message for authentication purpose. It helps merchants to minimize chargebacks and fraud for various kinds of payment method, such as credit card, paypal, cod and so on. Please visit https://www.fraudlabspro.com to learn more.",
+  "categories": [
+    "telecom",
+    "ecommerce"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/fraudlabspro.com/sms-verification/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/fraudlabspro.com/sms-verification/1.0/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

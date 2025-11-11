@@ -1,0 +1,14 @@
+{
+  "name": "FireBrowse Beta API",
+  "description": "A simple and elegant way to explore cancer data",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/firebrowse.org/1.1.38/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/firebrowse.org/1.1.38/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

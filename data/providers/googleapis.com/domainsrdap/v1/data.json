@@ -1,0 +1,15 @@
+{
+  "name": "Domains RDAP API",
+  "description": "Read-only public API that lets users search for information about domain names.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/domainsrdap/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/domainsrdap/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/domains/rdap/",
+  "source": "apis.guru"
+}

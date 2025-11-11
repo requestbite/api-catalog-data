@@ -1,0 +1,14 @@
+{
+  "name": "The Noun Project",
+  "description": "Icons for Everything",
+  "categories": [
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/thenounproject.com/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/thenounproject.com/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://thenounproject.com/developers/",
+  "source": "apis.guru"
+}

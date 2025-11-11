@@ -1,0 +1,15 @@
+{
+  "name": "Mailsquad",
+  "description": "MailSquad offers an affordable and super easy way to create, send and track delightful emails.",
+  "categories": [
+    "email",
+    "marketing"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/inboxroute.com/0.9/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/inboxroute.com/0.9/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

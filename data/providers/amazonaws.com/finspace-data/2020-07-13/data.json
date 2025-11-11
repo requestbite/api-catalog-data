@@ -1,0 +1,14 @@
+{
+  "name": "FinSpace Public API",
+  "description": " The FinSpace APIs let you take actions inside the FinSpace.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/finspace-data/2020-07-13/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/finspace-data/2020-07-13/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/finspace-api/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Color Name API",
+  "description": "An API that provides names for colors based on their hex value",
+  "categories": [
+    "developer_tools"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/color.pizza/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/color.pizza/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.3",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

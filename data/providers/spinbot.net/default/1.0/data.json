@@ -1,0 +1,12 @@
+{
+  "name": "Article Rewriter and Article Extractor API",
+  "description": "Spinbot.net propose a new solution based on high technologies for faster article spinner and extractor that you will love to use it. ",
+  "categories": [],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/spinbot.net/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/spinbot.net/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://spinbot.net/api-documentation",
+  "source": "apis.guru"
+}

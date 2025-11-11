@@ -1,0 +1,14 @@
+{
+  "name": "FinSpace User Environment Management service",
+  "description": "The FinSpace management service provides the APIs for managing FinSpace environments.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/finspace/2021-03-12/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/finspace/2021-03-12/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/finspace/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "VisageCloud",
+  "description": "Face search, recognition & classification API. Just make a call to our REST API each time your app needs to access face recognition and classification capabilities.",
+  "categories": [
+    "search"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/visagecloud.com/1.1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/visagecloud.com/1.1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

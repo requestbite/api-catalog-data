@@ -1,0 +1,14 @@
+{
+  "name": "D7SMS",
+  "description": "D7 SMS allows you to reach your customers via SMS over D7's own connectivity to global mobile networks. D7 provides reliable and cost-effective SMS services to businesses across all industries and aims to connect all countries and territories via direct connections.",
+  "categories": [
+    "messaging"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/d7networks.com/1.0.2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/d7networks.com/1.0.2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

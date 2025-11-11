@@ -1,0 +1,15 @@
+{
+  "name": "Cloud IoT API",
+  "description": "Registers and manages IoT (Internet of Things) devices that connect to the Google Cloud Platform. ",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/cloudiot/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/cloudiot/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/iot",
+  "source": "apis.guru"
+}

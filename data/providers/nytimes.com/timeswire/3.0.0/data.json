@@ -1,0 +1,15 @@
+{
+  "name": "Times Newswire API",
+  "description": "With the Times Newswire API, you can get links and metadata for Times articles and blog posts as soon as they are published on NYTimes.com. The Times Newswire API provides an up-to-the-minute stream of published items.",
+  "categories": [
+    "media",
+    "open_data"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/nytimes.com/timeswire/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/nytimes.com/timeswire/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "http://developer.nytimes.com/",
+  "source": "apis.guru"
+}

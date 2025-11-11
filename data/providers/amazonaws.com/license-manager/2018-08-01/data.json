@@ -1,0 +1,14 @@
+{
+  "name": "AWS License Manager",
+  "description": "License Manager makes it easier to manage licenses from software vendors across multiple Amazon Web Services accounts and on-premises servers.",
+  "categories": [
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/license-manager/2018-08-01/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/license-manager/2018-08-01/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/license-manager/",
+  "source": "apis.guru"
+}

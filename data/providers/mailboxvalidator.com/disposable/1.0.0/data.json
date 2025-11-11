@@ -1,0 +1,14 @@
+{
+  "name": "MailboxValidator Disposable Email Checker",
+  "description": "The MailboxValidator Disposable Email Checker API checks if a single email address is from a disposable email provider and returns the results in either JSON or XML format. Refer to https://www.mailboxvalidator.com/api-email-disposable for further information.",
+  "categories": [
+    "email"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mailboxvalidator.com/disposable/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mailboxvalidator.com/disposable/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

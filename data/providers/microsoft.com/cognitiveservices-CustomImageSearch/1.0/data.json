@@ -1,0 +1,15 @@
+{
+  "name": "Custom Image Search Client",
+  "description": "The Bing Custom Image Search API lets you send an image search query to Bing and get back image search results customized to meet your custom search definition.",
+  "categories": [
+    "developer_tools",
+    "cloud"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/microsoft.com/cognitiveservices-CustomImageSearch/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/microsoft.com/cognitiveservices-CustomImageSearch/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

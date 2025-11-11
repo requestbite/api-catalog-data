@@ -1,0 +1,14 @@
+{
+  "name": "Annunciator content API",
+  "description": "Get data from the annunciator system.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/parliament.uk/now/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/parliament.uk/now/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

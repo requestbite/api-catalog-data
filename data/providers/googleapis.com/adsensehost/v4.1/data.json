@@ -1,0 +1,15 @@
+{
+  "name": "AdSense Host API",
+  "description": "Generates performance reports, generates ad codes, and provides publisher management capabilities for AdSense Hosts.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/adsensehost/v4.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/adsensehost/v4.1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/adsense/host/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Cenit IO - REST API Specification",
+  "description": "Cenit IO is an Open Platform for Data and Business Integration (iPaaS)",
+  "categories": [],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/cenit.io/v1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/cenit.io/v1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://github.com/cenit-io/openapi",
+  "source": "apis.guru"
+}

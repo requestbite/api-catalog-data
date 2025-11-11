@@ -1,0 +1,14 @@
+{
+  "name": "Co-WIN Certificate API",
+  "description": "API to get Co-WIN vaccination certificate.",
+  "categories": [
+    "open_data"
+  ],
+  "region": null,
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/cowin.gov.cin/cowincert/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/cowin.gov.cin/cowincert/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

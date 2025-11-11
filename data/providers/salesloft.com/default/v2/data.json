@@ -1,0 +1,14 @@
+{
+  "name": "SalesLoft Platform",
+  "description": "SalesLoft helps transform sales teams into modern sales organizations  - converting more target accounts into customer accounts",
+  "categories": [
+    "crm"
+  ],
+  "region": null,
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/salesloft.com/v2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/salesloft.com/v2/openapi.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

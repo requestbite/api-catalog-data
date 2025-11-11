@@ -1,0 +1,15 @@
+{
+  "name": "OMDb",
+  "description": "The Open Movie Database. The OMDb API is a free web service to obtain movie information, all content and images on the site are contributed and maintained by our users.",
+  "categories": [
+    "media",
+    "open_data"
+  ],
+  "region": null,
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/omdbapi.com/1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/omdbapi.com/1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "http://www.omdbapi.com/#usage",
+  "source": "apis.guru"
+}
