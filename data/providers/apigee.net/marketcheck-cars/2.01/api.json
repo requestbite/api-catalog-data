@@ -1,0 +1,13 @@
+{
+  "name": "Marketcheck APIs",
+  "description": "One API serving data spanned across multiple verticals",
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apigee.net/marketcheck-cars/2.01/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apigee.net/marketcheck-cars/2.01/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

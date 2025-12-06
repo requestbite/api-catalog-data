@@ -1,0 +1,14 @@
+{
+  "name": "Web Fonts Developer API",
+  "description": "The Google Web Fonts Developer API lets you retrieve information about web fonts served by Google.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/webfonts/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/webfonts/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/fonts/docs/developer_api",
+  "source": "apis.guru"
+}

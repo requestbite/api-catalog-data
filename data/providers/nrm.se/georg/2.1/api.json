@@ -1,0 +1,13 @@
+{
+  "name": "Georg API",
+  "description": null,
+  "categories": [
+    "location"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/nrm.se/georg/2.1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/nrm.se/georg/2.1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

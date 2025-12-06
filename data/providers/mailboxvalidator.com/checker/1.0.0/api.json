@@ -1,0 +1,13 @@
+{
+  "name": "MailboxValidator Free Email Checker",
+  "description": "The MailboxValidator Free Email Checker checks if a single email address is from a free email provider and returns the results in either JSON or XML format. Refer to https://www.mailboxvalidator.com/api-email-freem for further information.",
+  "categories": [
+    "email"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mailboxvalidator.com/checker/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mailboxvalidator.com/checker/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Guest Diagnostic Settings Association",
+  "description": "API to Add/Remove/List Guest Diagnostics Settings Association for Azure Resources",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/monitor-guestDiagnosticSettingsAssociation_API/2018-06-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/monitor-guestDiagnosticSettingsAssociation_API/2018-06-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

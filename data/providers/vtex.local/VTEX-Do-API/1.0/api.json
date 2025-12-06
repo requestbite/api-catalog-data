@@ -1,0 +1,11 @@
+{
+  "name": "VTEX Do API",
+  "description": "VTEX DO is a task management system for authorized users to process orders. It is possible to control notes, and create, update, list, and retrieve tasks.",
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/vtex.local/VTEX-Do-API/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/vtex.local/VTEX-Do-API/1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

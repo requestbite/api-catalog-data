@@ -1,0 +1,13 @@
+{
+  "name": "Dooer Sales API",
+  "description": "Welcome to Dooer’s public REST API which allows you to interact with Dooer Sales, Dooer's free online sales reporting tool. Dooer's API is easy, straight-forward to use, accepts and returns JSON-encoded data, and uses standard HTTP response codes, authentication, and verbs.",
+  "categories": [
+    "finance"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.dooer.com/docs/openapi.json",
+  "openApiYamlUrl": null,
+  "openApiVersion": null,
+  "externalDocsUrl": "https://api.dooer.com/docs",
+  "source": "api-provider"
+}

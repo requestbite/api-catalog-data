@@ -1,0 +1,13 @@
+{
+  "name": "Deal API",
+  "description": "**Note:** This is a [ ![Limited Release](/cms/img/docs/partners-api.svg)(Limited Release)](https://developer.ebay.com/api-docs/static/versioning.html#limited) API available only to select developers approved by business units.\n\nThis API allows third-party developers to search for and retrieve details about eBay deals and events, as well as the items associated with those deals and events.",
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/ebay.com/buy-deal/v1.3.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/ebay.com/buy-deal/v1.3.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

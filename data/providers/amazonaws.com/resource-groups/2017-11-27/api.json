@@ -1,0 +1,13 @@
+{
+  "name": "AWS Resource Groups",
+  "description": "Resource Groups lets you organize Amazon Web Services resources such as Amazon Elastic Compute Cloud instances, Amazon Relational Database Service databases, and Amazon Simple Storage Service buckets into groups using criteria that you define as tags. A resource group is a collection of resources that match the resource types specified in a query, and share one or more tags or portions of tags. You can create a group of resources based on their roles in your cloud infrastructure, lifecycle stages, regions, application layers, or virtually any criteria. Resource Groups enable you to automate management tasks, such as those in Amazon Web Services Systems Manager Automation documents, on tag-related resources in Amazon Web Services Systems Manager. Groups of tagged resources also let you quickly view a custom console in Amazon Web Services Systems Manager that shows Config compliance and other monitoring data about member resources.\n\nTo create a resource group, build a resource query, and specify tags that identify the criteria that members of the group have in common. Tags are key-value pairs.\n\nFor more information about Resource Groups, see the [Resource Groups User Guide](https://docs.aws.amazon.com/ARG/latest/userguide/welcome.html).\n\nResource Groups uses a REST-compliant API that you can use to perform the following types of operations.\n\n\n- Create, Read, Update, and Delete (CRUD) operations on resource groups and resource query entities\n- Applying, editing, and removing tags from resource groups\n- Resolving resource group member ARNs so they can be returned as search results\n- Getting data about resources that are members of a group\n- Searching Amazon Web Services resources based on a resource query",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/resource-groups/2017-11-27/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/resource-groups/2017-11-27/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/resource-groups/",
+  "source": "apis.guru"
+}

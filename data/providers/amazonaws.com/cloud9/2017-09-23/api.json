@@ -1,0 +1,13 @@
+{
+  "name": "AWS Cloud9",
+  "description": "Cloud9 Cloud9 is a collection of tools that you can use to code, build, run, test, debug, and release software in the cloud.\n\nFor more information about Cloud9, see the [Cloud9 User Guide](https://docs.aws.amazon.com/cloud9/latest/user-guide).\n\nCloud9 supports these operations:\n\n\n-  `CreateEnvironmentEC2`: Creates an Cloud9 development environment, launches an Amazon EC2 instance, and then connects from the instance to the environment.\n-  `CreateEnvironmentMembership`: Adds an environment member to an environment.\n-  `DeleteEnvironment`: Deletes an environment. If an Amazon EC2 instance is connected to the environment, also terminates the instance.\n-  `DeleteEnvironmentMembership`: Deletes an environment member from an environment.\n-  `DescribeEnvironmentMemberships`: Gets information about environment members for an environment.\n-  `DescribeEnvironments`: Gets information about environments.\n-  `DescribeEnvironmentStatus`: Gets status information for an environment.\n-  `ListEnvironments`: Gets a list of environment identifiers.\n-  `ListTagsForResource`: Gets the tags for an environment.\n-  `TagResource`: Adds tags to an environment.\n-  `UntagResource`: Removes tags from an environment.\n-  `UpdateEnvironment`: Changes the settings of an existing environment.\n-  `UpdateEnvironmentMembership`: Changes the settings of an existing environment member for an environment.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/cloud9/2017-09-23/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/cloud9/2017-09-23/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/cloud9/",
+  "source": "apis.guru"
+}

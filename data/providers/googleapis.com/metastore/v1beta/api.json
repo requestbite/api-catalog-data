@@ -1,0 +1,14 @@
+{
+  "name": "Dataproc Metastore API",
+  "description": "The Dataproc Metastore API is used to manage the lifecycle and configuration of metastore services.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/metastore/v1beta/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/metastore/v1beta/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/dataproc-metastore/docs",
+  "source": "apis.guru"
+}

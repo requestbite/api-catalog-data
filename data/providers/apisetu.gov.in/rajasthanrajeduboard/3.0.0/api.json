@@ -1,0 +1,13 @@
+{
+  "name": "Rajasthan Board of Secondary Education",
+  "description": "Board of High School and Intermediate Education, Rajasthan (http://rajeduboard.rajasthan.gov.in/) has made available Class X (2018-2019)& Class XII (2019) mark sheet available on DigiLocker, which can be pulled by students into their respective accounts",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/rajasthanrajeduboard/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/rajasthanrajeduboard/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

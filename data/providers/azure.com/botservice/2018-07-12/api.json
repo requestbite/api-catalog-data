@@ -1,0 +1,13 @@
+{
+  "name": "Azure Bot Service",
+  "description": "Azure Bot Service is a platform for creating smart conversational agents.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/botservice/2018-07-12/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/botservice/2018-07-12/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

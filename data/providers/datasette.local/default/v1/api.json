@@ -1,0 +1,13 @@
+{
+  "name": "Datasette API",
+  "description": "Execute SQL queries against a Datasette database and return the results as JSON",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/datasette.local/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/datasette.local/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

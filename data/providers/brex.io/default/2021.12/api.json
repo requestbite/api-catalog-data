@@ -1,0 +1,13 @@
+{
+  "name": "KYC API Documentation",
+  "description": "API Interface to retrieve company data and products from business registers",
+  "categories": [
+    "finance"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/brex.io/2021.12/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/brex.io/2021.12/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

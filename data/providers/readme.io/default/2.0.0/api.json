@@ -1,0 +1,13 @@
+{
+  "name": "API Endpoints",
+  "description": "Create beautiful product and API documentation with our developer friendly platform.",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/readme.io/2.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/readme.io/2.0.0/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

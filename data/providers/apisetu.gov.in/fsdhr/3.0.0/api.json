@@ -1,0 +1,13 @@
+{
+  "name": "Food and Supplies Department, Haryana",
+  "description": "Ration Cards issued by Food & Supplies Department, Haryana (http://haryanafood.gov.in/) are available for download on DigiLocker.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/fsdhr/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/fsdhr/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

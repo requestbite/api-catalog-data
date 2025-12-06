@@ -1,0 +1,11 @@
+{
+  "name": "Wealth Reader API",
+  "description": "Las APIs regulatorias basadas en PSD2 proporcionan acceso a cierta información financiera como saldos de cuentas bancarias y transacciones. Sin embargo, hay otras fuentes de información patrimonial que no son accesibles por estas APIs. La API de Wealth Reader amplía la información ofrecida por las APIs regulatorias proporcionando acceso en tiempo real a las fuentes patrimoniales adicionales en cualquier entidad del mundo. Existen otros dos documentos relacionados que te ayudarán a integrar la API de Wealth Reader. Uno es la guía de integración del widget Javascript: https://docs-es.wealthreader.com/, y el  otro una colección Postman basada en esta documentación.",
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/wealthreader.com/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/wealthreader.com/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs-es.wealthreader.com/",
+  "source": "apis.guru"
+}

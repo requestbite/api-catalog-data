@@ -1,0 +1,14 @@
+{
+  "name": "SAS Portal API (Testing)",
+  "description": null,
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/prod_tt_sasportal/v1alpha1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/prod_tt_sasportal/v1alpha1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/spectrum-access-system/",
+  "source": "apis.guru"
+}

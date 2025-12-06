@@ -1,0 +1,14 @@
+{
+  "name": "Cloud Tasks API",
+  "description": "Manages the execution of large numbers of distributed requests.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/cloudtasks/v2beta3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/cloudtasks/v2beta3/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/tasks/",
+  "source": "apis.guru"
+}

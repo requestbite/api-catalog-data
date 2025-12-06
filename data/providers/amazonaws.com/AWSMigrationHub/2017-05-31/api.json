@@ -1,0 +1,13 @@
+{
+  "name": "AWS Migration Hub",
+  "description": "The AWS Migration Hub API methods help to obtain server and application migration status and integrate your resource-specific migration tool by providing a programmatic interface to Migration Hub.\n\nRemember that you must set your AWS Migration Hub home region before you call any of these APIs, or a `HomeRegionNotSetException` error will be returned. Also, you must make the API calls while in your home region.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/AWSMigrationHub/2017-05-31/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/AWSMigrationHub/2017-05-31/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/mgh/",
+  "source": "apis.guru"
+}

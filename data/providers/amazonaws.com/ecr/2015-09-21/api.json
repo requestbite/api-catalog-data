@@ -1,0 +1,13 @@
+{
+  "name": "Amazon EC2 Container Registry",
+  "description": "Amazon Elastic Container Registry Amazon Elastic Container Registry (Amazon ECR) is a managed container image registry service. Customers can use the familiar Docker CLI, or their preferred client, to push, pull, and manage images. Amazon ECR provides a secure, scalable, and reliable registry for your Docker or Open Container Initiative (OCI) images. Amazon ECR supports private repositories with resource-based permissions using IAM so that specific users or Amazon EC2 instances can access repositories and images.\n\nAmazon ECR has service endpoints in each supported Region. For more information, see [Amazon ECR endpoints](https://docs.aws.amazon.com/general/latest/gr/ecr.html) in the *Amazon Web Services General Reference*.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/ecr/2015-09-21/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/ecr/2015-09-21/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/ecr/",
+  "source": "apis.guru"
+}

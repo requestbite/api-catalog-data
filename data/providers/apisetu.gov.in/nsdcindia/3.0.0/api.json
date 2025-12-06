@@ -1,0 +1,13 @@
+{
+  "name": "National Skill Development Corporation (NSDC)",
+  "description": "NSDC (https://www.nsdcindia.org) promotes skill development by catalyzing creation of large, quality and for-profit vocational institutions. Skill certificates provided under various NSDC programmes are made available to citizens in their DigiLocker accounts.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/nsdcindia/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/nsdcindia/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

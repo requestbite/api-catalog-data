@@ -1,0 +1,13 @@
+{
+  "name": "Active Documentation for /v1",
+  "description": "Our active docs provide the ability to test out your account and to see the responses to your queries. The services are RESTful, and are accessed using standard HTTP methods over a secure HTTPS channel. Requests and responses are currently sent in JSON format, and have a base URL of /v1.",
+  "categories": [
+    "telecom"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/idtbeyond.com/1.1.7/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/idtbeyond.com/1.1.7/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

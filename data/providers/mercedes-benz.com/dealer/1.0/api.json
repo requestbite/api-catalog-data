@@ -1,0 +1,13 @@
+{
+  "name": "Dealer",
+  "description": "The Dealer API provides Dealer search functions.",
+  "categories": [
+    "transport"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mercedes-benz.com/dealer/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mercedes-benz.com/dealer/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

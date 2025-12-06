@@ -1,0 +1,13 @@
+{
+  "name": "AWS Marketplace Entitlement Service",
+  "description": "AWS Marketplace Entitlement Service This reference provides descriptions of the AWS Marketplace Entitlement Service API.\n\nAWS Marketplace Entitlement Service is used to determine the entitlement of a customer to a given product. An entitlement represents capacity in a product owned by the customer. For example, a customer might own some number of users or seats in an SaaS application or some amount of data capacity in a multi-tenant database.\n\n**Getting Entitlement Records**\n\n\n-  *GetEntitlements*- Gets the entitlements for a Marketplace product.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/entitlement.marketplace/2017-01-11/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/entitlement.marketplace/2017-01-11/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/marketplace/",
+  "source": "apis.guru"
+}

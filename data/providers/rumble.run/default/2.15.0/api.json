@@ -1,0 +1,13 @@
+{
+  "name": "Rumble API (deprecated)",
+  "description": "***Rumble Network Discovery is now runZero. [Read the announcement](https://www.runzero.com/blog/introducing-runzero/)***.\n\nThis API is frozen and no longer being updated as of version 2.15.0.\n\nSee our latest API documentation at [swaggerhub.com/apis-docs/runZero/runZero](https://app.swaggerhub.com/apis-docs/runZero/runZero).",
+  "categories": [
+    "monitoring"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/rumble.run/2.15.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/rumble.run/2.15.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

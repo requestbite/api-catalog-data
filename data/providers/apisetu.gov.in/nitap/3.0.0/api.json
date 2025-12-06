@@ -1,0 +1,13 @@
+{
+  "name": "National Institute Of Technology Arunachal Pradesh",
+  "description": "National Institute Of Technology, Arunachal Pradesh (http://www.nitap.ac.in/) is issuing Degree certificates through DigiLocker. These can be pulled by students into their DigiLocker accounts.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/nitap/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/nitap/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

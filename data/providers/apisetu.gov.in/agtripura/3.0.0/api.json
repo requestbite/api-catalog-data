@@ -1,0 +1,13 @@
+{
+  "name": "Accountants General, Tripura",
+  "description": "APIs provided by Accountants General, Tripura.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/agtripura/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/agtripura/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

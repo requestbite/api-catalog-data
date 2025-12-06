@@ -1,0 +1,13 @@
+{
+  "name": "City of Surrey Open511 API",
+  "description": "This API provides real time traffic obstruction events occuring within the City of Surrey.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/surrey.ca/open511/0.1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/surrey.ca/open511/0.1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

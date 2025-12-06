@@ -1,0 +1,13 @@
+{
+  "name": "Clubhouse API",
+  "description": "Clubhouse API",
+  "categories": [
+    "social"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/clubhouseapi.com/1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/clubhouseapi.com/1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

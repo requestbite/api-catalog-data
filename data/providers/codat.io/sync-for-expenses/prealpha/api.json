@@ -1,0 +1,13 @@
+{
+  "name": "Codat Expense API",
+  "description": "The API for Sync for Expenses.\nSync for Expenses is an API and a set of supporting tools. It has been built to enable corporate card and expense management platforms to provide high-quality integrations with multiple accounting platforms through a standardized API.\n\n[Read more...](https://docs.codat.io/sync-for-expenses/overview)\n\n[See our OpenAPI spec](https://github.com/codatio/oas)",
+  "categories": [
+    "finance"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/codat.io/sync-for-expenses/prealpha/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/codat.io/sync-for-expenses/prealpha/openapi.yaml",
+  "openApiVersion": "3.1.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

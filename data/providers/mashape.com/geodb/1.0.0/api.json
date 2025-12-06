@@ -1,0 +1,14 @@
+{
+  "name": "GeoDB Cities API",
+  "description": "The GeoDB API focuses on getting global city and region data. Easily obtain country, region, and city data for use\nin your apps!\n\n- Filter cities by name prefix, country, location, time-zone, and even minimum population.\n\n- Sort cities by name, country code, elevation, and population - or any combination of these.\n\n- Get all country regions.\n- Get all cities in a given region.\n\n-\nDisplay results in multiple languages.\n- RESTful API adheres to industry best-practices, including\nHATEOAS-style links to facilitate paging results.\n\n- Backed by cloud-based load-balanced infrastructure for resiliency and performance!\n\n- Data is periodically refreshed from GeoNames and WikiData.\n\nNotes:\n\n-\nSince the database is periodically updated, this may **very rarely** result in certain cities\nbeing marked deleted (e.g., duplicates removed). By default, endpoints returning city data will exclude\ncities marked deleted. However, in the unlikely event that this occurs while your app is paging through a set\nof affected results - and you care about the paged results suddenly changing underneath - specify\n`includeDeleted=SINCE_YESTERDAY` (or `SINCE_LAST_WEEK` if you're really paranoid!).\n\n---\n\n### Useful Resources\n\n-\nSDKs\n\n-\n[Angular](https://www.npmjs.com/package/wft-geodb-angular-client),\n[Sample App](https://github.com/wirefreethought/geodb-sample-angular-app)\n\n- [Java](https://github.com/wirefreethought/geodb-java-client)\n\n- [JavaScript](https://www.npmjs.com/package/wft-geodb-js-client)\n\n- [Swagger Docs](swagger.json)\n\n- [Usage License](http://creativecommons.org/licenses/by/3.0/)",
+  "categories": [
+    "developer_tools",
+    "location"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mashape.com/geodb/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mashape.com/geodb/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

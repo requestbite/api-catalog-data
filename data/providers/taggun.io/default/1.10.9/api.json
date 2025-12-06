@@ -1,0 +1,13 @@
+{
+  "name": "TAGGUN Receipt OCR Scanning API",
+  "description": "Expects only running software, real reactions, and beautifully crafted APIs to serve your every desire to transcribe a piece of paper to digital form.",
+  "categories": [
+    "text"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/taggun.io/1.10.9/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/taggun.io/1.10.9/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Furkot Trips",
+  "description": "Furkot provides Rest API to access user trip data.\nUsing Furkot API an application can list user trips and display stops for a specific trip.\nFurkot API uses OAuth2 protocol to authorize applications to access data on behalf of users.",
+  "categories": [
+    "location"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/furkot.com/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/furkot.com/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://help.furkot.com/widgets/furkot-api.html",
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Microsoft.Support",
+  "description": "Microsoft Azure Support Resource Provider.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/support/2019-05-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/support/2019-05-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

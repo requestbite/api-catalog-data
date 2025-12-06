@@ -1,0 +1,13 @@
+{
+  "name": "Zappiti Player API",
+  "description": "Move your app forward with the Zappiti Player API. Use http://your-player-ip:8990/ as base URL for your requests.",
+  "categories": [
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/zappiti.com/4.15.174/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/zappiti.com/4.15.174/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

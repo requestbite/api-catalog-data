@@ -1,0 +1,14 @@
+{
+  "name": "VSOnline",
+  "description": "Public APIs for managing VS Codespaces",
+  "categories": [
+    "collaboration",
+    "developer_tools"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/visualstudio.com/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/visualstudio.com/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

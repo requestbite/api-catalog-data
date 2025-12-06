@@ -1,0 +1,13 @@
+{
+  "name": "eDistrict Kerala, Kerala",
+  "description": "eDistrict Kerala (https://edistrict.kerala.gov.in/) is the online service delivery portal for Kerala State Govt. Certain documents issued by it (e.g. Residence, Income, Caste Certificates etc) are made available in citizens' DigiLocker accounts.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/edistrictkerala/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/edistrictkerala/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "shinobiapi",
+  "description": null,
+  "categories": [
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/hillbillysoftware.com/shinobi/v1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/hillbillysoftware.com/shinobi/v1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Batch API",
+  "description": "An API to manage the running of batch jobs on Google Cloud Platform.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/batch/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/batch/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/batch/",
+  "source": "apis.guru"
+}

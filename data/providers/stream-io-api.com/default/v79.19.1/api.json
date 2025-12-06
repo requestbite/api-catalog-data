@@ -1,0 +1,11 @@
+{
+  "name": "Stream Chat API",
+  "description": null,
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/stream-io-api.com/v79.19.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/stream-io-api.com/v79.19.1/openapi.yaml",
+  "openApiVersion": "3.0.3",
+  "externalDocsUrl": "https://getstream.io/chat/docs/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Amazon Macie 2",
+  "description": "Amazon Macie",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/macie2/2020-01-01/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/macie2/2020-01-01/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/macie2/",
+  "source": "apis.guru"
+}

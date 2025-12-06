@@ -1,0 +1,13 @@
+{
+  "name": "Public Health Engineering Department, Haryana, Haryana",
+  "description": "APIs provided by Public Health Engineering Department, Haryana, Haryana.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/phedharyana/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/phedharyana/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

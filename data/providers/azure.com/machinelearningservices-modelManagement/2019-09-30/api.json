@@ -1,0 +1,13 @@
+{
+  "name": "Azure Machine Learning Model Management Service",
+  "description": "These APIs allow end users to manage Azure Machine Learning Models, Images, Profiles, and Services.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/machinelearningservices-modelManagement/2019-09-30/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/machinelearningservices-modelManagement/2019-09-30/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

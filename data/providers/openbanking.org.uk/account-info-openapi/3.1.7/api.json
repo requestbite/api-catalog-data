@@ -1,0 +1,13 @@
+{
+  "name": "Account and Transaction API Specification",
+  "description": "Swagger for Account and Transaction API Specification",
+  "categories": [
+    "finance"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/openbanking.org.uk/account-info-openapi/3.1.7/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/openbanking.org.uk/account-info-openapi/3.1.7/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

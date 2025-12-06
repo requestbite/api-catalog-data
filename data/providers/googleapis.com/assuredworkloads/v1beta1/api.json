@@ -1,0 +1,14 @@
+{
+  "name": "Assured Workloads API",
+  "description": null,
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/assuredworkloads/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/assuredworkloads/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/learnmoreurl",
+  "source": "apis.guru"
+}

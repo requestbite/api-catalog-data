@@ -1,0 +1,13 @@
+{
+  "name": "Azure Monitor Private Link Scopes",
+  "description": "Azure Monitor API reference for Private Links Scopes management.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/monitor-privateLinkScopes_API/2019-10-17-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/monitor-privateLinkScopes_API/2019-10-17-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

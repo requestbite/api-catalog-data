@@ -1,0 +1,15 @@
+{
+  "name": "eDRV API",
+  "description": "edrv.io API Documentation",
+  "categories": [
+    "location",
+    "open_data",
+    "transport"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/edrv.io/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/edrv.io/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

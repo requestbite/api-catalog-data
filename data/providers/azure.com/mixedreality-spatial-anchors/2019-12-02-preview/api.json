@@ -1,0 +1,13 @@
+{
+  "name": "Mixed Reality",
+  "description": "Mixed Reality Resource Provider Spatial Anchors Resource API",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/mixedreality-spatial-anchors/2019-12-02-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/mixedreality-spatial-anchors/2019-12-02-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

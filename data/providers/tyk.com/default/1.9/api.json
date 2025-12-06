@@ -1,0 +1,13 @@
+{
+  "name": "Gateway REST API",
+  "description": null,
+  "categories": [
+    "enterprise"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/tyk.com/1.9/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/tyk.com/1.9/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

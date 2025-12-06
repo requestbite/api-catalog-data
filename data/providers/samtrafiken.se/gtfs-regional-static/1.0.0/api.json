@@ -1,0 +1,13 @@
+{
+  "name": "GTFS Regional Static",
+  "description": "This API provides static GTFS datasets of high quality for Swedish public transport operators. The data is provided by Samtrafiken. All endpoints support HEAD requests and conditional GET requests. You can use these to determine if a new file is available.",
+  "categories": [
+    "transport"
+  ],
+  "logo": "logo.webp",
+  "openApiJsonUrl": null,
+  "openApiYamlUrl": "https://raw.githubusercontent.com/trafiklab/openApi-docs/refs/heads/master/gtfsRegionalStatic.yaml",
+  "openApiVersion": null,
+  "externalDocsUrl": "https://www.trafiklab.se/api/trafiklab-apis/gtfs-regional/",
+  "source": "api-provider"
+}

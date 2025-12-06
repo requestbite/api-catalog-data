@@ -1,0 +1,13 @@
+{
+  "name": "API docs | logoraisr.com",
+  "description": "Dig into our logoraisr API reference documentation. We also offer an OpenAPI specification to allow easy integration into your systems. You can download the json file by clicking on the download button.\nOpenAPI 2.0 Validation Status\n\n![](https://online.swagger.io/validator?url=https://docs.logoraisr.com/)",
+  "categories": [
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/logoraisr.com/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/logoraisr.com/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

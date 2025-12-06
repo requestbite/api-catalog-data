@@ -1,0 +1,13 @@
+{
+  "name": "PowerBIDedicated",
+  "description": "PowerBI Dedicated Web API provides a RESTful set of web services that enables users to create, retrieve, update, and delete Power BI dedicated capacities",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/powerbidedicated/2017-10-01/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/powerbidedicated/2017-10-01/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

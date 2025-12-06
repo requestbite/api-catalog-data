@@ -1,0 +1,13 @@
+{
+  "name": "FRC Events",
+  "description": "",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/firstinspires.org/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/firstinspires.org/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.3",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Platform API",
+  "description": "The [REST API specification](https://www.ably.io/documentation/rest-api) for Ably.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/ably.io/platform/1.1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/ably.io/platform/1.1.0/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Erskine May API",
+  "description": "An API that allows querying of Erskine May data.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/parliament.uk/erskine-may/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/parliament.uk/erskine-may/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

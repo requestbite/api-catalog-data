@@ -1,0 +1,13 @@
+{
+  "name": "CustomerInsightsManagementClient",
+  "description": "The Azure Customer Insights management API provides a RESTful set of web services that interact with Azure Customer Insights service to manage your resources. The API has entities that capture the relationship between an end user and the Azure Customer Insights service.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/customer-insights/2017-04-26/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/customer-insights/2017-04-26/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

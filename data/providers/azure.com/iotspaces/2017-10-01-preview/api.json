@@ -1,0 +1,13 @@
+{
+  "name": "IoTSpacesClient",
+  "description": "Use this API to manage the IoTSpaces service instances in your Azure subscription.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/iotspaces/2017-10-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/iotspaces/2017-10-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Seldon External API",
+  "description": null,
+  "categories": [
+    "machine_learning"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/seldon.local/wrapper/0.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/seldon.local/wrapper/0.1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://github.com/SeldonIO/seldon-core",
+  "source": "apis.guru"
+}

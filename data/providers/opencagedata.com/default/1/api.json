@@ -1,0 +1,13 @@
+{
+  "name": "OpenCage Geocoder",
+  "description": "Worldwide forward and reverse geocoding",
+  "categories": [
+    "location"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/opencagedata.com/1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/opencagedata.com/1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://opencagedata.com/api",
+  "source": "apis.guru"
+}

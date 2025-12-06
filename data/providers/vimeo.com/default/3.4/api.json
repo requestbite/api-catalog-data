@@ -1,0 +1,13 @@
+{
+  "name": "Vimeo",
+  "description": null,
+  "categories": [
+    "entertainment"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/vimeo.com/3.4/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/vimeo.com/3.4/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

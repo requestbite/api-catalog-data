@@ -1,0 +1,13 @@
+{
+  "name": "The SMS Works API",
+  "description": "The SMS Works provides a low-cost, reliable SMS API for developers. Pay only for delivered texts, all failed messages are refunded.",
+  "categories": [
+    "messaging"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/thesmsworks.co.uk/1.8.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/thesmsworks.co.uk/1.8.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

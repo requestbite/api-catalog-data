@@ -1,0 +1,13 @@
+{
+  "name": "AGCO API",
+  "description": null,
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/agco-ats.com/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/agco-ats.com/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

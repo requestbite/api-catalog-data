@@ -1,0 +1,14 @@
+{
+  "name": "OS Config API",
+  "description": "OS management tools that can be used for patch management, patch compliance, and configuration management on VM instances.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/osconfig/v1beta/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/osconfig/v1beta/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/compute/docs/osconfig/rest",
+  "source": "apis.guru"
+}

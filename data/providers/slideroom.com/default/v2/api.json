@@ -1,0 +1,11 @@
+{
+  "name": "SlideRoom API V2",
+  "description": "SlideRoom provides a RESTful API for exporting data out of your organizations SlideRoom account.",
+  "categories": [],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/slideroom.com/v2/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/slideroom.com/v2/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Amazon AppIntegrations Service",
+  "description": "The Amazon AppIntegrations service enables you to configure and reuse connections to external applications.\n\nFor information about how you can use external applications with Amazon Connect, see [Set up pre-built integrations](https://docs.aws.amazon.com/connect/latest/adminguide/crm.html) and [Deliver information to agents using Amazon Connect Wisdom](https://docs.aws.amazon.com/connect/latest/adminguide/amazon-connect-wisdom.html) in the *Amazon Connect Administrator Guide*.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/appintegrations/2020-07-29/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/appintegrations/2020-07-29/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/app-integrations/",
+  "source": "apis.guru"
+}

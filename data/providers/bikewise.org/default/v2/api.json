@@ -1,0 +1,13 @@
+{
+  "name": "BikeWise API v2",
+  "description": "This is an API for accessing information about bicycling related incidents. You can find the source code on [GitHub](https://github.com/bikeindex/bikewise).",
+  "categories": [
+    "open_data"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/bikewise.org/v2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/bikewise.org/v2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://www.bikewise.org/documentation/api_v2",
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ipTwist",
+  "description": "The reliable, secure, and simple IP geolocation API.",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/iptwist.com/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/iptwist.com/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://iptwist.com/documentation",
+  "source": "apis.guru"
+}

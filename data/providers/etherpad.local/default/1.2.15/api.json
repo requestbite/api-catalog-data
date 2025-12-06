@@ -1,0 +1,13 @@
+{
+  "name": "Etherpad API",
+  "description": "Etherpad is a real-time collaborative editor scalable to thousands of simultaneous real time users. It provides full data export capabilities, and runs on your server, under your control.",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/etherpad.local/1.2.15/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/etherpad.local/1.2.15/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

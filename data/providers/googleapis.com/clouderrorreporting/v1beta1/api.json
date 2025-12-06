@@ -1,0 +1,14 @@
+{
+  "name": "Error Reporting API",
+  "description": "Groups and counts similar errors from cloud services and applications, reports new errors, and provides access to error groups and their associated errors. ",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/clouderrorreporting/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/clouderrorreporting/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/error-reporting/",
+  "source": "apis.guru"
+}

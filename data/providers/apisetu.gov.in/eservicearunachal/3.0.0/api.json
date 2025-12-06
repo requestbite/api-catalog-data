@@ -1,0 +1,13 @@
+{
+  "name": "eService (eDistrict), Arunachal Pradesh",
+  "description": "eService (eDistrict), Arunachal Pradesh (http://eservice.arunachal.gov.in/) is the online service delivery portal for Arunachal Pradesh  State Govt. Certain documents issued by it (e.g. Income, Caste, Domicile, Dependency, SC/ST ,Character,  Residence Certificates etc) are made available in citizens' DigiLocker accounts.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/eservicearunachal/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/eservicearunachal/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

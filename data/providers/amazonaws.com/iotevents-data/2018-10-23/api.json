@@ -1,0 +1,13 @@
+{
+  "name": "AWS IoT Events Data",
+  "description": "IoT Events monitors your equipment or device fleets for failures or changes in operation, and triggers actions when such events occur. You can use IoT Events Data API commands to send inputs to detectors, list detectors, and view or update a detector's status.\n\nFor more information, see [What is IoT Events?](https://docs.aws.amazon.com/iotevents/latest/developerguide/what-is-iotevents.html) in the *IoT Events Developer Guide*.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/iotevents-data/2018-10-23/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/iotevents-data/2018-10-23/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/iotevents/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "TV API",
+  "description": "Welcome to the API Reference Docs page for the Press Association TV API (v2).",
+  "categories": [
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/pressassociation.io/2.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/pressassociation.io/2.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

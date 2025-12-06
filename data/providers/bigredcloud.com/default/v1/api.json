@@ -1,0 +1,13 @@
+{
+  "name": "Big Red Cloud API",
+  "description": "**Welcome to the Big Red Cloud API**\n\nThis API enables programmatic access to Big Red Cloud data.\n\nWe have used Swagger to auto generate the API documentation on this page, and it also enables direct interaction with the API in this page.\n\nTo get started, you will require an API Key - check out our guide at [https://www.bigredcloud.com/support/generating-api-key-guide/](https://www.bigredcloud.com/support/generating-api-key-guide/) for information on how to get one.\n\nUse the  'Enter API Key' button below to enter your API key and start interacting with your Big Red Cloud data right on this page.\n\nThe API key will be stored in your browsers local storage for convenience, but you will be able to delete it at any time if you wish.\n\nFor additional information on the API, check out our support article at [https://www.bigredcloud.com/support/api/](https://www.bigredcloud.com/support/api/)",
+  "categories": [
+    "finance"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/bigredcloud.com/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/bigredcloud.com/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

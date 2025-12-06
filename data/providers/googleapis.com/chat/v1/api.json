@@ -1,0 +1,14 @@
+{
+  "name": "Google Chat API",
+  "description": "Enables apps to fetch information and perform actions in Google Chat. Authentication is a prerequisite for using the Google Chat REST API.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/chat/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/chat/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/hangouts/chat",
+  "source": "apis.guru"
+}

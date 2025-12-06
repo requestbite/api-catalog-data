@@ -1,0 +1,14 @@
+{
+  "name": "Drive Labels API",
+  "description": "An API for managing Drive Labels",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/drivelabels/v2beta/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/drivelabels/v2beta/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/drive/labels",
+  "source": "apis.guru"
+}

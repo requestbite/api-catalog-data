@@ -1,0 +1,14 @@
+{
+  "name": "API V1",
+  "description": "VersionEye is a cross-platform search engine for free/libre/open source software libraries.",
+  "categories": [
+    "open_data",
+    "search"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/versioneye.com/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/versioneye.com/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

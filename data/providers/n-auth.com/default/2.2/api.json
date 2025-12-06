@@ -1,0 +1,13 @@
+{
+  "name": "nextAuth API",
+  "description": "API for the nextAuth server",
+  "categories": [
+    "security"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/n-auth.com/2.2/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/n-auth.com/2.2/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

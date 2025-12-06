@@ -1,0 +1,13 @@
+{
+  "name": "Lyft",
+  "description": "Drive your app to success with Lyft's API",
+  "categories": [
+    "location"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/lyft.com/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/lyft.com/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

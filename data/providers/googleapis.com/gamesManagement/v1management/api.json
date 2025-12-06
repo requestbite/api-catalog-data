@@ -1,0 +1,14 @@
+{
+  "name": "Google Play Game Management",
+  "description": "The Google Play Game Management API allows developers to manage resources from the Google Play Game service.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/gamesManagement/v1management/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/gamesManagement/v1management/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/games/",
+  "source": "apis.guru"
+}

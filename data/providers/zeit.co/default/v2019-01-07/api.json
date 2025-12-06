@@ -1,0 +1,13 @@
+{
+  "name": "ZEIT API",
+  "description": null,
+  "categories": [
+    "hosting"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/zeit.co/v2019-01-07/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/zeit.co/v2019-01-07/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://zeit.co/docs/api/",
+  "source": "apis.guru"
+}

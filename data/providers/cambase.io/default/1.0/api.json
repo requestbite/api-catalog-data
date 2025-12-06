@@ -1,0 +1,11 @@
+{
+  "name": "Cambase.io",
+  "description": "Cambase.io is a project by Evercam.io in order to make it easier for software developers to have a reliable, up to date source of model hardware information available via a public API.",
+  "categories": [],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/cambase.io/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/cambase.io/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

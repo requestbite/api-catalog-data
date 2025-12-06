@@ -1,0 +1,11 @@
+{
+  "name": "Commerce API",
+  "description": "Use the Ticketmaster Commerce API to look up available offers and products on various Ticketmaster platforms for North America markets. For formal partnerships and relationships, selected offers and products can be carted and transacted on through the cart, delivery, payment and purchase APIs – These APIs require approved access from Ticketmaster.",
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/ticketmaster.com/commerce/v2/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/ticketmaster.com/commerce/v2/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

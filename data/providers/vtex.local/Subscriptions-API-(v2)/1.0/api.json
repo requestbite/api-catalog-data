@@ -1,0 +1,11 @@
+{
+  "name": "Subscriptions API (v2 - DEPRECATED)",
+  "description": "VTEX Subscriptions REST API Documentation\n\nThis documentation describes the available REST APIs for VTEX Subscription System.\n\nWith Subscriptions you can set up regularly scheduled deliveries.\n\nAll requests need authorization (VTEX Id authentication token or VTEX Appkey and Apptoken headers)",
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/vtex.local/Subscriptions-API-(v2)/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/vtex.local/Subscriptions-API-(v2)/1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

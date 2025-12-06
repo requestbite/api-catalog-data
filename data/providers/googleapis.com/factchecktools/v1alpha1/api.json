@@ -1,0 +1,14 @@
+{
+  "name": "Fact Check Tools API",
+  "description": null,
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/factchecktools/v1alpha1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/factchecktools/v1alpha1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/fact-check/tools/api/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ApiManagementClient",
+  "description": "Use this REST API to get all the issues across an Azure Api Management service.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/apimanagement-apimissues/2019-12-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/apimanagement-apimissues/2019-12-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Native Ads Publisher API",
+  "description": "This is a Native Ads Publisher API it provides same functionality as Native Ads Publisher Account GUI.",
+  "categories": [
+    "marketing"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/nativeads.com/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/nativeads.com/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

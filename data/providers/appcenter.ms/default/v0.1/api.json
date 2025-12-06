@@ -1,0 +1,13 @@
+{
+  "name": "App Center Client",
+  "description": "Microsoft Visual Studio App Center API",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/appcenter.ms/v0.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/appcenter.ms/v0.1/openapi.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

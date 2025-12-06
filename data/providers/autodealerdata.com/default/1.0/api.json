@@ -1,0 +1,13 @@
+{
+  "name": "CIS Automotive API",
+  "description": "This API provides access to our Automotive Data. Use of this API is subject to our [Terms of Service](https://autodealerdata.com/tos)\n\n### For a quick start guide [click here](/APIQuickStart)\n\n\nIf you signed up through RapidAPI make your test calls [here](https://rapidapi.com/competitive-intelligence-solutions-llc-competitive-intelligence-solutions-llc-default/api/cis-automotive)\n\nThe general workflow is to:\n**1.** Authenticate with your CIS Automotive API Keys to get a Json Web Token (JWT). Do not use RapidAPI keys.\n**2.** Then use that token as an argument when calling other endpoints.\n\nEquivalent HTTP GET and POST methods are available for some endpoints.\n\nEndpoints may appear more than once on this page if they are associated with multiple tags. eg \"Sales Data\", \"Premium\", \"Pro Plan or Greater\" To see which endpoints are included in different\nplans look under the \"X Plan or Greater\" tags for the respective plan name.\n\n### If you signed up for our API through RapidAPI you can make your test calls [on their platform](https://rapidapi.com/competitive-intelligence-solutions-llc-competitive-intelligence-solutions-llc-default/api/cis-automotive).\nYour RapidAPI credentials will not work on this page.\n###  Do not use your RapidAPI keys on this page.\n\n### If you signed up with us and have an account, you must first authenticate with your API Keys\nand retrieve a Json Web Token (JWT) from the /getToken endpoint to access the other endpoints.\n\n### Your JWT is a required argument to all endpoints.",
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/autodealerdata.com/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/autodealerdata.com/1.0/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

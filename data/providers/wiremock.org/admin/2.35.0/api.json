@@ -1,0 +1,13 @@
+{
+  "name": "WireMock",
+  "description": null,
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/wiremock.org/admin/2.35.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/wiremock.org/admin/2.35.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "http://wiremock.org/docs/",
+  "source": "apis.guru"
+}

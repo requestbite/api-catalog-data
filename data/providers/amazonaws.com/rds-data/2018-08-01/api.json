@@ -1,0 +1,13 @@
+{
+  "name": "AWS RDS DataService",
+  "description": "Amazon RDS Data Service Amazon RDS provides an HTTP endpoint to run SQL statements on an Amazon Aurora Serverless v1 DB cluster. To run these statements, you work with the Data Service API.\n\nThe Data Service API isn't supported on Amazon Aurora Serverless v2 DB clusters.\n\nFor more information about the Data Service API, see [Using the Data API](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.html) in the *Amazon Aurora User Guide*.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/rds-data/2018-08-01/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/rds-data/2018-08-01/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/rds-data/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Image-Charts",
+  "description": "Charts, simple as a URL. A safe and fast replacement for Google Image Charts",
+  "categories": [
+    "media"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/image-charts.com/6.1.19/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/image-charts.com/6.1.19/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

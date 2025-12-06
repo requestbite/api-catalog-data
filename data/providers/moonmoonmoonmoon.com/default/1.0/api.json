@@ -1,0 +1,11 @@
+{
+  "name": "Moon by Ai Weiwei & Olafur Eliasson",
+  "description": "Turn nothing into something – make a drawing, make a mark.",
+  "categories": [],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/moonmoonmoonmoon.com/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/moonmoonmoonmoon.com/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

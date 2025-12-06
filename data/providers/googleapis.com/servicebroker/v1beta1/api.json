@@ -1,0 +1,11 @@
+{
+  "name": "Service Broker",
+  "description": "The Google Cloud Platform Service Broker API provides Google hosted\nimplementation of the Open Service Broker API\n(https://www.openservicebrokerapi.org/).",
+  "categories": [],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/servicebroker/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/servicebroker/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/kubernetes-engine/docs/concepts/add-on/service-broker",
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Groups Migration API",
+  "description": "The Groups Migration API allows domain administrators to archive emails into Google groups.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/groupsmigration/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/groupsmigration/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/google-apps/groups-migration/",
+  "source": "apis.guru"
+}

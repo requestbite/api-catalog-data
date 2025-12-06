@@ -1,0 +1,13 @@
+{
+  "name": "EVE Swagger Interface",
+  "description": "An OpenAPI for EVE Online",
+  "categories": [
+    "media"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/evetech.net/0.8.6/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/evetech.net/0.8.6/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

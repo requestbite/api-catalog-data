@@ -1,0 +1,13 @@
+{
+  "name": "Netatmo",
+  "description": "### Welcome to the Netatmo swagger on-line documentation !\n\nThis site is a complement to the official [Netatmo developper documentation](https://dev.netatmo.com/) using swagger to bring interactivity and easy testing of requests with the \"try it\" button (authenticate with the authorization code OAuth2 flow by clicking the authenticate button in the methods). You can find the source code for this site can be found in the project [netatmo-swagger-ui](https://github.com/cbornet/netatmo-swagger-ui). You can also use the online [swagger declaration](./swagger.json) file to generate code or static documentation (see [netatmo-swagger-api](https://github.com/cbornet/netatmo-swagger-api)).",
+  "categories": [
+    "iot"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/netatmo.net/1.1.5/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/netatmo.net/1.1.5/openapi.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://dev.netatmo.com/dev/resources/technical/reference",
+  "source": "apis.guru"
+}

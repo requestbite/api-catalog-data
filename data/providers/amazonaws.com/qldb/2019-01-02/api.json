@@ -1,0 +1,13 @@
+{
+  "name": "Amazon QLDB",
+  "description": "The control plane for Amazon QLDB",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/qldb/2019-01-02/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/qldb/2019-01-02/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/qldb/",
+  "source": "apis.guru"
+}

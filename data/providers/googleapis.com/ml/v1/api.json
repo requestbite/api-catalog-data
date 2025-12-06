@@ -1,0 +1,14 @@
+{
+  "name": "AI Platform Training & Prediction API",
+  "description": "An API to enable creating and using machine learning models.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/ml/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/ml/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/ml/",
+  "source": "apis.guru"
+}

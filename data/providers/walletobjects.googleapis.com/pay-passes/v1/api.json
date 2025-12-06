@@ -1,0 +1,11 @@
+{
+  "name": "Google Pay Passes API",
+  "description": "API for issuers to save and manage Google Wallet Objects.",
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/walletobjects.googleapis.com/pay-passes/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/walletobjects.googleapis.com/pay-passes/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/pay/passes",
+  "source": "apis.guru"
+}

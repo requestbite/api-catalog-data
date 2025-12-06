@@ -1,0 +1,13 @@
+{
+  "name": "api.video",
+  "description": "api.video is an API that encodes on the go to facilitate immediate playback, enhancing viewer streaming experiences across multiple devices and platforms. You can stream live or on-demand online videos within minutes.",
+  "categories": [
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/api.video/1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/api.video/1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

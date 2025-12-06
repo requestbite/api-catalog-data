@@ -1,0 +1,13 @@
+{
+  "name": "Authorized Partner API Specification",
+  "description": "To access files in user’s DigiLocker account from your application, you must first obtain user’s authorization.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/digitallocker.gov.in/authpartner/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/digitallocker.gov.in/authpartner/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

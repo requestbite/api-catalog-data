@@ -1,0 +1,14 @@
+{
+  "name": "APIMATIC API Transformer",
+  "description": "Transform API Descriptions from/to various formats",
+  "categories": [
+    "developer_tools",
+    "tools"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apimatic.io/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apimatic.io/1.0/openapi.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://apimatic.io/transformer",
+  "source": "apis.guru"
+}

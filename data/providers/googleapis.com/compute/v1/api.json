@@ -1,0 +1,14 @@
+{
+  "name": "Compute Engine API",
+  "description": "Creates and runs virtual machines on Google Cloud Platform. ",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/compute/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/compute/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/compute/",
+  "source": "apis.guru"
+}

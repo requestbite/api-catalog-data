@@ -1,0 +1,13 @@
+{
+  "name": "Data API",
+  "description": "Serves the Clever Data API",
+  "categories": [
+    "education"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/clever.com/1.2.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/clever.com/1.2.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

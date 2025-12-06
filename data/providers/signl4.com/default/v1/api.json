@@ -1,0 +1,13 @@
+{
+  "name": "SIGNL4 API",
+  "description": "Use our API for systems integration or to build your own use cases. Sample scenarios include but are not limited to:\n\n- 2-way integration: Triggering of Signls and updates in the third party systems when alert state changes occur\n- Retrieving alarms for logging purposes\n- Calendar integrations: Creation and management of on-call duties\n- Punch users in and out based on external calendars\n- etc.AUTHENTICATION\nUsing the API requires an API key, which you can generate in the SIGNL4 portal under 'Developers'.\nThis key must then be specified in a special header in every HTTP request.\nThis header is called <b style='color:#F8B41F'>X-S4-Api-Key.\n\nThe base URL of the API is [https://connect.signl4.com/api/](https://connect.signl4.com/api/).\nCopyright © Derdack GmbH",
+  "categories": [
+    "messaging"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/signl4.com/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/signl4.com/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

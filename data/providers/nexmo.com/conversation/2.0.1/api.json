@@ -1,0 +1,11 @@
+{
+  "name": "Conversation API",
+  "description": "The Conversation API enables you to build conversation features where communication can take place across multiple mediums including IP Messaging, PSTN Voice, SMS and WebRTC Audio and Video. The context of the conversations is maintained though each communication event taking place within a conversation, no matter the medium.",
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/nexmo.com/conversation/2.0.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/nexmo.com/conversation/2.0.1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

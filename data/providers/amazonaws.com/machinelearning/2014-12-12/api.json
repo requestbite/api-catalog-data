@@ -1,0 +1,13 @@
+{
+  "name": "Amazon Machine Learning",
+  "description": "Definition of the public APIs exposed by Amazon Machine Learning",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/machinelearning/2014-12-12/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/machinelearning/2014-12-12/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/machinelearning/",
+  "source": "apis.guru"
+}

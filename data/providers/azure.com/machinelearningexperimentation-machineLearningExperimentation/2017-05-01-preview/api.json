@@ -1,0 +1,13 @@
+{
+  "name": "ML Team Account Management Client",
+  "description": "These APIs allow end users to operate on Azure Machine Learning Team Account resources. They support CRUD operations for Azure Machine Learning Team Accounts.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/machinelearningexperimentation-machineLearningExperimentation/2017-05-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/machinelearningexperimentation-machineLearningExperimentation/2017-05-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

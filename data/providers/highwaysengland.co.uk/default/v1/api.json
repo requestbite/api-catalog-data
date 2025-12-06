@@ -1,0 +1,13 @@
+{
+  "name": "Highways England API",
+  "description": null,
+  "categories": [
+    "open_data"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/highwaysengland.co.uk/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/highwaysengland.co.uk/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

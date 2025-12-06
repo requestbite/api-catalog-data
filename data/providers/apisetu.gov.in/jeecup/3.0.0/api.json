@@ -1,0 +1,13 @@
+{
+  "name": "Joint Entrance Examination Council, Uttar Pradesh, Uttar Pradesh",
+  "description": "Joint Entrance Examination Council (https://jeecup.nic.in) is providing digital Admit Cards for 2018 entrance examination of Diploma courses in the Polytechnics / Institutes affiliated to Board Of Technical Education, U.P.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/jeecup/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/jeecup/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

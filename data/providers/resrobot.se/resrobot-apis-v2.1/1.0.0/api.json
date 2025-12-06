@@ -1,0 +1,13 @@
+{
+  "name": "ResRobot APIs",
+  "description": "This collection of APIs allows to plan journeys using one or more of the public transport operators in Sweden. The API offers the functionality behind [ResRobot](https://resrobot.se) and includes train, bus, tram, subway for entire Sweden.",
+  "categories": [
+    "transport"
+  ],
+  "logo": "logo.webp",
+  "openApiJsonUrl": null,
+  "openApiYamlUrl": "https://raw.githubusercontent.com/trafiklab/openApi-docs/refs/heads/master/resrobot-v21.yaml",
+  "openApiVersion": null,
+  "externalDocsUrl": "https://www.trafiklab.se/api/our-apis/resrobot-v21/",
+  "source": "api-provider"
+}

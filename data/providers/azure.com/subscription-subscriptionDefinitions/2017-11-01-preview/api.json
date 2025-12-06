@@ -1,0 +1,13 @@
+{
+  "name": "SubscriptionDefinitionsClient",
+  "description": "Subscription definitions client provides an interface to create, modify and retrieve azure subscriptions programmatically.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/subscription-subscriptionDefinitions/2017-11-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/subscription-subscriptionDefinitions/2017-11-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

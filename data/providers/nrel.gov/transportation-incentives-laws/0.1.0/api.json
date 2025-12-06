@@ -1,0 +1,13 @@
+{
+  "name": "Transportation Laws and Incentives",
+  "description": "Query our database of federal and state laws and incentives for alternative fuels and vehicles, air quality, fuel efficiency, and other transportation-related topics. This dataset powers the [Federal and State Laws and Incentives](https://afdc.energy.gov/laws) on the Alternative Fuels Data Center.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/nrel.gov/transportation-incentives-laws/0.1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/nrel.gov/transportation-incentives-laws/0.1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

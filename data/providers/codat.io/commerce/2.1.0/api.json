@@ -1,0 +1,13 @@
+{
+  "name": "Commerce API",
+  "description": "Codat's Commerce API allows you to access standardised data from over 11 commerce and POS systems.\n\nStandardize how you connect to your customers’ payment, PoS, and eCommerce systems. Retrieve orders, payouts, payments, and product data in the same way for all the leading commerce platforms.\n\n[Read more...](https://docs.codat.io/commerce-api/overview)\n\n[See our OpenAPI spec](https://github.com/codatio/oas) ",
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/codat.io/commerce/2.1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/codat.io/commerce/2.1.0/openapi.yaml",
+  "openApiVersion": "3.1.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

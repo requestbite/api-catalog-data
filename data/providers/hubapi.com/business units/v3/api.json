@@ -1,0 +1,11 @@
+{
+  "name": "Business Unit",
+  "description": "Retrieve Business Unit information.",
+  "categories": [],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/hubapi.com/business units/v3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/hubapi.com/business units/v3/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

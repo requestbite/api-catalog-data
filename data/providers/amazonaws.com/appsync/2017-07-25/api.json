@@ -1,0 +1,13 @@
+{
+  "name": "AWS AppSync",
+  "description": "AppSync provides API actions for creating and interacting with data sources using GraphQL from your application.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/appsync/2017-07-25/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/appsync/2017-07-25/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/appsync/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "TimesTags API",
+  "description": "With the TimesTags API, you can mine the riches of the New York Times tag set. The TimesTags service matches your query to the controlled vocabularies that fuel NYTimes.com metadata. You supply a string of characters, and the service returns a ranked list of suggested terms.",
+  "categories": [
+    "media",
+    "open_data"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/nytimes.com/times_tags/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/nytimes.com/times_tags/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "http://developer.nytimes.com/",
+  "source": "apis.guru"
+}

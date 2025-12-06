@@ -1,0 +1,13 @@
+{
+  "name": "sms77.io API",
+  "description": "sms77.io Swagger API. Get your API-Key now at sms77.io.",
+  "categories": [
+    "telecom"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/sms77.io/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/sms77.io/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://sms77.io/en/docs/gateway/http-api",
+  "source": "apis.guru"
+}

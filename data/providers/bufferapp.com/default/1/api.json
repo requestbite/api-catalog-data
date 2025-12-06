@@ -1,0 +1,14 @@
+{
+  "name": "Bufferapp",
+  "description": "Social media management for marketers and agencies",
+  "categories": [
+    "marketing",
+    "social"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/bufferapp.com/1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/bufferapp.com/1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://buffer.com/developers/api",
+  "source": "apis.guru"
+}

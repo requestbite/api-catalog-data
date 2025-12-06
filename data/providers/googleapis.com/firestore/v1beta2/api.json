@@ -1,0 +1,14 @@
+{
+  "name": "Cloud Firestore API",
+  "description": "Accesses the NoSQL document database built for automatic scaling, high performance, and ease of application development. ",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/firestore/v1beta2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/firestore/v1beta2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/firestore",
+  "source": "apis.guru"
+}

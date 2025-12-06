@@ -1,0 +1,13 @@
+{
+  "name": "Item Feed Service",
+  "description": "**Note:** This is a [ ![Limited Release](/cms/img/docs/partners-api.svg)(Limited Release)](https://developer.ebay.com/api-docs/static/versioning.html#limited ) API available only to select developers approved by business units. For information on how to obtain access to this API in production, see the [Buy APIs Requirements](api-docs/buy/static/buy-requirements.html).\n\nThe Feed API provides the ability to download TSV_GZIP feed files containing eBay items and an hourly snapshot file of the items that have changed within an hour for a specific category, date and marketplace. In addition to the API, there is an open source [Feed SDK](https://github.com/eBay/FeedSDK ) written in Java that downloads, combines files into a single file when needed, and unzips the entire feed file. It also lets you specify field filters to curate the items in the file.",
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/ebay.com/buy-feed/v1_beta.34.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/ebay.com/buy-feed/v1_beta.34.0/openapi.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

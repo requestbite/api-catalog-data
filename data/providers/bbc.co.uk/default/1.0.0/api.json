@@ -1,0 +1,13 @@
+{
+  "name": "Radio & Music Services",
+  "description": "We encapsulate Radio & Music business logic for iPlayer Radio and BBC Music products on all platforms. We add value by reliably providing the right blend of metadata needed by clients.",
+  "categories": [
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/bbc.co.uk/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/bbc.co.uk/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Geomag API",
+  "description": "The World Magnetic Model calculates the intensity and direction of the Earth's magnetic field on a specific date-time, geodetic altitude, latitude, and longitude. It is relied upon throughout the world for navigation, mineral exploration, atmospheric and space science, and is installed on billions of devices.\n\nA comprehensive description of the World Magnetic Model, including its  limitations, can be found [here](https://www.ngdc.noaa.gov/geomag/WMM/).\n\nWe provide a RESTful API to access the out-of-cycle  World Magnetic Model (WMM2015v2) valid for years 2015.0 - 2020.0 and WMM2020 valid for years 2020.0 - 2025.0\n\nAPI requests must contain a key \"API-Key\" in the header (see code samples). Obtain a key from  [here](https://developer.amentum.io).\n\n\nAmentum Pty Ltd is not responsible nor liable for any loss or damage of any sort incurred as a result of using the API.\n\nHelp us improve the quality of our web APIs by completing our 2 minute survey [here](https://www.surveymonkey.com/r/CTDTRBN).\n\nCopyright [Amentum Pty Ltd](https://amentum.space) 2021.",
+  "categories": [
+    "location"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amentum.space/global-magnet/1.3.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amentum.space/global-magnet/1.3.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

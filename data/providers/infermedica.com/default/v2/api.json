@@ -1,0 +1,11 @@
+{
+  "name": "Infermedica API",
+  "description": "Empower your healthcare services with intelligent diagnostic insights of Infermedica API.",
+  "categories": [],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/infermedica.com/v2/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/infermedica.com/v2/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

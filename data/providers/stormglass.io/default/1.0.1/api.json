@@ -1,0 +1,13 @@
+{
+  "name": "Storm Glass Marine Weather",
+  "description": "Global marine weather data from multiple sources in one single API with hourly resolution. Get your API key by visiting the Storm Glass web site.",
+  "categories": [
+    "location"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/stormglass.io/1.0.1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/stormglass.io/1.0.1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

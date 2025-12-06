@@ -1,0 +1,13 @@
+{
+  "name": "AmazonMWAA",
+  "description": "Amazon Managed Workflows for Apache Airflow This section contains the Amazon Managed Workflows for Apache Airflow (MWAA) API reference documentation. For more information, see [What Is Amazon MWAA?](https://docs.aws.amazon.com/mwaa/latest/userguide/what-is-mwaa.html).\n\n**Endpoints**\n\n-   `api.airflow.{region}.amazonaws.com` - This endpoint is used for environment management.\n\n-  [CreateEnvironment](https://docs.aws.amazon.com/mwaa/latest/API/API_CreateEnvironment.html)\n-  [DeleteEnvironment](https://docs.aws.amazon.com/mwaa/latest/API/API_DeleteEnvironment.html)\n-  [GetEnvironment](https://docs.aws.amazon.com/mwaa/latest/API/API_GetEnvironment.html)\n-  [ListEnvironments](https://docs.aws.amazon.com/mwaa/latest/API/API_ListEnvironments.html)\n-  [ListTagsForResource](https://docs.aws.amazon.com/mwaa/latest/API/API_ListTagsForResource.html)\n-  [TagResource](https://docs.aws.amazon.com/mwaa/latest/API/API_TagResource.html)\n-  [UntagResource](https://docs.aws.amazon.com/mwaa/latest/API/API_UntagResource.html)\n-  [UpdateEnvironment](https://docs.aws.amazon.com/mwaa/latest/API/API_UpdateEnvironment.html)\n-   `env.airflow.{region}.amazonaws.com` - This endpoint is used to operate the Airflow environment.\n\n-  [CreateCliToken](https://docs.aws.amazon.com/mwaa/latest/API/API_CreateCliToken.html )\n-  [CreateWebLoginToken](https://docs.aws.amazon.com/mwaa/latest/API/API_CreateWebLoginToken.html)\n-   `ops.airflow.{region}.amazonaws.com` - This endpoint is used to push environment metrics that track environment health.\n\n-  [PublishMetrics](https://docs.aws.amazon.com/mwaa/latest/API/API_PublishMetrics.html )      **Regions**\n\nFor a list of regions that Amazon MWAA supports, see [Region availability](https://docs.aws.amazon.com/mwaa/latest/userguide/what-is-mwaa.html#regions-mwaa) in the *Amazon MWAA User Guide*.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/mwaa/2020-07-01/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/mwaa/2020-07-01/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/airflow/",
+  "source": "apis.guru"
+}

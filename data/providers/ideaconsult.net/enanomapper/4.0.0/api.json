@@ -1,0 +1,13 @@
+{
+  "name": "eNanoMapper database",
+  "description": "AMBIT REST web services [eNanoMapper profile] with free text & faceted search",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/ideaconsult.net/enanomapper/4.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/ideaconsult.net/enanomapper/4.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://search.data.enanomapper.net",
+  "source": "apis.guru"
+}

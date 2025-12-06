@@ -1,0 +1,14 @@
+{
+  "name": "Firebase Rules API",
+  "description": "Creates and manages rules that determine when a Firebase Rules-enabled service should permit a request. ",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/firebaserules/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/firebaserules/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://firebase.google.com/docs/storage/security",
+  "source": "apis.guru"
+}

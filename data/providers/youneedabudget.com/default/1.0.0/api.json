@@ -1,0 +1,13 @@
+{
+  "name": "YNAB API Endpoints",
+  "description": "Our API uses a REST based design, leverages the JSON data format, and relies upon HTTPS for transport. We respond with meaningful HTTP response codes and if an error occurs, we include error details in the response body.  API Documentation is at https://api.youneedabudget.com",
+  "categories": [
+    "finance"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/youneedabudget.com/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/youneedabudget.com/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

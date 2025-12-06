@@ -1,0 +1,13 @@
+{
+  "name": "Personnel Data",
+  "description": "API for reading and writing personnel data incl. data about attendances and absences",
+  "categories": [
+    "enterprise"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/personio.de/personnel/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/personio.de/personnel/1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

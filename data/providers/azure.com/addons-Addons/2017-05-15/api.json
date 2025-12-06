@@ -1,0 +1,13 @@
+{
+  "name": "Azure Addons Resource Provider",
+  "description": "The service for managing third party addons.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/addons-Addons/2017-05-15/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/addons-Addons/2017-05-15/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

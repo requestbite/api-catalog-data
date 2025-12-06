@@ -1,0 +1,14 @@
+{
+  "name": "Security Token Service API",
+  "description": "The Security Token Service exchanges Google or third-party credentials for a short-lived access token to Google Cloud resources.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/sts/v1beta/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/sts/v1beta/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "http://cloud.google.com/iam/docs/workload-identity-federation",
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Rail Station Information",
+  "description": "Rail line and station information, including locations, fares, times, and parking.",
+  "categories": [
+    "transport"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/wmata.com/rail-station/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/wmata.com/rail-station/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

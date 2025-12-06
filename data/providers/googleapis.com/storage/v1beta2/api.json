@@ -1,0 +1,14 @@
+{
+  "name": "Cloud Storage JSON API",
+  "description": "Lets you store and retrieve potentially-large, immutable data objects.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/storage/v1beta2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/storage/v1beta2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/storage/docs/json_api/",
+  "source": "apis.guru"
+}

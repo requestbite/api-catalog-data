@@ -1,0 +1,13 @@
+{
+  "name": "Datto|Autotask PSA Rest API",
+  "description": null,
+  "categories": [
+    "tools"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/autotask.net/v1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/autotask.net/v1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

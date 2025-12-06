@@ -1,0 +1,13 @@
+{
+  "name": "DaniWeb Connect API",
+  "description": "User Recommendation Engine and Chat Network",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/daniweb.com/4/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/daniweb.com/4/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://www.daniweb.com/connect/developers",
+  "source": "apis.guru"
+}

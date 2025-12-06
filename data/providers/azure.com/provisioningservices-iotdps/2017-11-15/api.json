@@ -1,0 +1,13 @@
+{
+  "name": "iotDpsClient",
+  "description": "API for using the Azure IoT Hub Device Provisioning Service features.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/provisioningservices-iotdps/2017-11-15/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/provisioningservices-iotdps/2017-11-15/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

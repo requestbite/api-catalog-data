@@ -1,0 +1,13 @@
+{
+  "name": "DRACOON API",
+  "description": "REST Web Services for DRACOON\n\nThis page provides an overview of all available and documented DRACOON APIs, which are grouped by tags.\nEach tag provides a collection of APIs that are intended for a specific area of the DRACOON.\n\n[Developer Information](https://developer.dracoon.com)&emsp;&emsp;[Get SDKs on GitHub](https://github.com/dracoon)\n\n[Terms of service](https://www.dracoon.com/terms/general-terms-and-conditions/)",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/dracoon.team/4.42.2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/dracoon.team/4.42.2/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

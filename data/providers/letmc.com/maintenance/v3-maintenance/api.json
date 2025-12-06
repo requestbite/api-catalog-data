@@ -1,0 +1,13 @@
+{
+  "name": "agentOS API V3, Maintenance Call Group",
+  "description": null,
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/letmc.com/maintenance/v3-maintenance/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/letmc.com/maintenance/v3-maintenance/openapi.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

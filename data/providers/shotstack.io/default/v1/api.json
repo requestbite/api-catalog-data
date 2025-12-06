@@ -1,0 +1,13 @@
+{
+  "name": "Shotstack",
+  "description": "Shotstack is a video, image and audio editing service that allows for the automated generation of videos, images and audio using JSON and a RESTful API.\n\nYou arrange and configure an edit and POST it to the API which will render your media and provide a file  location when complete.\n\nFor more details visit [shotstack.io](https://shotstack.io) or checkout our [getting started](https://shotstack.gitbook.io/docs/guides/getting-started) documentation.\nThere are two main API's, one for editing and generating assets (Edit API) and one for managing hosted assets (Serve API).\n\nThe Edit API base URL is: **https://api.shotstack.io/{version}**\n\nThe Serve API base URL is: **https://api.shotstack.io/serve/{version}**",
+  "categories": [
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/shotstack.io/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/shotstack.io/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

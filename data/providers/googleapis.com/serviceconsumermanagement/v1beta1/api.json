@@ -1,0 +1,14 @@
+{
+  "name": "Service Consumer Management API",
+  "description": "Manages the service consumers of a Service Infrastructure service.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/serviceconsumermanagement/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/serviceconsumermanagement/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/service-consumer-management/docs/overview",
+  "source": "apis.guru"
+}

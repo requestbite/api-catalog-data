@@ -1,0 +1,13 @@
+{
+  "name": "Reliance General Insurance Company Ltd",
+  "description": "Insurance policies issued by Reliance General Insurance Company Limited  is available on DigiLocker at (https://www.reliancegeneral.co.in) can be fetched by Citizens into their DigiLocker accounts",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/reliancegeneral/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/reliancegeneral/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

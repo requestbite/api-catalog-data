@@ -1,0 +1,14 @@
+{
+  "name": "Google Civic Information API",
+  "description": "Provides polling places, early vote locations, contest data, election officials, and government representatives for U.S. residential addresses.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/civicinfo/v2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/civicinfo/v2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/civic-information/",
+  "source": "apis.guru"
+}

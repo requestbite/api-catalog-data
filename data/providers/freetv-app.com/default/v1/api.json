@@ -1,0 +1,13 @@
+{
+  "name": "News Plugin",
+  "description": "A plugin that allows the user to obtain and summary latest news using ChatGPT. If you do not know the user's username, ask them first before making queries to the plugin. Otherwise, use the username \"global\".",
+  "categories": [
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/freetv-app.com/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/freetv-app.com/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

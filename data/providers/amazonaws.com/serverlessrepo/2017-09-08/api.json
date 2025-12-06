@@ -1,0 +1,13 @@
+{
+  "name": "AWSServerlessApplicationRepository",
+  "description": "The AWS Serverless Application Repository makes it easy for developers and enterprises to quickly find\nand deploy serverless applications in the AWS Cloud. For more information about serverless applications,\nsee Serverless Computing and Applications on the AWS website.\n\nThe AWS Serverless Application Repository is deeply integrated with the AWS Lambda console, so that developers of\nall levels can get started with serverless computing without needing to learn anything new. You can use category\nkeywords to browse for applications such as web and mobile backends, data processing applications, or chatbots.\nYou can also search for applications by name, publisher, or event source. To use an application, you simply choose it,\nconfigure any required fields, and deploy it with a few clicks.\n\nYou can also easily publish applications, sharing them publicly with the community at large, or privately\nwithin your team or across your organization. To publish a serverless application (or app), you can use the\nAWS Management Console, AWS Command Line Interface (AWS CLI), or AWS SDKs to upload the code. Along with the\ncode, you upload a simple manifest file, also known as the AWS Serverless Application Model (AWS SAM) template.\nFor more information about AWS SAM, see AWS Serverless Application Model (AWS SAM) on the AWS Labs\nGitHub repository.\n\nThe AWS Serverless Application Repository Developer Guide contains more information about the two developer\nexperiences available:\n\n-\nConsuming Applications – Browse for applications and view information about them, including\nsource code and readme files. Also install, configure, and deploy applications of your choosing.\n\nPublishing Applications – Configure and upload applications to make them available to other\ndevelopers, and publish new versions of applications.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/serverlessrepo/2017-09-08/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/serverlessrepo/2017-09-08/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/serverlessrepo/",
+  "source": "apis.guru"
+}

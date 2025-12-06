@@ -1,0 +1,13 @@
+{
+  "name": "Rat Genome Database REST API",
+  "description": "The RGD REST API provides programmatic access to information and annotation stored in the Rat Genome Database",
+  "categories": [
+    "open_data"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mcw.edu/1.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mcw.edu/1.1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

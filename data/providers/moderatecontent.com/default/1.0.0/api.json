@@ -1,0 +1,13 @@
+{
+  "name": "Image Moderation",
+  "description": "Our FREE API blocks images with nudity. Build from the ground up, accurate models, best in class support, great price.",
+  "categories": [
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/moderatecontent.com/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/moderatecontent.com/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://www.moderatecontent.com",
+  "source": "apis.guru"
+}

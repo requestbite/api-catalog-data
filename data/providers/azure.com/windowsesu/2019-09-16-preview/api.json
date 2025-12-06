@@ -1,0 +1,13 @@
+{
+  "name": "windowsesu",
+  "description": "Manage Multi-Access Keys (MAK) that enable Windows Extended Security Updates (ESU).",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/windowsesu/2019-09-16-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/windowsesu/2019-09-16-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

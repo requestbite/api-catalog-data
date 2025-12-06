@@ -1,0 +1,13 @@
+{
+  "name": "App Store Connect API",
+  "description": null,
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apple.com/app-store-connect/1.4.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apple.com/app-store-connect/1.4.1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": "https://developer.apple.com/documentation/appstoreconnectapi",
+  "source": "apis.guru"
+}

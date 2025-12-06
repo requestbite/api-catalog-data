@@ -1,0 +1,13 @@
+{
+  "name": "AWS RoboMaker",
+  "description": "This section provides documentation for the AWS RoboMaker API operations.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/robomaker/2018-06-29/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/robomaker/2018-06-29/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/robomaker/",
+  "source": "apis.guru"
+}

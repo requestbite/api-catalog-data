@@ -1,0 +1,13 @@
+{
+  "name": "Amazon Route 53",
+  "description": "Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service.\n\nYou can use Route 53 to:\n\n-  Register domain names.\n\nFor more information, see [How domain registration works](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/welcome-domain-registration.html).\n\n\n-  Route internet traffic to the resources for your domain\n\nFor more information, see [How internet traffic is routed to your website or web application](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/welcome-dns-service.html).\n\n\n-  Check the health of your resources.\n\nFor more information, see [How Route 53 checks the health of your resources](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/welcome-health-checks.html).",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/route53/2013-04-01/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/route53/2013-04-01/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/route53/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Movie Reviews API",
+  "description": "With the Movie Reviews API, you can search New York Times movie reviews by keyword and get lists of NYT Critics' Picks.",
+  "categories": [
+    "media",
+    "open_data"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/nytimes.com/movie_reviews/2.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/nytimes.com/movie_reviews/2.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "http://developer.nytimes.com/",
+  "source": "apis.guru"
+}

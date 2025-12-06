@@ -1,0 +1,14 @@
+{
+  "name": "Cloud Spanner API",
+  "description": "Cloud Spanner is a managed, mission-critical, globally consistent and scalable relational database service.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/spanner/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/spanner/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/spanner/",
+  "source": "apis.guru"
+}

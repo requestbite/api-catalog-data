@@ -1,0 +1,14 @@
+{
+  "name": "Data Labeling API",
+  "description": "Public API for Google Cloud AI Data Labeling Service.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/datalabeling/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/datalabeling/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/data-labeling/docs/",
+  "source": "apis.guru"
+}

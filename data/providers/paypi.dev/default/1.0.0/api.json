@@ -1,0 +1,13 @@
+{
+  "name": "EmailVerify",
+  "description": "OTP email verification API by PayPI.\n\nEmailVerify provides a simple way to verify email addresses. We send emails ourselves taking the burden of setting up email systems and tracking codes.\n\nTo learn more about this API, check out [EmailVerify documentation](https://emailverify.paypi.dev/)\n\n## Authentication\nAll requests to the EmailVerify API must be authenticated with an API Key. To get an API key, subscribe to the EmailVerify [here](https://app.paypi.dev/subscribe/c2VydmljZTo1OGQxZDNmMy05OWQ5LTQ3ZjYtOWJkNi02OWNkMTY1OGFmOWU=).  \\\nSet your `Authorization` header to `Bearer YOUR-API-KEY`.\n```\ncurl\n-H \"Content-Type: application/json\" \\\n-H \"Authorization: Bearer YOUR-API-KEY\" \\\n...\n```",
+  "categories": [
+    "email"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/paypi.dev/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/paypi.dev/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

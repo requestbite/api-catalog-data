@@ -1,0 +1,14 @@
+{
+  "name": "Firebase Cloud Messaging Data API",
+  "description": "Provides additional information about Firebase Cloud Messaging (FCM) message sends and deliveries.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/fcmdata/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/fcmdata/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://firebase.google.com/docs/cloud-messaging",
+  "source": "apis.guru"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "MasterData API - v1",
+  "description": null,
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/vtex.local/MasterData-API-/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/vtex.local/MasterData-API-/1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

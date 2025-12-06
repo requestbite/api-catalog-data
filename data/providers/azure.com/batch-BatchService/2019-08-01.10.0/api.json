@@ -1,0 +1,13 @@
+{
+  "name": "BatchService",
+  "description": "A client for issuing REST requests to the Azure Batch service.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/batch-BatchService/2019-08-01.10.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/batch-BatchService/2019-08-01.10.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

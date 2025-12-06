@@ -1,0 +1,13 @@
+{
+  "name": "WeGA API",
+  "description": "⚠️**DEPRECATION WARNING**⚠️\nThis version of the WeGA API specification is outdated and superseded by [version 1.1.0](https://weber-gesamtausgabe.de/api/v1/openapi.json).\n\nFor feedback or requests about this API please contact stadler@weber-gesamtausgabe.de or start the discussion at https://github.com/Edirom/WeGA-WebApp",
+  "categories": [
+    "open_data"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/weber-gesamtausgabe.de/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/weber-gesamtausgabe.de/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Accounting API",
+  "description": "A flexible API for pulling accounting data, normalized and aggregated from 20 accounting integrations.\n\nStandardize how you connect to your customers’ accounting software. View, create, update, and delete data in the same way for all the leading accounting platforms.\n\n[Read more...](https://docs.codat.io/accounting-api/overview)\n\n[See our OpenAPI spec](https://github.com/codatio/oas)    ",
+  "categories": [
+    "finance"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/codat.io/accounting/2.1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/codat.io/accounting/2.1.0/openapi.yaml",
+  "openApiVersion": "3.1.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

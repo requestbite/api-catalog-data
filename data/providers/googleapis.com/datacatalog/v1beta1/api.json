@@ -1,0 +1,14 @@
+{
+  "name": "Google Cloud Data Catalog API",
+  "description": "A fully managed and highly scalable data discovery and metadata management service. ",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/datacatalog/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/datacatalog/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/data-catalog/docs/",
+  "source": "apis.guru"
+}

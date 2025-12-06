@@ -1,0 +1,13 @@
+{
+  "name": "NHL v3 Stats",
+  "description": null,
+  "categories": [
+    "entertainment"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/sportsdata.io/nhl-v3-stats/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/sportsdata.io/nhl-v3-stats/1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

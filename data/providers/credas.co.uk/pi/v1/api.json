@@ -1,0 +1,13 @@
+{
+  "name": "Credas API",
+  "description": null,
+  "categories": [
+    "security"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/credas.co.uk/pi/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/credas.co.uk/pi/v1/openapi.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

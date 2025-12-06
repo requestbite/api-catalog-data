@@ -1,0 +1,13 @@
+{
+  "name": "Europeana Search & Record API",
+  "description": "This Swagger API console provides an overview of the Europeana Search & Record API. You can build and test anything from the simplest search to a complex query using facetList such as dates, geotags and permissions. For more help and information, head to our comprehensive [online documentation](https://pro.europeana.eu/page/intro).",
+  "categories": [
+    "open_data"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/europeana.eu/version unknown/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/europeana.eu/version unknown/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

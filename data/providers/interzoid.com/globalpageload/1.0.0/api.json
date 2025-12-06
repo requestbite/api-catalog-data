@@ -1,0 +1,13 @@
+{
+  "name": "Interzoid Global Page Load Performance API",
+  "description": "This API provides a timed, browser-simulated page load function (or a measured API call) from the specified geography using a server from that geography.",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/interzoid.com/globalpageload/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/interzoid.com/globalpageload/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://www.interzoid.com/services/globalpageload",
+  "source": "apis.guru"
+}

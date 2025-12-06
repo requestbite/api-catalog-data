@@ -1,0 +1,13 @@
+{
+  "name": "Amazon Transcribe Service",
+  "description": "Amazon Transcribe offers three main types of batch transcription: **Standard**, **Medical**, and **Call Analytics**.\n\n\n-  **Standard transcriptions** are the most common option. Refer to for details.\n-  **Medical transcriptions** are tailored to medical professionals and incorporate medical terms. A common use case for this service is transcribing doctor-patient dialogue into after-visit notes. Refer to for details.\n-  **Call Analytics transcriptions** are designed for use with call center audio on two different channels; if you're looking for insight into customer service calls, use this option. Refer to for details.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/transcribe/2017-10-26/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/transcribe/2017-10-26/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/transcribe/",
+  "source": "apis.guru"
+}

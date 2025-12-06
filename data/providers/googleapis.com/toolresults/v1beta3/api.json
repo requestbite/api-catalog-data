@@ -1,0 +1,14 @@
+{
+  "name": "Cloud Tool Results API",
+  "description": "API to publish and access results from developer tools.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/toolresults/v1beta3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/toolresults/v1beta3/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://firebase.google.com/docs/test-lab/",
+  "source": "apis.guru"
+}

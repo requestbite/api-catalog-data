@@ -1,0 +1,13 @@
+{
+  "name": "AWS IoT 1-Click Devices Service",
+  "description": "Describes all of the AWS IoT 1-Click device-related API operations for the service.\n Also provides sample requests, responses, and errors for the supported web services\n protocols.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/iot1click-devices/2018-05-14/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/iot1click-devices/2018-05-14/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/iot1click/",
+  "source": "apis.guru"
+}

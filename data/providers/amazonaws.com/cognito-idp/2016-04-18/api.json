@@ -1,0 +1,13 @@
+{
+  "name": "Amazon Cognito Identity Provider",
+  "description": "Using the Amazon Cognito user pools API, you can create a user pool to manage directories and users. You can authenticate a user to obtain tokens related to user identity and access policies.\n\nThis API reference provides information about user pools in Amazon Cognito user pools.\n\nFor more information, see the [Amazon Cognito Documentation](https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html).",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/cognito-idp/2016-04-18/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/cognito-idp/2016-04-18/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/cognito-idp/",
+  "source": "apis.guru"
+}

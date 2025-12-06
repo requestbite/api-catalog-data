@@ -1,0 +1,13 @@
+{
+  "name": "CS:GO v3 Scores",
+  "description": "CS:GO v3 Scores",
+  "categories": [
+    "entertainment"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/sportsdata.io/csgo-v3-scores/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/sportsdata.io/csgo-v3-scores/1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

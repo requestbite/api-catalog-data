@@ -1,0 +1,14 @@
+{
+  "name": "BigQuery Connection API",
+  "description": "Allows users to manage BigQuery connections to external data sources.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/bigqueryconnection/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/bigqueryconnection/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/bigquery/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Pricing API",
+  "description": "The API to retrieve pricing information.\nPlease note the Pricing API is rate limited to one request per second.",
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/nexmo.com/pricing/0.0.3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/nexmo.com/pricing/0.0.3/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

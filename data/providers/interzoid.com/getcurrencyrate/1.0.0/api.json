@@ -1,0 +1,13 @@
+{
+  "name": "Interzoid Get Currency Rate API",
+  "description": "This API retrieves the latest currency exchange rate, against the US Dollar, for the given three-letter international currency code. These currency rates are compiled from many global sources and are updated several times per day.",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/interzoid.com/getcurrencyrate/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/interzoid.com/getcurrencyrate/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://www.interzoid.com/services/getcurrencyrate",
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Aggregators API Service",
+  "description": "Aggregators API",
+  "categories": [
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/zeno.fm/0.6-99cfdac/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/zeno.fm/0.6-99cfdac/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

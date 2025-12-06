@@ -1,0 +1,13 @@
+{
+  "name": "Azure Metrics",
+  "description": "A client for issuing REST requests to the Azure metrics service.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/monitor-metricsCreate_API/2018-09-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/monitor-metricsCreate_API/2018-09-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

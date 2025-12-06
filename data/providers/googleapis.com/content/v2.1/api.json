@@ -1,0 +1,14 @@
+{
+  "name": "Content API for Shopping",
+  "description": "Manage your product listings and accounts for Google Shopping",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/content/v2.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/content/v2.1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/shopping-content/v2/",
+  "source": "apis.guru"
+}

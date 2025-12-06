@@ -1,0 +1,13 @@
+{
+  "name": "Story",
+  "description": "This API is the main entry point for creating, editing and publishing analytics throught the Presalytics API",
+  "categories": [
+    "analytics"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/presalytics.io/story/0.3.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/presalytics.io/story/0.3.1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "LanguageTool API",
+  "description": "Check texts for style and grammar issues with [LanguageTool](https://languagetool.org). Please consider the following default limitations:\n- your daily request limit depending on [your plan](https://languagetool.org/editor/settings/access-tokens)\n- maximum number of requests per minute: 20 (free) / 80 (Premium)\n- maximum number of characters per minute: 75,000 (free) / 300,000 (Premium)\n- maximum number of characters per request: 20,000 (free) / 60,000 (Premium)\n- for the free version, also consider the [limitations documented here](https://dev.languagetool.org/public-http-api)\n- **Note:** any parameters or outputs not part of this documentation are internal and must not be relied on Need more generous limits? Just [contact us](https://languagetool.org/proofreading-api).",
+  "categories": [
+    "text"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/languagetool.org/1.1.2/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/languagetool.org/1.1.2/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

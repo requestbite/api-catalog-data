@@ -1,0 +1,13 @@
+{
+  "name": "Open Data API",
+  "description": "Latest Swagger specification for OpenData",
+  "categories": [
+    "finance"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/openbanking.org.uk/v1.3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/openbanking.org.uk/v1.3/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

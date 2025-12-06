@@ -1,0 +1,13 @@
+{
+  "name": "reverb",
+  "description": "reverb",
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/reverb.com/3.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/reverb.com/3.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://dev.reverb.com/",
+  "source": "apis.guru"
+}

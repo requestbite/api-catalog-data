@@ -1,0 +1,13 @@
+{
+  "name": "Azure Reservation",
+  "description": "Microsoft Azure Quota Resource Provider.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/reservations-quota/2019-07-19-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/reservations-quota/2019-07-19-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

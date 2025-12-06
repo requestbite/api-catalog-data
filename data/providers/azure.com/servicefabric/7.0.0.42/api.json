@@ -1,0 +1,13 @@
+{
+  "name": "Service Fabric Client APIs",
+  "description": "Service Fabric REST Client APIs allows management of Service Fabric clusters, applications and services.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/servicefabric/7.0.0.42/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/servicefabric/7.0.0.42/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

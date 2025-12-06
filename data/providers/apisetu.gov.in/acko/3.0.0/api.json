@@ -1,0 +1,13 @@
+{
+  "name": "Acko General Insurance Limited",
+  "description": "Insurance policies issued by Acko General Insurance (https://www.acko.com) can be fetched by the citizens in their Digilocker accounts.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/acko/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/acko/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

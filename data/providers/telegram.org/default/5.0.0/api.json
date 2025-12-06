@@ -1,0 +1,13 @@
+{
+  "name": "Telegram Bot API",
+  "description": "Auto-generated OpenAPI schema",
+  "categories": [
+    "messaging"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/telegram.org/5.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/telegram.org/5.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://core.telegram.org/bots/api",
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "IoE² IoT API - to create end-user applications",
+  "description": null,
+  "categories": [
+    "iot"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/ijenko.net/3.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/ijenko.net/3.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

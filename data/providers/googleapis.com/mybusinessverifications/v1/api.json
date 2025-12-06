@@ -1,0 +1,14 @@
+{
+  "name": "My Business Verifications API",
+  "description": "The My Business Verifications API provides an interface for taking verifications related actions for locations.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/mybusinessverifications/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/mybusinessverifications/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/my-business/",
+  "source": "apis.guru"
+}

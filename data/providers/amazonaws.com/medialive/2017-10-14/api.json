@@ -1,0 +1,13 @@
+{
+  "name": "AWS Elemental MediaLive",
+  "description": "API for AWS Elemental MediaLive",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/medialive/2017-10-14/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/medialive/2017-10-14/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/medialive/",
+  "source": "apis.guru"
+}

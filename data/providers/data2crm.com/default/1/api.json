@@ -1,0 +1,11 @@
+{
+  "name": "Data2CRM.API",
+  "description": "Make use of our in-depth documentation to get more information about the various functions of the service. Those willing to explore the mechanics of Data2CRM.API can test it in live regime using the short code samples.\n\nSelect CRM: Loading... please wait\n\nHere are the API access keys:\n**X-API2CRM-USER-KEY**: e2a6379ab878ae7e58119d4ec842bf9c\n**X-API2CRM-APPLICATION-KEY**: 7ae5b17008fb414d84981191cf3b66a476ef8bef\n\nThe CRM access details are:\n**URL**: [https://login.salesforce.com/](https://login.salesforce.com/)\n**E-mail / Username**: developers.data2crm.api+1@magneticone.com\n**Password**: data2crmapi123",
+  "categories": [],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/data2crm.com/1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/data2crm.com/1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "http://www.data2crm.com/api/",
+  "source": "apis.guru"
+}

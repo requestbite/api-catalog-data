@@ -1,0 +1,13 @@
+{
+  "name": "Yodlee Core APIs",
+  "description": "This file describes the Yodlee Platform APIs using the swagger notation. You can use this swagger file to generate client side SDKs to the Yodlee Platform APIs for many different programming languages. Yodlee supports the Java SDK and it is available [here](https://developer.yodlee.com/java-sdk-overview ). You can generate a client SDK for Python, Java, JavaScript, PHP or other languages according to your development needs. For more details about the APIs, refer to [Yodlee API v1.1 - Overview](https://developer.yodlee.com/docs/api/1.1/Overview).",
+  "categories": [
+    "finance"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/yodlee.com/1.1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/yodlee.com/1.1.0/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

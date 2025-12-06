@@ -1,0 +1,13 @@
+{
+  "name": "Recommendation API",
+  "description": "The **Recommendation API** returns information that sellers can use to optimize the configuration of their listings on eBay.\n\nCurrently, the API contains a single method, **findListingRecommendations**. This method provides information that sellers can use to configure Promoted Listings ad campaigns to maximize the visibility of their items in the eBay marketplace.",
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/ebay.com/sell-recommendation/1.1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/ebay.com/sell-recommendation/1.1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

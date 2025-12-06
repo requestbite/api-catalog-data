@@ -1,0 +1,13 @@
+{
+  "name": "AdvisorManagementClient",
+  "description": "REST APIs for Azure Advisor",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/advisor/2020-01-01/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/advisor/2020-01-01/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

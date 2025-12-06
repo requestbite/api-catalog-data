@@ -1,0 +1,11 @@
+{
+  "name": "SKU Bindings API",
+  "description": null,
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/vtex.local/SKU-Bindings-API/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/vtex.local/SKU-Bindings-API/1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Cloud Workstations API",
+  "description": null,
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/workstations/v1beta/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/workstations/v1beta/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/workstations",
+  "source": "apis.guru"
+}

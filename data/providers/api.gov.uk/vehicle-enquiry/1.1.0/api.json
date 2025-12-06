@@ -1,0 +1,13 @@
+{
+  "name": "Vehicle Enquiry API",
+  "description": "Interface specification for the DVLA Vehicle Enquiry API",
+  "categories": [
+    "open_data"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/api.gov.uk/vehicle-enquiry/1.1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/api.gov.uk/vehicle-enquiry/1.1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

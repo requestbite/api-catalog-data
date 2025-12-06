@@ -1,0 +1,13 @@
+{
+  "name": "StorSimpleManagementClient",
+  "description": null,
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/storSimple1200Series-StorSimple/2016-10-01/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/storSimple1200Series-StorSimple/2016-10-01/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

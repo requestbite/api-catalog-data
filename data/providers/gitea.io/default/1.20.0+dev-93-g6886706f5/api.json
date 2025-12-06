@@ -1,0 +1,13 @@
+{
+  "name": "Gitea API.",
+  "description": "This documentation describes the Gitea API.",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/gitea.io/1.20.0+dev-93-g6886706f5/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/gitea.io/1.20.0+dev-93-g6886706f5/openapi.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

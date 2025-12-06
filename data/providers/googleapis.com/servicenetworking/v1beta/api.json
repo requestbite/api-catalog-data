@@ -1,0 +1,14 @@
+{
+  "name": "Service Networking API",
+  "description": "Provides automatic management of network configurations necessary for certain services.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/servicenetworking/v1beta/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/servicenetworking/v1beta/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/service-infrastructure/docs/service-networking/getting-started",
+  "source": "apis.guru"
+}

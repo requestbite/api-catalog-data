@@ -1,0 +1,14 @@
+{
+  "name": "Cloud AutoML API",
+  "description": "Train high-quality custom machine learning models with minimum effort and machine learning expertise.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/automl/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/automl/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/automl",
+  "source": "apis.guru"
+}

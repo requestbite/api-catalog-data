@@ -1,0 +1,13 @@
+{
+  "name": "SelectPdf HTML To PDF API",
+  "description": "SelectPdf HTML To PDF Online REST API is a professional solution that lets you create PDF from web pages and raw HTML code in your applications. The API is easy to use and the integration takes only a few lines of code.",
+  "categories": [
+    "text"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/selectpdf.com/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/selectpdf.com/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

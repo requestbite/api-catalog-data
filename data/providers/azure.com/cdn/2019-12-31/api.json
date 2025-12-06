@@ -1,0 +1,13 @@
+{
+  "name": "CdnManagementClient",
+  "description": "Use these APIs to manage Azure CDN resources through the Azure Resource Manager. You must make sure that requests made to these resources are secure.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/cdn/2019-12-31/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/cdn/2019-12-31/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

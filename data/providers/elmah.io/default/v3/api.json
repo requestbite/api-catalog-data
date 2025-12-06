@@ -1,0 +1,13 @@
+{
+  "name": "elmah.io API",
+  "description": "This is the public REST API for elmah.io. All of the integrations communicates with elmah.io through this API.\n\nFor additional help getting started with the API, visit the following help articles:\n\n- [Using the REST API](https://docs.elmah.io/using-the-rest-api/)\n- [Where is my API key?](https://docs.elmah.io/where-is-my-api-key/)\n- [Where is my log ID?](https://docs.elmah.io/where-is-my-log-id/)\n- [How to configure API key permissions](https://docs.elmah.io/how-to-configure-api-key-permissions/)",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/elmah.io/v3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/elmah.io/v3/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

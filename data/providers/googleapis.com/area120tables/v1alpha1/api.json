@@ -1,0 +1,14 @@
+{
+  "name": "Area120 Tables API",
+  "description": null,
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/area120tables/v1alpha1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/area120tables/v1alpha1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://support.google.com/area120-tables/answer/10011390",
+  "source": "apis.guru"
+}

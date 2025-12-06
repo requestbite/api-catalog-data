@@ -1,0 +1,13 @@
+{
+  "name": "Amazon FSx",
+  "description": "Amazon FSx is a fully managed service that makes it easy for storage and application administrators to launch and use shared file storage.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/fsx/2018-03-01/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/fsx/2018-03-01/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/fsx/",
+  "source": "apis.guru"
+}

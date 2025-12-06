@@ -1,0 +1,14 @@
+{
+  "name": "Firebase Dynamic Links API",
+  "description": "Programmatically creates and manages Firebase Dynamic Links.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/firebasedynamiclinks/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/firebasedynamiclinks/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://firebase.google.com/docs/dynamic-links/",
+  "source": "apis.guru"
+}

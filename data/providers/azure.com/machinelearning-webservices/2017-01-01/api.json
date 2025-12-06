@@ -1,0 +1,13 @@
+{
+  "name": "Azure ML Web Services Management Client",
+  "description": "These APIs allow end users to operate on Azure Machine Learning Web Services resources. They support the following operations:\n- Create or update a web service\n- Get a web service\n- Patch a web service\n- Delete a web service\n- Get All Web Services in a Resource Group\n- Get All Web Services in a Subscription\n- Get Web Services Keys",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/machinelearning-webservices/2017-01-01/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/machinelearning-webservices/2017-01-01/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

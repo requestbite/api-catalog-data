@@ -1,0 +1,13 @@
+{
+  "name": "UP State Council of Vocational Training, Uttar Pradesh, Uttar Pradesh",
+  "description": "The State Council for Vocational Training (SCVT), Uttar Pradesh (http://www.vppup.in/) provides semester and consolidated mark sheets as well as vocational certificates for years 2013 to 2016.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/scvtup/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/scvtup/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

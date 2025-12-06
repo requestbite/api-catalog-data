@@ -1,0 +1,13 @@
+{
+  "name": "AmplifyBackend",
+  "description": "AWS Amplify Admin API",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/amplifybackend/2020-08-11/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/amplifybackend/2020-08-11/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/amplifybackend/",
+  "source": "apis.guru"
+}

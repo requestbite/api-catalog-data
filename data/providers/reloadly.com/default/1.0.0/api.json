@@ -1,0 +1,13 @@
+{
+  "name": "topupsapi",
+  "description": "Polls is a simple API allowing consumers to view polls and vote in them.",
+  "categories": [
+    "telecom"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/reloadly.com/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/reloadly.com/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

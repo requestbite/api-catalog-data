@@ -1,0 +1,13 @@
+{
+  "name": "Manav Rachna International Institute of Research & Studies",
+  "description": "Manav Rachna International Institute of Research & Studies, Faridabad (http://manavrachna.edu.in) is issuing Degree certificates through DigiLocker. These can be pulled by students into their DigiLocker accounts. Currently, data for the year 2019 is made available by Manav Rachna International Institute of Research & Studies.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/mriu/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/mriu/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "OnSched Setup API",
+  "description": "Build secure and scalable custom apps for onboarding and setup. Our flexible API provides many options for configuration.\n\n\nTake the API for a test drive. Just click on the Authorize button below and authenticate.\nYou can access our demo company profile if you are not a customer, or your own profile by using your assigned ClientId and Secret.\n\n\nThe API has two interfaces, consumer and setup.\n\n\n-\nThe consumer interface provides all the endpoints required for implementing consumer booking flows.\n\n\n-\nThe setup interface provides endpoints for profile configuration and setup.\n\n\nToggle freely between the two interfaces using the swagger tool bar option labelled 'Select a definition'.",
+  "categories": [
+    "collaboration"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/onsched.com/setup/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/onsched.com/setup/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

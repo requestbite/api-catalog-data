@@ -1,0 +1,14 @@
+{
+  "name": "NBA Stats API",
+  "description": "The destination for current and historic NBA statistics.",
+  "categories": [
+    "media",
+    "open_data"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/nba.com/version/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/nba.com/version/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

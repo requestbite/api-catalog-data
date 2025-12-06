@@ -1,0 +1,13 @@
+{
+  "name": "bng2latlong",
+  "description": "Convert an OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude.",
+  "categories": [
+    "location"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/getthedata.com/bng2latlong/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/getthedata.com/bng2latlong/1.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://www.getthedata.com/bng2latlong",
+  "source": "apis.guru"
+}

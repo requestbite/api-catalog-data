@@ -1,0 +1,13 @@
+{
+  "name": "HackathonWatch",
+  "description": null,
+  "categories": [
+    "social"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/hackathonwatch.com/0.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/hackathonwatch.com/0.1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

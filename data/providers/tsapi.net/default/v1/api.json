@@ -1,0 +1,13 @@
+{
+  "name": "TSAPI",
+  "description": null,
+  "categories": [
+    "analytics"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/tsapi.net/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/tsapi.net/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

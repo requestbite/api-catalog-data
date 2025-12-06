@@ -1,0 +1,14 @@
+{
+  "name": "Cloud Domains API",
+  "description": "Enables management and configuration of domain names.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/domains/v1beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/domains/v1beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/domains/",
+  "source": "apis.guru"
+}

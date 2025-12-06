@@ -1,0 +1,13 @@
+{
+  "name": "Listen API: Podcast Search, Directory, and Insights API",
+  "description": "Simple & no-nonsense podcast search & directory API. Search all podcasts and episodes by people, places, or topics.",
+  "categories": [
+    "entertainment"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/listennotes.com/2.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/listennotes.com/2.0/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

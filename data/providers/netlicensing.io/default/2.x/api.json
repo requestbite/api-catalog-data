@@ -1,0 +1,13 @@
+{
+  "name": "Labs64 NetLicensing RESTful API Test Center",
+  "description": "The Labs64 [NetLicensing RESTful API](https://netlicensing.io/wiki/restful-api) gives you access to NetLicensing’s core features.\n\n**Authentication**\nYou authenticate to the NetLicensing API by providing your account credentials or simply use our demo account - `demo:demo`\n\nFind out more about Labs64 NetLicensing at [netlicensing.io](https://netlicensing.io)",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/netlicensing.io/2.x/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/netlicensing.io/2.x/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

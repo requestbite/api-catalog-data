@@ -1,0 +1,11 @@
+{
+  "name": "Vonage Integration Suite",
+  "description": "The Vonage Integration Suite API enables call control and webhooks for call events.\n\nYour application must subscribe to the VonageIntegrationSuite API suite to use this API.",
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/vonage.com/vgis/1.0.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/vonage.com/vgis/1.0.1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

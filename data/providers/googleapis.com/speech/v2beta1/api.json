@@ -1,0 +1,14 @@
+{
+  "name": "Cloud Speech-to-Text API",
+  "description": "Converts audio to text by applying powerful neural network models.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/speech/v2beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/speech/v2beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/speech-to-text/docs/quickstart-protocol",
+  "source": "apis.guru"
+}

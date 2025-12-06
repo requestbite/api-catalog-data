@@ -1,0 +1,11 @@
+{
+  "name": "Subscriptions",
+  "description": "Subscriptions allow contacts to control what forms of communications they receive. Contacts can decide whether they want to receive communication pertaining to a specific topic, brand, or an entire HubSpot account.",
+  "categories": [],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/hubapi.com/communication-preferences/v3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/hubapi.com/communication-preferences/v3/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

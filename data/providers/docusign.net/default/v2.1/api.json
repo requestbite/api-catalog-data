@@ -1,0 +1,13 @@
+{
+  "name": "DocuSign REST API",
+  "description": "The DocuSign REST API provides you with a powerful, convenient, and simple Web services API for interacting with DocuSign.",
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/docusign.net/v2.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/docusign.net/v2.1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.docusign.com/esign",
+  "source": "apis.guru"
+}

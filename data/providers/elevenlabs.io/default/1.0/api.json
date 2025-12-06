@@ -1,0 +1,13 @@
+{
+  "name": "ElevenLabs API Documentation",
+  "description": "This is the documentation for the ElevenLabs API. You can use this API to use our service programmatically, this is done by using your xi-api-key.\nYou can view your xi-api-key using the 'Profile' tab on https://beta.elevenlabs.io. Our API is experimental so all endpoints are subject to change.",
+  "categories": [
+    "machine_learning"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/elevenlabs.io/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/elevenlabs.io/1.0/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

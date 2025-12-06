@@ -1,0 +1,13 @@
+{
+  "name": "Commons Votes API",
+  "description": "An API that allows querying of Commons Votes data.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/parliament.uk/commonsvotes/v1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/parliament.uk/commonsvotes/v1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

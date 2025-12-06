@@ -1,0 +1,11 @@
+{
+  "name": "Alerter System API",
+  "description": "This is the [Alerter System](/) API playground. More documentation is available at the [API Help Center](/help/developers/).\n\nThe \"Available Authorizations\" in the Authorize popup only applies to this playground web interface. Other [authorizations](/help/developers/authorization/) are available for the actual API.",
+  "categories": [],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/alertersystem.com/1.6.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/alertersystem.com/1.6.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

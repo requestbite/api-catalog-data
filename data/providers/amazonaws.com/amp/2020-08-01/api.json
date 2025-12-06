@@ -1,0 +1,13 @@
+{
+  "name": "Amazon Prometheus Service",
+  "description": "Amazon Managed Service for Prometheus",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/amp/2020-08-01/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/amp/2020-08-01/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/aps/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "CPCT-MAPIT, Madhya Pradesh",
+  "description": "Computer Proficiency Certification Exam (https://cpct.mp.gov.in) is mandatory for data entry/IT Operator/Assistant Grade-3/steno/shorthand/typist and other similar Permanent/Contractual positions in the departments, corporations and agencies in MP. The CPCT Score Card of 2016 can be pulled into citizens' DigiLocker accounts.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/cpctmp/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/cpctmp/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

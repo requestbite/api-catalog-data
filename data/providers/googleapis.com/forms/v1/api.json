@@ -1,0 +1,14 @@
+{
+  "name": "Google Forms API",
+  "description": "Reads and writes Google Forms and responses.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/forms/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/forms/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/forms/api",
+  "source": "apis.guru"
+}

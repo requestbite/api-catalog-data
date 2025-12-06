@@ -1,0 +1,13 @@
+{
+  "name": "World Time API",
+  "description": "A simple API to get the current time based on a request with a timezone.",
+  "categories": [
+    "location"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/worldtimeapi.org/20210108/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/worldtimeapi.org/20210108/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

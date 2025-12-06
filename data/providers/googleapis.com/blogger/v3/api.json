@@ -1,0 +1,14 @@
+{
+  "name": "Blogger API",
+  "description": "The Blogger API provides access to posts, comments and pages of a Blogger blog.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/blogger/v3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/blogger/v3/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/blogger/docs/3.0/getting_started",
+  "source": "apis.guru"
+}

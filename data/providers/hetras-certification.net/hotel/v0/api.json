@@ -1,0 +1,11 @@
+{
+  "name": "hetras Hotel API Version 0",
+  "description": null,
+  "categories": [],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/hetras-certification.net/hotel/v0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/hetras-certification.net/hotel/v0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

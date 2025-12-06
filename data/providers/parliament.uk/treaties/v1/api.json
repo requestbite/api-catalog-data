@@ -1,0 +1,13 @@
+{
+  "name": "Treaties API",
+  "description": "An API exposing details of the treaties laid before Parliament.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/parliament.uk/treaties/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/parliament.uk/treaties/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "SYNQ Video",
+  "description": "* [Sign up for a developer API key!](https://www.synq.fm/register)\n* [SYNQ API Guide](/)",
+  "categories": [
+    "media"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/synq.fm/1.9.1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/synq.fm/1.9.1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

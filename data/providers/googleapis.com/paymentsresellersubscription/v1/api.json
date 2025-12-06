@@ -1,0 +1,14 @@
+{
+  "name": "Payments Reseller Subscription API",
+  "description": null,
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/paymentsresellersubscription/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/paymentsresellersubscription/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/payments/reseller/subscription/",
+  "source": "apis.guru"
+}

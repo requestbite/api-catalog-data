@@ -1,0 +1,14 @@
+{
+  "name": "GKE Hub API",
+  "description": null,
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/gkehub/v2alpha/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/gkehub/v2alpha/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/anthos/multicluster-management/connect/registering-a-cluster",
+  "source": "apis.guru"
+}

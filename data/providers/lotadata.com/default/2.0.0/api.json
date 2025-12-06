@@ -1,0 +1,13 @@
+{
+  "name": "LotaData",
+  "description": "Access the most exhaustive, accurate and up-to-date collection of global and hyper-local geocoded events and activities across a wide range of categories and genres",
+  "categories": [
+    "location"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/lotadata.com/2.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/lotadata.com/2.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

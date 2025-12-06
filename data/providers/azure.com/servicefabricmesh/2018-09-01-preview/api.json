@@ -1,0 +1,13 @@
+{
+  "name": "SeaBreezeManagementClient",
+  "description": "APIs to deploy and manage resources to SeaBreeze.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/servicefabricmesh/2018-09-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/servicefabricmesh/2018-09-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

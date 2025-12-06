@@ -1,0 +1,13 @@
+{
+  "name": "AWS Elemental MediaPackage VOD",
+  "description": "AWS Elemental MediaPackage VOD",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/mediapackage-vod/2018-11-07/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/mediapackage-vod/2018-11-07/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/mediapackage-vod/",
+  "source": "apis.guru"
+}

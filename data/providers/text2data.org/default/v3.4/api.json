@@ -1,0 +1,13 @@
+{
+  "name": "Text Analytics & Sentiment Analysis API | api.text2data.com",
+  "description": "The current api version is **v3.4**\n\nThe api methods listed below can be called directly from this page to test the output. You might set the api_key to pre-authenticate all requests on this page (this will work if your secret is blank).\n\nAPI endpoint URL: http://{apiName}.text2data.com/v3/ {method}\n\nThe api can be consumed directly or using our SDK. Our Excel Add-In and Google Sheets Add-on are also using this api to process the data.",
+  "categories": [
+    "text"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/text2data.org/v3.4/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/text2data.org/v3.4/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

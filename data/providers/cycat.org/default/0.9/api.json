@@ -1,0 +1,13 @@
+{
+  "name": "CyCAT.org API",
+  "description": "CyCAT - The Cybersecurity Resource Catalogue public API services.",
+  "categories": [
+    "security"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/cycat.org/0.9/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/cycat.org/0.9/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

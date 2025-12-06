@@ -1,0 +1,13 @@
+{
+  "name": "ID4i API",
+  "description": "ID4i HTTP API",
+  "categories": [
+    "enterprise"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/id4i.de/1.0.2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/id4i.de/1.0.2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Neutrino API",
+  "description": "The general-purpose API",
+  "categories": [
+    "email",
+    "location",
+    "messaging",
+    "telecom",
+    "text"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/neutrinoapi.net/3.6.3/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/neutrinoapi.net/3.6.3/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

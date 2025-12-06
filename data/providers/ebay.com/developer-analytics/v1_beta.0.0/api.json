@@ -1,0 +1,13 @@
+{
+  "name": "Analytics API",
+  "description": "The **Analytics API** retrieves call-limit data and the quotas that are set for the RESTful APIs and the legacy Trading API.\n\nResponses from calls made to **getRateLimits** and **getUerRateLimits** include a list of the applicable resources and the \"call limit\", or quota, that is set for each resource. In addition to quota information, the response also includes the number of remaining calls available before the limit is reached, the time remaining before the quota resets, and the length of the \"time window\" to which the quota applies.\n\nThe **getRateLimits** and **getUserRateLimits** methods retrieve call-limit information for either an application or user, respectively, and each method must be called with an appropriate OAuth token. That is, **getRateLimites** requires an access token generated with a client credentials grant and **getUserRateLimites** requires an access token generated with an authorization code grant. For more information, see [OAuth tokens](/api-docs/static/oauth-tokens.html).\n\nUsers can analyze the response data to see whether or not a limit might be reached, and from that determine if any action needs to be taken (such as programmatically throttling their request rate). For more on call limits, see [Compatible Application Check](https://developer.ebay.com/support/app-check ).",
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/ebay.com/developer-analytics/v1_beta.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/ebay.com/developer-analytics/v1_beta.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

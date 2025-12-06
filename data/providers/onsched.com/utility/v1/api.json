@@ -1,0 +1,13 @@
+{
+  "name": "OnSched API Utility",
+  "description": "Endpoints for system utilities. e.g.Health",
+  "categories": [
+    "collaboration"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/onsched.com/utility/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/onsched.com/utility/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "nic.at Domainfinder API Documentation",
+  "description": null,
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/nic.at/domainfinder/1.1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/nic.at/domainfinder/1.1.0/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

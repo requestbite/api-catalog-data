@@ -1,0 +1,13 @@
+{
+  "name": "ApiManagementClient",
+  "description": "Use these REST APIs for performing operations on Cache entity in your Azure API Management deployment. Azure API Management also allows for caching responses in an external Azure Cache for Redis. For more information refer to [External Redis Cache in ApiManagement](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-cache-external).",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/apimanagement-apimcaches/2019-12-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/apimanagement-apimcaches/2019-12-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

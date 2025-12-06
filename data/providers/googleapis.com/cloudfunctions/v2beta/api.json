@@ -1,0 +1,14 @@
+{
+  "name": "Cloud Functions API",
+  "description": "Manages lightweight user-provided functions executed in response to events.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/cloudfunctions/v2beta/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/cloudfunctions/v2beta/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/functions",
+  "source": "apis.guru"
+}

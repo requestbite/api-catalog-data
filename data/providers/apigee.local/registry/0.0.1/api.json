@@ -1,0 +1,13 @@
+{
+  "name": "Registry API",
+  "description": "The Registry service allows teams to manage descriptions of APIs.",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apigee.local/registry/0.0.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apigee.local/registry/0.0.1/openapi.yaml",
+  "openApiVersion": "3.0.3",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Gravity API",
+  "description": "The gravitational field of the earth is non-uniform.  The [geoid](https://en.wikipedia.org/wiki/Geoid) is the shape the\nocean surface would take if only gravity and the rotation of the Earth\nwere considered. The geoid is the surface that defines zero elevation.\n\nThe geoid height is the difference between an ideal reference ellipsoid  and the geoid.\n\nThe gravity anomaly is the difference between the acceleration due to gravity on the Earth's surface and the value calculated assuming the reference ellipsoid.\n\nThe official Earth Gravitational Model EGM2008 was developed and  released to the public by the National Geospatial-Intelligence Agency (NGA).\n\nOur EGM2008 API provides on-demand access to the EGM2008 model, as implemented by the open-source GeographicLib  <a href=https://geographiclib.sourceforge.io/html/gravity.html>Gravity library.\n\nAPI requests must contain a key \"API-Key\" in the header (see code samples). Obtain a key from  [here](https://developer.amentum.io).\n\nAmentum Pty Ltd is not responsible nor liable for any loss or damage of any sort incurred as a result of using the API.\n\nCopyright [Amentum Pty Ltd](https://amentum.space) 2021.",
+  "categories": [
+    "location",
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amentum.space/gravity/1.1.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amentum.space/gravity/1.1.1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

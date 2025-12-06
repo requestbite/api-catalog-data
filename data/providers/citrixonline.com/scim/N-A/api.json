@@ -1,0 +1,11 @@
+{
+  "name": "SCIM",
+  "description": "The SCIM API lets you manage users in your organization. You can then automate the provisioning of product licenses for these users, and they can use your company's Single Sign-On solution through an Identity Provider.",
+  "categories": [],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/citrixonline.com/scim/NA/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/citrixonline.com/scim/NA/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://developer.citrixonline.com/",
+  "source": "apis.guru"
+}

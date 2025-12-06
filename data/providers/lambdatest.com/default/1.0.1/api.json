@@ -1,0 +1,13 @@
+{
+  "name": "LambdaTest Screenshots API Documentation",
+  "description": null,
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/lambdatest.com/1.0.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/lambdatest.com/1.0.1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

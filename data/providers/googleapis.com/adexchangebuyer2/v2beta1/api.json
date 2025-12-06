@@ -1,0 +1,14 @@
+{
+  "name": "Ad Exchange Buyer API II",
+  "description": "Accesses the latest features for managing Authorized Buyers accounts, Real-Time Bidding configurations and auction metrics, and Marketplace programmatic deals.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/adexchangebuyer2/v2beta1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/adexchangebuyer2/v2beta1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/authorized-buyers/apis/reference/rest/",
+  "source": "apis.guru"
+}

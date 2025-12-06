@@ -1,0 +1,13 @@
+{
+  "name": "Face Client",
+  "description": "An API for face detection, verification, and identification.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/cognitiveservices-Face/1.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/cognitiveservices-Face/1.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

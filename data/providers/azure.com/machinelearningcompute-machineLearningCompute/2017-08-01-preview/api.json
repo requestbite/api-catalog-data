@@ -1,0 +1,13 @@
+{
+  "name": "Machine Learning Compute Management Client",
+  "description": "These APIs allow end users to operate on Azure Machine Learning Compute resources. They support the following operations:\n- Create or update a cluster\n- Get a cluster\n- Patch a cluster\n- Delete a cluster\n- Get keys for a cluster\n- Check if updates are available for system services in a cluster\n- Update system services in a cluster\n- Get all clusters in a resource group\n- Get all clusters in a subscription",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/machinelearningcompute-machineLearningCompute/2017-08-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/machinelearningcompute-machineLearningCompute/2017-08-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Chrome Policy API",
+  "description": "The Chrome Policy API is a suite of services that allows Chrome administrators to control the policies applied to their managed Chrome OS devices and Chrome browsers.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/chromepolicy/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/chromepolicy/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "http://developers.google.com/chrome/policy",
+  "source": "apis.guru"
+}

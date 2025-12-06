@@ -1,0 +1,13 @@
+{
+  "name": "OData Service for namespace microsoft.graph",
+  "description": "This OData service is located at https://graph.microsoft.com/beta",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/microsoft.com/graph-beta/1.0.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/microsoft.com/graph-beta/1.0.1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

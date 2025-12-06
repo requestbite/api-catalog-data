@@ -1,0 +1,13 @@
+{
+  "name": "HHS Media Services API",
+  "description": "### Common Features / Behaviors\n\n- *** \"sort\" param:** supports multi column sorting through the use of commas as delimiters, and a hyphen to denote descending order.\n**Examples:**\n- namesort results by name ascending\n- -namesort results by name descending\n- -name,idsort results by name descending and then by id ascending\n- id,-dateContentAuthoredsort results by id ascending and then date descending\n- **Date formats:** Date input format is expected to be based on [RFC 3339](http://www.ietf.org/rfc/rfc3339.txt).\n**Example:**\n- 2013-11-18T18:43:01Z",
+  "categories": [
+    "open_data"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/hhs.gov/2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/hhs.gov/2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

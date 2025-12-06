@@ -1,0 +1,13 @@
+{
+  "name": "Jirafe Events",
+  "description": "API endpoins for sending Jirafe events",
+  "categories": [
+    "marketing"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/jirafe.com/2.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/jirafe.com/2.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://docs.jirafe.com/api/",
+  "source": "apis.guru"
+}

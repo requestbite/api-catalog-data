@@ -1,0 +1,13 @@
+{
+  "name": "Amazon Elastic Transcoder",
+  "description": "AWS Elastic Transcoder Service The AWS Elastic Transcoder Service.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/elastictranscoder/2012-09-25/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/elastictranscoder/2012-09-25/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/elastictranscoder/",
+  "source": "apis.guru"
+}

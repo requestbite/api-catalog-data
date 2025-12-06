@@ -1,0 +1,13 @@
+{
+  "name": "Swagger API2Cart",
+  "description": "API2Cart",
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/api2cart.com/1.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/api2cart.com/1.1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "http://docs.api2cart.com",
+  "source": "apis.guru"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Who Hosts This API",
+  "description": "Discover the hosting provider for any web site",
+  "categories": [
+    "hosting",
+    "iot",
+    "tools"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/who-hosts-this.com/0.0.1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/who-hosts-this.com/0.0.1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": "https://www.who-hosts-this.com/Documentation",
+  "source": "apis.guru"
+}

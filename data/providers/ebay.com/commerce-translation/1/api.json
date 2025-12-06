@@ -1,0 +1,13 @@
+{
+  "name": "Translation API",
+  "description": "This API allows 3rd party developers to translate item title, description, search query.",
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/ebay.com/commerce-translation/1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/ebay.com/commerce-translation/1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

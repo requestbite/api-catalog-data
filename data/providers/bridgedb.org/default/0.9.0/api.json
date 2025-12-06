@@ -1,0 +1,11 @@
+{
+  "name": "bridgedb webservices",
+  "description": null,
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/bridgedb.org/0.9.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/bridgedb.org/0.9.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "PDF Blocks API",
+  "description": "PDF Blocks is a secure, reliable, and fast API to work with PDF documents. Actions include: Merge PDF documents, add or remove passwords, add watermarks, remove, extract, reverse, and rotate pages, and more.",
+  "categories": [
+    "text"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/pdfblocks.com/1.5.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/pdfblocks.com/1.5.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://www.pdfblocks.com/docs/api/v1",
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Xero Payroll AU API",
+  "description": "This is the Xero Payroll API for orgs in Australia region.",
+  "categories": [
+    "finance"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/xero.com/xero-payroll-au/2.9.4/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/xero.com/xero-payroll-au/2.9.4/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

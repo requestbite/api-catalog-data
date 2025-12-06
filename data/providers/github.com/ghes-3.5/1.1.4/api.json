@@ -1,0 +1,14 @@
+{
+  "name": "GitHub v3 REST API",
+  "description": "GitHub's v3 REST API.",
+  "categories": [
+    "collaboration",
+    "developer_tools"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/github.com/ghes-3.5/1.1.4/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/github.com/ghes-3.5/1.1.4/openapi.yaml",
+  "openApiVersion": "3.0.3",
+  "externalDocsUrl": "https://docs.github.com/enterprise-server@3.5/rest/",
+  "source": "apis.guru"
+}

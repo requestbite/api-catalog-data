@@ -1,0 +1,14 @@
+{
+  "name": "Cloud Logging API",
+  "description": "Writes log entries and manages your Cloud Logging configuration.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/logging/v2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/logging/v2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://cloud.google.com/logging/docs/",
+  "source": "apis.guru"
+}

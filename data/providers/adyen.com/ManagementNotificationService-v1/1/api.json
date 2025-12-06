@@ -1,0 +1,13 @@
+{
+  "name": "Management Webhooks",
+  "description": "Adyen uses webhooks to inform your system about events that happen with your Adyen company and merchant accounts, stores, payment terminals, and payment methods when using [Management API](https://docs.adyen.com/api-explorer/#/ManagementService/latest/overview).\n\nWhen an event occurs, Adyen makes an HTTP POST request to a URL on your server and includes the details of the event in the request body.\n\nSee [Webhooks](https://docs.adyen.com/development-resources/webhooks) for more information.",
+  "categories": [
+    "payment"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/adyen.com/ManagementNotificationService-v1/1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/adyen.com/ManagementNotificationService-v1/1/openapi.yaml",
+  "openApiVersion": "3.1.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

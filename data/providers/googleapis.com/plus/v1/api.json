@@ -1,0 +1,14 @@
+{
+  "name": "Google+ API",
+  "description": "Builds on top of the Google+ platform.",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/plus/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/plus/v1/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/+/api/",
+  "source": "apis.guru"
+}

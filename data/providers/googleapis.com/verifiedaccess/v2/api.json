@@ -1,0 +1,14 @@
+{
+  "name": "Chrome Verified Access API",
+  "description": "API for Verified Access chrome extension to provide credential verification for chrome devices connecting to an enterprise network",
+  "categories": [
+    "analytics",
+    "media"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/googleapis.com/verifiedaccess/v2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/googleapis.com/verifiedaccess/v2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developers.google.com/chrome/verified-access",
+  "source": "apis.guru"
+}

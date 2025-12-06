@@ -1,0 +1,13 @@
+{
+  "name": "Anchore Engine API Server",
+  "description": "This is the Anchore Engine API. Provides the primary external API for users of the service.",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/anchore.io/0.1.20/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/anchore.io/0.1.20/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

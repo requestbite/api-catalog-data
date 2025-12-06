@@ -1,0 +1,13 @@
+{
+  "name": "Labour Resource Department, Bihar",
+  "description": "Department of Labour Resources (http://labour.bih.nic.in/) issues various certificates to the citizens. They can be pulled into citizen's DigiLocker account. Currently available- Shops and Commercial Establishments Registration Certificate",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/labourbih/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/labourbih/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

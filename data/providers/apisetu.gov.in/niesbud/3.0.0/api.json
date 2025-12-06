@@ -1,0 +1,13 @@
+{
+  "name": "NIESBUD",
+  "description": "Training certificates as issued by NIESBUD can be downloaded by Citizen in his/her DigiLocker account.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/niesbud/3.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apisetu.gov.in/niesbud/3.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

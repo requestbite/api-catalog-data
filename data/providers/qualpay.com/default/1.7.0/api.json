@@ -1,0 +1,13 @@
+{
+  "name": "Qualpay Payment Gateway API",
+  "description": "This document describes the Qualpay Payment Gateway API.",
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/qualpay.com/1.7.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/qualpay.com/1.7.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

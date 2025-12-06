@@ -1,0 +1,13 @@
+{
+  "name": "AWS Server Migration Service",
+  "description": "**Product update**\n\nWe recommend [Amazon Web Services Application Migration Service](http://aws.amazon.com/application-migration-service) (Amazon Web Services MGN) as the primary migration service for lift-and-shift migrations. If Amazon Web Services MGN is unavailable in a specific Amazon Web Services Region, you can use the Server Migration Service APIs through March 2023.\n\nServer Migration Service (Server Migration Service) makes it easier and faster for you to migrate your on-premises workloads to Amazon Web Services. To learn more about Server Migration Service, see the following resources:\n\n\n-  [Server Migration Service product page](http://aws.amazon.com/server-migration-service/)\n-  [Server Migration Service User Guide](https://docs.aws.amazon.com/server-migration-service/latest/userguide/)",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/sms/2016-10-24/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/sms/2016-10-24/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/sms/",
+  "source": "apis.guru"
+}

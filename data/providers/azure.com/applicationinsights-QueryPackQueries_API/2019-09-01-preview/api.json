@@ -1,0 +1,13 @@
+{
+  "name": "Azure Log Analytics Query Packs",
+  "description": "Azure Log Analytics API reference for management of saved Queries within Query Packs.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/applicationinsights-QueryPackQueries_API/2019-09-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/applicationinsights-QueryPackQueries_API/2019-09-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

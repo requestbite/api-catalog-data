@@ -1,0 +1,13 @@
+{
+  "name": "Amazon QLDB Session",
+  "description": "The transactional data APIs for Amazon QLDB\n\nInstead of interacting directly with this API, we recommend using the QLDB driver or the QLDB shell to execute data transactions on a ledger.\n\n\n- If you are working with an AWS SDK, use the QLDB driver. The driver provides a high-level abstraction layer above this *QLDB Session* data plane and manages `SendCommand` API calls for you. For information and a list of supported programming languages, see [Getting started with the driver](https://docs.aws.amazon.com/qldb/latest/developerguide/getting-started-driver.html) in the *Amazon QLDB Developer Guide*.\n- If you are working with the AWS Command Line Interface (AWS CLI), use the QLDB shell. The shell is a command line interface that uses the QLDB driver to interact with a ledger. For information, see [Accessing Amazon QLDB using the QLDB shell](https://docs.aws.amazon.com/qldb/latest/developerguide/data-shell.html).",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/qldb-session/2019-07-11/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/qldb-session/2019-07-11/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/qldb/",
+  "source": "apis.guru"
+}

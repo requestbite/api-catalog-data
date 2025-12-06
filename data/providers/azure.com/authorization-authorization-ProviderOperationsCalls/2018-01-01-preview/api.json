@@ -1,0 +1,13 @@
+{
+  "name": "AuthorizationManagementClient",
+  "description": "Role based access control provides you a way to apply granular level policy administration down to individual resources or resource groups. These calls handle provider operations.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/authorization-authorization-ProviderOperationsCalls/2018-01-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/authorization-authorization-ProviderOperationsCalls/2018-01-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": " Seller Service Metrics API ",
+  "description": "The *Analytics API* provides data and information about a seller and their eBay business.\n\nThe resources and methods in this API let sellers review information on their listing performance, metrics on their customer service performance, and details on their eBay seller performance rating.\n\nThe three resources in the Analytics API provide the following data and information:\n- **Customer Service Metric** &ndash; Returns data on a seller's customer service performance as compared to other seller's in the same peer group.\n- **Traffic Report** &ndash; Returns data that shows how buyers are engaging with a seller's listings.\n- **Seller Standards Profile** &ndash; Returns data pertaining to a seller's performance rating. Sellers can use the data and information returned by the various Analytics API methods to determine where they can make improvements to increase sales and how they might improve their seller status as viewed by eBay buyers.\n\nFor details on using this API, see [Analyzing seller performance](/api-docs/sell/static/performance/analyzing-performance.html).",
+  "categories": [
+    "ecommerce"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/ebay.com/sell-analytics/1.2.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/ebay.com/sell-analytics/1.2.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Contribly",
+  "description": null,
+  "categories": [
+    "social"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/contribly.com/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/contribly.com/1.0.0/openapi.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

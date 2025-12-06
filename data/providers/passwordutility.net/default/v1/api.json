@@ -1,0 +1,14 @@
+{
+  "name": "PasswordUtility.Web",
+  "description": "Validate and generate passwords using open source tools",
+  "categories": [
+    "security",
+    "tools"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/passwordutility.net/v1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/passwordutility.net/v1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

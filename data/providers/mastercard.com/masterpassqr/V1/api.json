@@ -1,0 +1,11 @@
+{
+  "name": "Send Person to Merchant",
+  "description": null,
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mastercard.com/masterpassqr/V1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mastercard.com/masterpassqr/V1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

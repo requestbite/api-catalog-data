@@ -1,0 +1,13 @@
+{
+  "name": "ContainerServiceClient",
+  "description": "The Container Service Client.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/compute-containerService/2017-01-31/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/compute-containerService/2017-01-31/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "AWS Glue",
+  "description": "Glue Defines the public endpoint for the Glue service.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/glue/2017-03-31/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/glue/2017-03-31/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/glue/",
+  "source": "apis.guru"
+}

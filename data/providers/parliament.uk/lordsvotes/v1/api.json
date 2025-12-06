@@ -1,0 +1,13 @@
+{
+  "name": "Lords Votes API",
+  "description": "An API that allows querying of Lords Votes data.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/parliament.uk/lordsvotes/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/parliament.uk/lordsvotes/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

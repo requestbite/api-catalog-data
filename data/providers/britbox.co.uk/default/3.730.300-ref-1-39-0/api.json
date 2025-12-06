@@ -1,0 +1,13 @@
+{
+  "name": "Rocket Services",
+  "description": "An Orchestration Layer that takes ISL services and packages them in a more targeted way for front-end applications.\nThis in turn makes client integration easier and reduces the complexity and size of front-end applications.\n\nRocket is also customisable - allowing UI engineers to ‘remix’ the existing back-end services into something that\nbest suits the application they are developing.",
+  "categories": [
+    "entertainment"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/britbox.co.uk/3.730.300-ref-1-39-0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/britbox.co.uk/3.730.300-ref-1-39-0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

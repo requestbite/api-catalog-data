@@ -1,0 +1,13 @@
+{
+  "name": "FORTNITE REST API",
+  "description": "REST API about Fortnite game",
+  "categories": [
+    "entertainment"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/skynewz-api-fortnite.herokuapp.com/3.1.5/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/skynewz-api-fortnite.herokuapp.com/3.1.5/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

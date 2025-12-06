@@ -1,0 +1,13 @@
+{
+  "name": "Braket",
+  "description": "The Amazon Braket API Reference provides information about the operations and structures supported in Amazon Braket.\n\nAdditional Resources:\n\n\n-  [Amazon Braket Developer Guide](https://docs.aws.amazon.com/braket/latest/developerguide/what-is-braket.html)",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/braket/2019-09-01/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/braket/2019-09-01/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/braket/",
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Adobe Experience Manager (AEM) API",
+  "description": "Swagger AEM is an OpenAPI specification for Adobe Experience Manager (AEM) API",
+  "categories": [
+    "marketing"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/adobe.com/aem/3.7.1-pre.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/adobe.com/aem/3.7.1-pre.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Swagger2OpenAPI Converter",
+  "description": "Converter and validator for Swagger 2.0 to OpenAPI 3.0.x definitions",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mermade.org.uk/openapi-converter/1.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mermade.org.uk/openapi-converter/1.0.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://github.com/mermade/openapi-webconverter",
+  "source": "apis.guru"
+}

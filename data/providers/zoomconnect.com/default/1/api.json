@@ -1,0 +1,14 @@
+{
+  "name": "www.zoomconnect.com",
+  "description": "The world's greatest SMS API",
+  "categories": [
+    "marketing",
+    "messaging"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/zoomconnect.com/1/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/zoomconnect.com/1/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "TIC API",
+  "description": "[The Intelligence Company AB (publ)](https://tic.io/), TIC, is a licenced credit reference agency that gathers and process information from a large number of sources and builds trusted risk models, apply credit scoring and carry out continous credit assesment on companies and individuals.\n\nWe turn unstructured data into structured reliable data that businesses and individuals use to ensure their decisions are based on facts rather than assumptions.",
+  "categories": [
+    "data"
+  ],
+  "logo": "logo.webp",
+  "openApiJsonUrl": "https://api.tic.io/docs/v1/swagger.json",
+  "openApiYamlUrl": null,
+  "openApiVersion": null,
+  "externalDocsUrl": "https://docs.tic.io/technology/introduction",
+  "source": "api-provider"
+}

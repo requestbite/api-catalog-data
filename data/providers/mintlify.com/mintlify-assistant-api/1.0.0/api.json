@@ -1,0 +1,13 @@
+{
+  "name": "Mintlify Assistant API",
+  "description": "Mintlify is the Intelligent Documentation Platform.\n\nMeet the next generation of documentation. AI-native, beautiful out-of-the-box, and built for collaboration.\n\nThis is an API to integrate Mintlify discovery features into your product.",
+  "categories": [
+    "content"
+  ],
+  "logo": "logo.webp",
+  "openApiJsonUrl": "https://raw.githubusercontent.com/mintlify/docs/refs/heads/main/discovery-openapi.json",
+  "openApiYamlUrl": null,
+  "openApiVersion": null,
+  "externalDocsUrl": "https://www.mintlify.com/docs/api/introduction",
+  "source": "api-provider"
+}

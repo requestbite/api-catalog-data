@@ -1,0 +1,13 @@
+{
+  "name": "ApiDapp",
+  "description": null,
+  "categories": [
+    "finance"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/apidapp.com/2019-02-14T164701Z/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/apidapp.com/2019-02-14T164701Z/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Psycholinguistic Text Analytics",
+  "description": "We aim to provide the deepest understanding of people through psychology & AI",
+  "categories": [
+    "text"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/symanto.net/1.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/symanto.net/1.0/openapi.yaml",
+  "openApiVersion": "3.0.3",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

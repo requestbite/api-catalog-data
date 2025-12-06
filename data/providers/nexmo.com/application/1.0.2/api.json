@@ -1,0 +1,11 @@
+{
+  "name": "Nexmo Application API",
+  "description": "<i>\n#### Applications V1 is deprecated\n\nThis version of the API has been deprecated. Please use [version 2](/api/application.v2) going forwards\n\nA Nexmo application contains the security and configuration information you need to connect to Nexmo endpoints and easily use our products.",
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/nexmo.com/application/1.0.2/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/nexmo.com/application/1.0.2/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://developer.nexmo.com/api/developer/application",
+  "source": "apis.guru"
+}

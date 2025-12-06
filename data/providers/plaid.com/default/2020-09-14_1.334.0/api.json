@@ -1,0 +1,13 @@
+{
+  "name": "The Plaid API",
+  "description": "The Plaid REST API. Please see https://plaid.com/docs/api for more details.",
+  "categories": [
+    "finance"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/plaid.com/2020-09-14_1.334.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/plaid.com/2020-09-14_1.334.0/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

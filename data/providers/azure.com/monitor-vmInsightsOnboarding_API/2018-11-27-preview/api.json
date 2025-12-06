@@ -1,0 +1,13 @@
+{
+  "name": "VM Insights Onboarding",
+  "description": "API to manage VM Insights Onboarding",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/monitor-vmInsightsOnboarding_API/2018-11-27-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/monitor-vmInsightsOnboarding_API/2018-11-27-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

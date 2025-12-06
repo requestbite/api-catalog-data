@@ -1,0 +1,13 @@
+{
+  "name": "Bills API",
+  "description": "API to get and search for information regarding Bills, their stages, associated amendments and publications.",
+  "categories": [
+    "open_data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/parliament.uk/bills/v1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/parliament.uk/bills/v1/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

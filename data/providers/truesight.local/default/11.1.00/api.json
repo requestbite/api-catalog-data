@@ -1,0 +1,13 @@
+{
+  "name": "Hardware Sentry TrueSight Presentation Server REST API",
+  "description": "Hardware Sentry TrueSight Presentation Server REST API",
+  "categories": [
+    "iot"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/truesight.local/11.1.00/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/truesight.local/11.1.00/openapi.yaml",
+  "openApiVersion": "3.0.1",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

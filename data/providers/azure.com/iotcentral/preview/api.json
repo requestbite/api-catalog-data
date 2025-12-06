@@ -1,0 +1,13 @@
+{
+  "name": "Azure IoT Central",
+  "description": "Azure IoT Central is a service that makes it easy to connect, monitor, and manage your IoT devices at scale.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/iotcentral/preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/iotcentral/preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

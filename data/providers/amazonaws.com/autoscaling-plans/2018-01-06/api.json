@@ -1,0 +1,13 @@
+{
+  "name": "AWS Auto Scaling Plans",
+  "description": "AWS Auto Scaling Use AWS Auto Scaling to create scaling plans for your applications to automatically scale your scalable AWS resources.\n\n**API Summary**\n\nYou can use the AWS Auto Scaling service API to accomplish the following tasks:\n\n\n- Create and manage scaling plans\n- Define target tracking scaling policies to dynamically scale your resources based on utilization\n- Scale Amazon EC2 Auto Scaling groups using predictive scaling and dynamic scaling to scale your Amazon EC2 capacity faster\n- Set minimum and maximum capacity limits\n- Retrieve information on existing scaling plans\n- Access current forecast data and historical forecast data for up to 56 days previous  To learn more about AWS Auto Scaling, including information about granting IAM users required permissions for AWS Auto Scaling actions, see the [AWS Auto Scaling User Guide](https://docs.aws.amazon.com/autoscaling/plans/userguide/what-is-aws-auto-scaling.html).",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/autoscaling-plans/2018-01-06/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/autoscaling-plans/2018-01-06/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/autoscaling-plans/",
+  "source": "apis.guru"
+}

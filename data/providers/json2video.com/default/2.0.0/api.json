@@ -1,0 +1,11 @@
+{
+  "name": "JSON2Video API",
+  "description": "Create and edit awesome videos programmatically",
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/json2video.com/2.0.0/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/json2video.com/2.0.0/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

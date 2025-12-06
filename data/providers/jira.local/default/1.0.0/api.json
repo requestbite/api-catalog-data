@@ -1,0 +1,13 @@
+{
+  "name": "JIRA 7.6.1",
+  "description": null,
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/jira.local/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/jira.local/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

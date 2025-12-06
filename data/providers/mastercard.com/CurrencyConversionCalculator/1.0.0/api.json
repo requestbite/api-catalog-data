@@ -1,0 +1,11 @@
+{
+  "name": "API for the Settlement Currency Rate converter",
+  "description": "This API provides a range of functions to get back currency conversion rates and amounts based on current Mastercard currency conversion values.",
+  "categories": [],
+  "logo": null,
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/mastercard.com/CurrencyConversionCalculator/1.0.0/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/mastercard.com/CurrencyConversionCalculator/1.0.0/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

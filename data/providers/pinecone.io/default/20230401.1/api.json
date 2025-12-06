@@ -1,0 +1,13 @@
+{
+  "name": "Pinecone API",
+  "description": "Pinecone is a vector database. This is an unofficial, community-managed OpenAPI spec that (should) accurately model the Pinecone API. This project was developed independent of and is unaffiliated with Pinecone Systems. Users should switch to the official API spec, if and when Pinecone releases it.",
+  "categories": [
+    "backend"
+  ],
+  "logo": "logo.jpg",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/pinecone.io/20230401.1/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/pinecone.io/20230401.1/openapi.yaml",
+  "openApiVersion": "3.0.2",
+  "externalDocsUrl": "https://docs.pinecone.io/",
+  "source": "apis.guru"
+}

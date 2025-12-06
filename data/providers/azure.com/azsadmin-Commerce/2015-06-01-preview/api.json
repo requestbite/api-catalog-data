@@ -1,0 +1,13 @@
+{
+  "name": "CommerceManagementClient",
+  "description": "The Admin Commerce Management Client.",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/azure.com/azsadmin-Commerce/2015-06-01-preview/swagger.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/azure.com/azsadmin-Commerce/2015-06-01-preview/swagger.yaml",
+  "openApiVersion": "2.0",
+  "externalDocsUrl": null,
+  "source": "apis.guru"
+}

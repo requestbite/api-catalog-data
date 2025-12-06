@@ -1,0 +1,13 @@
+{
+  "name": "Amazon SageMaker Service",
+  "description": "Provides APIs for creating and managing SageMaker resources.\n\nOther Resources:\n\n\n-  [SageMaker Developer Guide](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html#first-time-user)\n-  [Amazon Augmented AI Runtime API Reference](https://docs.aws.amazon.com/augmented-ai/2019-11-07/APIReference/Welcome.html)",
+  "categories": [
+    "cloud"
+  ],
+  "logo": "logo.png",
+  "openApiJsonUrl": "https://api.apis.guru/v2/specs/amazonaws.com/sagemaker/2017-07-24/openapi.json",
+  "openApiYamlUrl": "https://api.apis.guru/v2/specs/amazonaws.com/sagemaker/2017-07-24/openapi.yaml",
+  "openApiVersion": "3.0.0",
+  "externalDocsUrl": "https://docs.aws.amazon.com/sagemaker/",
+  "source": "apis.guru"
+}
