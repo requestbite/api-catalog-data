@@ -1,0 +1,13 @@
+{
+  "name": "BankID Relying Party API",
+  "description": "BankID Relying Party API v6.0",
+  "categories": [
+    "security"
+  ],
+  "logo": "logo.svg",
+  "openApiJsonUrl": null,
+  "openApiYamlUrl": "openapi.yaml",
+  "openApiVersion": "3.0.3",
+  "externalDocsUrl": "https://developers.bankid.com/api-references/auth--sign/overview",
+  "source": "community"
+}

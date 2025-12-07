@@ -1,0 +1,13 @@
+{
+  "name": "MET Location Forecast",
+  "description": "Weather forecasts for any location on earth.\n\nThis service delivers weather forecasts for any given coordinate for the next nine days, in JSON and (deprecated) XML formats. There are several variants with different parameters, with most data for the Nordic region.\n\nFor up-to-date precipitation forecasts, see our Nowcast service which is updated every five minures. The service is not suitable for forecasts above ground level. For aviation purposes, please see our IsobaricGRIB service.\n\nWhen importing this API, please set `https://api.met.no` as URL when prompted.",
+  "categories": [
+    "weather"
+  ],
+  "logo": "logo.svg",
+  "openApiJsonUrl": "https://api.met.no/weatherapi/locationforecast/2.0/swagger",
+  "openApiYamlUrl": null,
+  "openApiVersion": null,
+  "externalDocsUrl": "https://api.met.no/weatherapi/locationforecast/2.0/documentation",
+  "source": "api-provider"
+}

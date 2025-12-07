@@ -1,0 +1,1665 @@
+openapi: 3.0.3
+info:
+  title: Relying Party API
+  description: BankID Relying Party API v6.0
+  version: 6.1.4
+servers:
+- url: https://appapi2.test.bankid.com/rp/v6.0
+  description: Test server
+- url: https://appapi2.bankid.com/rp/v6.0
+  description: Production server
+paths:
+  /auth:
+    post:
+      summary: Create an identification order.
+      description: |-
+        Initiates an identification order.
+
+        Use the `/collect` method to query the status of the order.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/auth_body"
+            examples:
+              app:
+                summary: An app started authentication
+                value:
+                  endUserIp: 192.168.1.2
+                  returnUrl: https://bankid.example/auth/login_page#nonce=a3618c72-bc71-4002-b3de-509555b175db
+                  userVisibleData: IFRoaXMgaXMgYSBzYW1wbGUgdGV4dCB0byBiZSBzaWduZWQ=
+                  returnRisk: true
+                  app:
+                    appIdentifier: com.imadethisup
+                    deviceOS: IOS 16.7.7
+                    deviceModelName: "Apple iPhone14,3"
+                    deviceIdentifier: f1e3813ab36f114d4b0c2b3636617511467adb353ce8e5ae6c83500d932f2269
+              web:
+                summary: A web started authentication
+                value:
+                  endUserIp: 192.168.1.2
+                  returnUrl: https://bankid.example/auth/login_page#nonce=a3618c72-bc71-4002-b3de-509555b175db
+                  userVisibleData: IFRoaXMgaXMgYSBzYW1wbGUgdGV4dCB0byBiZSBzaWduZWQ=
+                  returnRisk: true
+                  web:
+                    referringDomain: example.com
+                    userAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101
+                      Firefox/114.0
+                    deviceIdentifier: f1e3813ab36f114d4b0c2b3636617511467adb353ce8e5ae6c83500d932f2269
+              personalNumber:
+                summary: A personal number requirement with user visible data
+                value:
+                  endUserIp: 192.168.1.2
+                  returnUrl: https://bankid.example/auth/login_page#nonce=a3618c72-bc71-4002-b3de-509555b175db
+                  userVisibleData: IFRoaXMgaXMgYSBzYW1wbGUgdGV4dCB0byBiZSBzaWduZWQ=
+                  requirement:
+                    personalNumber: "200001012384"
+              simple:
+                summary: Simple request
+                value:
+                  endUserIp: 192.168.1.2
+                  returnUrl: https://bankid.example/auth/login_page#nonce=a3618c72-bc71-4002-b3de-509555b175db
+        required: true
+      responses:
+        "200":
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/order_response"
+        "400":
+          description: Bad request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/error_response"
+        "401":
+          description: You do not have access to the service.
+        "403":
+          description: You do not have access to the service.
+        "404":
+          description: An invalid URL path was used.
+        "405":
+          description: Only HTTP method POST is allowed.
+        "408":
+          description: Timeout while transmitting the request.
+        "415":
+          description: The type is missing or invalid.
+        "500":
+          description: Internal technical error in the BankID system.
+        "503":
+          description: The service is temporarily unavailable.
+  /sign:
+    post:
+      summary: Create a signature order.
+      description: |-
+        Initiates a signature order.
+
+        Use the `/collect` method to query the status of the order.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/sign_body"
+            examples:
+              app:
+                summary: An app started authentication
+                value:
+                  endUserIp: 192.168.1.2
+                  userVisibleData: I0V4YW1wbGUKVGhpcyBpcyBhbiAqZXhhbXBsZSogdGV4dA==
+                  userVisibleDataFormat: simpleMarkdownV1
+                  returnUrl: https://bankid.example/auth/login_page#nonce=a3618c72-bc71-4002-b3de-509555b175db
+                  returnRisk: true
+                  app:
+                    appIdentifier: com.imadethisup
+                    deviceOS: ANDROID
+                    deviceModelName: Samsung GT-S5830L
+                    deviceIdentifier: f1e3813ab36f114d4b0c2b3636617511467adb353ce8e5ae6c83500d932f2269
+              web:
+                summary: A web started authentication
+                value:
+                  endUserIp: 192.168.1.2
+                  userVisibleData: I0V4YW1wbGUKVGhpcyBpcyBhbiAqZXhhbXBsZSogdGV4dA==
+                  userVisibleDataFormat: simpleMarkdownV1
+                  returnUrl: https://bankid.example/auth/login_page#nonce=a3618c72-bc71-4002-b3de-509555b175db
+                  returnRisk: true
+                  web:
+                    referringDomain: example.com
+                    userAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101
+                      Firefox/114.0
+                    deviceIdentifier: f1e3813ab36f114d4b0c2b3636617511467adb353ce8e5ae6c83500d932f2269
+              personalNumber:
+                summary: A personal number requirement with user visible data
+                value:
+                  endUserIp: 192.168.1.2
+                  userVisibleData: I0V4YW1wbGUKVGhpcyBpcyBhbiAqZXhhbXBsZSogdGV4dA==
+                  userVisibleDataFormat: simpleMarkdownV1
+                  returnUrl: https://bankid.example/auth/login_page#nonce=a3618c72-bc71-4002-b3de-509555b175db
+                  requirement:
+                    personalNumber: "200001012384"
+              simple:
+                summary: Simple request
+                value:
+                  endUserIp: 192.168.1.2
+                  userVisibleData: I0V4YW1wbGUKVGhpcyBpcyBhbiAqZXhhbXBsZSogdGV4dA==
+                  userVisibleDataFormat: simpleMarkdownV1
+                  returnUrl: https://bankid.example/auth/login_page#nonce=a3618c72-bc71-4002-b3de-509555b175db
+        required: true
+      responses:
+        "200":
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/order_response"
+        "400":
+          description: Bad request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/error_response"
+        "401":
+          description: You do not have access to the service.
+        "403":
+          description: You do not have access to the service.
+        "404":
+          description: An invalid URL path was used.
+        "405":
+          description: Only HTTP method POST is allowed.
+        "408":
+          description: Timeout while transmitting the request.
+        "415":
+          description: The type is missing or invalid.
+        "500":
+          description: Internal technical error in the BankID system.
+        "503":
+          description: The service is temporarily unavailable.
+  /payment:
+    post:
+      summary: Create a payment order.
+      description: |-
+        Initiates a payment order.
+
+        Use the `/collect` method to query the status of the order.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/payment_body"
+            examples:
+              request:
+                summary: Example request
+                value:
+                  endUserIp: 192.168.1.2
+                  returnUrl: https://bankid.example/auth/login_page#nonce=a3618c72-bc71-4002-b3de-509555b175db
+                  returnRisk: true
+                  riskFlags:
+                  - largeAmount
+                  - newCustomer
+                  - newCard
+                  userVisibleTransaction:
+                    transactionType: card
+                    recipient:
+                      name: Payment Recipients Inc.
+                    money:
+                      amount: "100,00"
+                      currency: EUR
+                    riskWarning: largeAmount
+                  userVisibleData: IFRoaXMgaXMgYSBzYW1wbGUgdGV4dCB0byBiZSBzaWduZWQ=
+                  userVisibleDataFormat: simpleMarkdownV1
+                  userNonVisibleData: VGV4dCBpbmNsdWRlZCBidXQgbm90IGRpc3BsYXllZCB0byB0aGUgdXNlcg==
+        required: true
+      responses:
+        "200":
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/order_response"
+        "400":
+          description: Bad request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/error_response"
+        "401":
+          description: You do not have access to the service.
+        "403":
+          description: You do not have access to the service.
+        "404":
+          description: An invalid URL path was used.
+        "405":
+          description: Only HTTP method POST is allowed.
+        "408":
+          description: Timeout while transmitting the request.
+        "415":
+          description: The type is missing or invalid.
+        "500":
+          description: Internal technical error in the BankID system.
+        "503":
+          description: The service is temporarily unavailable.
+  /phone/auth:
+    post:
+      summary: Create an identification order for a phone call.
+      description: |-
+        Initiates an identification order when the user is talking to your organization over the phone.
+
+        Use the `/collect` method to query the status of the order.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/phone_auth_body"
+            examples:
+              fromUser:
+                summary: Phone request where the user called you
+                value:
+                  callInitiator: user
+                  userVisibleData: I0V4YW1wbGUKVGhpcyBpcyBhbiAqZXhhbXBsZSogdGV4dA==
+                  userVisibleDataFormat: simpleMarkdownV1
+              fromRP:
+                summary: Phone request where you called the user
+                value:
+                  callInitiator: RP
+                  userVisibleData: I0V4YW1wbGUKVGhpcyBpcyBhbiAqZXhhbXBsZSogdGV4dA==
+                  userVisibleDataFormat: simpleMarkdownV1
+        required: true
+      responses:
+        "200":
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/limited_response"
+        "400":
+          description: Bad request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/error_response"
+        "401":
+          description: You do not have access to the service.
+        "403":
+          description: You do not have access to the service.
+        "404":
+          description: An invalid URL path was used.
+        "405":
+          description: Only HTTP method POST is allowed.
+        "408":
+          description: Timeout while transmitting the request.
+        "415":
+          description: The type is missing or invalid.
+        "500":
+          description: Internal technical error in the BankID system.
+        "503":
+          description: The service is temporarily unavailable.
+  /phone/sign:
+    post:
+      summary: Create a signature order for a phone call.
+      description: |-
+        Initiates a signature order when the user is talking to your organization-over the phone.
+
+        Use the `/collect` method to query the status of the order.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/phone_sign_body"
+            examples:
+              fromUser:
+                summary: Phone request where the user called you
+                value:
+                  callInitiator: user
+                  userVisibleData: I0V4YW1wbGUKVGhpcyBpcyBhbiAqZXhhbXBsZSogdGV4dA==
+                  userVisibleDataFormat: simpleMarkdownV1
+              fromRP:
+                summary: Phone request where you called the user
+                value:
+                  callInitiator: RP
+                  userVisibleData: I0V4YW1wbGUKVGhpcyBpcyBhbiAqZXhhbXBsZSogdGV4dA==
+                  userVisibleDataFormat: simpleMarkdownV1
+        required: true
+      responses:
+        "200":
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/limited_response"
+        "400":
+          description: Bad request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/error_response"
+        "401":
+          description: You do not have access to the service.
+        "403":
+          description: You do not have access to the service.
+        "404":
+          description: An invalid URL path was used.
+        "405":
+          description: Only HTTP method POST is allowed.
+        "408":
+          description: Timeout while transmitting the request.
+        "415":
+          description: The type is missing or invalid.
+        "500":
+          description: Internal technical error in the BankID system.
+        "503":
+          description: The service is temporarily unavailable.
+  /other/payment:
+    post:
+      summary: Create a payment order for other situations.
+      description: |-
+        Initiates a payment order when your organization is not talking to user over the phone and you need to specify the
+        user by personal number.
+
+        Neither QR-code nor autostart will be available to start this transaction.
+
+        Use the `/collect` method to query the status of the order.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/other_payment_body"
+            examples:
+              request:
+                summary: A payment request
+                value:
+                  personalNumber: "200001012384"
+                  riskFlags:
+                  - largeAmount
+                  - newCustomer
+                  - newCard
+                  userVisibleTransaction:
+                    transactionType: card
+                    recipient:
+                      name: Payment Recipients Inc.
+                    money:
+                      amount: "100,00"
+                      currency: EUR
+                    riskWarning: largeAmount
+                  userVisibleData: I0V4YW1wbGUKVGhpcyBpcyBhbiAqZXhhbXBsZSogdGV4dA==
+                  userVisibleDataFormat: simpleMarkdownV1
+                  userNonVisibleData: VGV4dCBpbmNsdWRlZCBidXQgbm90IGRpc3BsYXllZCB0byB0aGUgdXNlcg==
+                  returnUrl: https://bankid.example/auth/login_page#nonce=a3618c72-bc71-4002-b3de-509555b175db
+        required: true
+      responses:
+        "200":
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/limited_response"
+        "400":
+          description: Bad request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/error_response"
+        "401":
+          description: You do not have access to the service.
+        "403":
+          description: You do not have access to the service.
+        "404":
+          description: An invalid URL path was used.
+        "405":
+          description: Only HTTP method POST is allowed.
+        "408":
+          description: Timeout while transmitting the request.
+        "415":
+          description: The type is missing or invalid.
+        "500":
+          description: Internal technical error in the BankID system.
+        "503":
+          description: The service is temporarily unavailable.
+  /collect:
+    post:
+      summary: Gather order information and status.
+      description: |-
+        Collects the result of an order using `orderRef` as reference.
+
+        Your service should continue calling collect every two seconds if the status reported is is `pending`. Your
+        service must abort if the status is `failed`.
+
+        The user identity is returned when complete.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/collect_body"
+            examples:
+              simple:
+                summary: A request identifying the order to collect
+                value:
+                  orderRef: 131daac9-16c6-4618-beb0-365768f37288
+        required: true
+      responses:
+        "200":
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/collect_response"
+        "400":
+          description: Bad request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/error_response"
+        "401":
+          description: You do not have access to the service.
+        "403":
+          description: You do not have access to the service.
+        "404":
+          description: An invalid URL path was used.
+        "405":
+          description: Only HTTP method POST is allowed.
+        "408":
+          description: Timeout while transmitting the request.
+        "415":
+          description: The type is missing or invalid.
+        "500":
+          description: Internal technical error in the BankID system.
+        "503":
+          description: The service is temporarily unavailable.
+  /cancel:
+    post:
+      summary: "Cancel a signature, authentication or payment order."
+      description: |-
+        Cancels an ongoing order.
+
+        This is typically used if the user cancels the order in your service or app.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/cancel_body"
+            examples:
+              simple:
+                summary: A request identifying the order to cancel
+                value:
+                  orderRef: 131daac9-16c6-4618-beb0-365768f37288
+        required: true
+      responses:
+        "200":
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/empty_response"
+        "400":
+          description: Bad request.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/error_response"
+        "401":
+          description: You do not have access to the service.
+        "403":
+          description: You do not have access to the service.
+        "404":
+          description: An invalid URL path was used.
+        "405":
+          description: Only HTTP method POST is allowed.
+        "408":
+          description: Timeout while transmitting the request.
+        "415":
+          description: The type is missing or invalid.
+        "500":
+          description: Internal technical error in the BankID system.
+        "503":
+          description: The service is temporarily unavailable.
+components:
+  schemas:
+    app:
+      type: object
+      properties:
+        appIdentifier:
+          maxLength: 256
+          minLength: 2
+          type: string
+          description: |-
+            The identifier of your application.
+
+            This is the package name on Android and the bundle identifier on iOS.
+
+            It is vital to use the correct value. If your service does not supply the correct value legitimate orders might
+            be blocked.
+          example: se.demobank.app1
+        deviceOS:
+          maxLength: 128
+          minLength: 1
+          type: string
+          description: The device operating system where your app is running.
+          example: ANDROID 14.0
+        deviceIdentifier:
+          maxLength: 64
+          minLength: 1
+          type: string
+          description: |-
+            The identifier of the device your client is running on.
+
+            This is used to uniquely identify the device and should be a value that is not tied to a single user of the
+            device. Preferably, it should remain the same even if your app is reinstalled.
+          example: e753b91e-9c84-4441-aadb-0832f4c71fac
+        deviceModelName:
+          maxLength: 128
+          minLength: 1
+          type: string
+          description: The model of the device your app is running on.
+          example: "Apple iPhone14,3"
+      description: |-
+        Additional data included when creating an order from your app.
+
+        When starting an order from your app client this data may be included in the request.
+
+        You can send the parameter `web` or `app`, not both. If providing this parameter, at least one of its members must
+        be specified.
+    endUserIp:
+      type: string
+      description: |-
+        The user IP address as it is seen by your service.
+
+        IPv4 and IPv6 are allowed.
+
+        Make sure that the IP address you include as `endUserIp` is the address of your end user's device, not the internal
+        address of any reverse proxy between you and the end user.
+
+        In use cases where the IP address is not available, e. g. for voice-based services, the internal representation of
+        those systems' IP address is ok to use.
+      example: 192.168.1.2
+    returnRisk:
+      type: boolean
+      description: |-
+        If this is set to `true` a risk indicator will be included in the collect response when the order completes.
+        The risk indication requires that the endUserIp is correct.
+      example: true
+    returnUrl:
+      maxLength: 512
+      minLength: 1
+      type: string
+      description: |-
+        Orders started on the same device as where the user's BankID is stored (started with autostart token) will call
+        this URL when the order is completed.
+
+        Any return URL provided in the start URL when the BankID app was launched will be ignored. If the user has a
+        version of the BankID app that does not support getting the `returnUrl` from the server, the order will be
+        cancelled and the user will be asked to update their app.
+
+        The return URL you provide should include a nonce to the session. When the user returns to your app or web page,
+        your service should verify that the order was completed successfully and that the device receiving the
+        `returnUrl` is the same device that started the order.
+
+        Using this parameter will make your service more secure and strengthen the channel binding between you and the
+        user.
+
+        Ensure that the cookie or user IP address has not changed from the starting page to the `returnUrl` page.
+      example: https://bankid.example/auth/login_page#nonce=a3618c72-bc71-4002-b3de-509555b175db
+    userNonVisibleData_auth:
+      maxLength: 1500
+      minLength: 1
+      type: string
+      description: |-
+        Data that you wish to include but not display to the user.
+
+        The value must be base 64-encoded.
+      example: VGV4dCBpbmNsdWRlZCBidXQgbm90IGRpc3BsYXllZCB0byB0aGUgdXNlcg==
+    userVisibleData_auth:
+      maxLength: 1500
+      minLength: 1
+      type: string
+      description: |-
+        Text displayed to the user during the order.
+
+        The purpose is to provide context, thereby enabling the user to detect identification errors and avert fraud
+        attempts.
+
+        The text can be formatted using CR, LF and CRLF for new lines. The text must be encoded as UTF-8 and then base 64
+        encoded.
+      example: VGhpcyBpcyBhIHNhbXBsZSB0ZXh0Cg==
+    userVisibleDataFormat:
+      type: string
+      description: |-
+        If present and set to `"simpleMarkdownV1"`, this parameter indicates that `userVisibleData` holds formatting
+        characters.
+
+        The possible values have the following meaning:
+
+        -  `plaintext`: `userVisibleData` contains base 64 encoded text using a sub-set of UTF-8 and CR, LF or CRLF for
+           line breaks..
+        -  `simpleMarkdownV1`: `userVisibleData` contains Simple Markdown version 1.
+
+        Please see
+        [the documentation](https://developers.bankid.com/getting-started/backend/formatting-text/syntax-special-characters-and-rendering)
+        for more information about the format.
+      enum:
+      - plaintext
+      - simpleMarkdownV1
+    web:
+      type: object
+      properties:
+        deviceIdentifier:
+          maxLength: 64
+          minLength: 1
+          type: string
+          description: |-
+            The identifier of the device running your client.
+
+            Do not use a session cookie. Use a separate cookie or the hash of one.
+
+            This value should be unique to the user's browser and persist across sessions.
+          example: e753b91e-9c84-4441-aadb-0832f4c71fac
+        referringDomain:
+          maxLength: 253
+          minLength: 3
+          pattern: "[0-9a-z-.]*"
+          type: string
+          description: |-
+            The domain that starts the BankID app.
+
+            This should generally be your domain name followed by the public suffix, which will generally be the top level
+            domain.
+
+            Only the digits 0 to 9, the letters a to z, dot (".") and dash ("-") are allowed. When using an International
+            Domain Name, the string must be punycode encoded.
+          example: example.com
+        userAgent:
+          maxLength: 256
+          minLength: 1
+          type: string
+          description: The user agent of the user interacting with your web page.
+          example: "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4_1 like Mac OS X) AppleWebKit/605.1.15\
+            \ (KHTML, like Gecko) Version/17.4.1 Mobile/15E148 Safari/604.1"
+      description: |-
+        Additional data included when creating an order from your web page.
+
+        When starting an order from your web page this data may be included in the request.
+
+        You can send the parameter `web` or `app`, not both. If providing this parameter, at least one of its members must
+        be specified.
+    cardReader:
+      type: string
+      description: |-
+        Whether the user needs to complete the order using a card reader for the signature.
+
+        The possible values have the following meaning:
+
+          *  `class1`: The order must be confirmed with a card reader where the PIN code is entered on a computer keyboard,
+             or a card reader of higher class.
+          *  `class2`: The order must be confirmed with a card reader where the PIN code is entered on the reader.
+
+        This condition should always be combined with a `certificatePolicies` for a smart card to avoid undefined
+        behaviour.
+
+        No card reader is required by default.
+      enum:
+      - class1
+      - class2
+    certificatePolicies:
+      type: array
+      description: |-
+        The OID in certificate policies in the user certificate.
+
+        One wildcard is allowed from position 5 and forward (`"1.2.752.78.*"`).
+
+        Available values for production BankIDs are:
+        *  `"1.2.752.78.1.1"` - BankID on file
+        *  `"1.2.752.78.1.2"` - BankID on card
+        *  `"1.2.752.78.1.5"` - Mobile BankID
+
+        Available values for test BankIDs are:
+        *  `"1.2.3.4.5"` - BankID on file
+        *  `"1.2.3.4.10"` - BankID on card
+        *  `"1.2.3.4.25"` - Mobile BankID
+        *  `"1.2.752.60.1.6"` - Test BankID for some BankID banks
+
+        When using one of the _BankID on card_ policies, the `cardReader` requirement can be used to further restrict the
+        type of card reader allowed. If no `cardReader` requirement is passed, all supported kinds of card readers are
+        permitted.
+      example:
+      - 1.2.752.78.1.1
+      items:
+        type: string
+    mrtd:
+      type: boolean
+      description: |-
+        Whether the user needs to confirm their identity with a valid Swedish passport or national ID card to complete the
+        order.
+
+        No identity confirmation is required by default.
+    personalNumber:
+      maxLength: 12
+      minLength: 12
+      pattern: "^[0-9]*$"
+      type: string
+      description: |-
+        The personal identity number allowed to confirm the identification.
+
+        If a BankID with another personal identity number attempts to confirm the identification, it will fail.
+      example: "200001012384"
+    pinCode:
+      type: boolean
+      description: Users are required to confirm the order with their security code
+        even if they have biometrics activated.
+      example: false
+    order_response:
+      required:
+      - autoStartToken
+      - orderRef
+      - qrStartSecret
+      - qrStartToken
+      type: object
+      properties:
+        orderRef:
+          $ref: "#/components/schemas/orderRef"
+        autoStartToken:
+          $ref: "#/components/schemas/autoStartToken"
+        qrStartToken:
+          $ref: "#/components/schemas/qrStartToken"
+        qrStartSecret:
+          $ref: "#/components/schemas/qrStartSecret"
+      example:
+        orderRef: 131daac9-16c6-4618-beb0-365768f37288
+        autoStartToken: 7c40b5c9-fa74-49cf-b98c-bfe651f9a7c6
+        qrStartToken: 67df3917-fa0d-44e5-b327-edcc928297f8
+        qrStartSecret: d28db9a7-4cde-429e-a983-359be676944c
+    error_response:
+      required:
+      - details
+      - errorCode
+      type: object
+      properties:
+        errorCode:
+          type: string
+          description: The error code.
+          example: invalidParameters
+        details:
+          type: string
+          description: Additional details specific to the error code.
+          example: Incorrect personalNumber
+      description: Generic error response
+    userNonVisibleData:
+      maxLength: 200000
+      minLength: 1
+      type: string
+      description: |-
+        Data that you wish to include but not display to the user.
+
+        The value must be base 64-encoded.
+      example: VGV4dCBpbmNsdWRlZCBidXQgbm90IGRpc3BsYXllZCB0byB0aGUgdXNlcg==
+    userVisibleData:
+      maxLength: 40000
+      minLength: 1
+      type: string
+      description: |-
+        Text displayed to the user during the order.
+
+        The purpose is to provide context, thereby enabling the user to detect identification errors and avert fraud
+        attempts.
+
+        The text can be formatted using CR, LF and CRLF for new lines. The text must be encoded as UTF-8 and then base 64
+        encoded.
+      example: VGhpcyBpcyBhIHNhbXBsZSB0ZXh0Cg==
+    riskFlags:
+      type: array
+      description: Indicate to the risk assessment system that the payment has a higher
+        risk or is unusual for the user.
+      example:
+      - largeAmount
+      - newCustomer
+      - newCard
+      items:
+        type: string
+        enum:
+        - newCard
+        - newCustomer
+        - newRecipient
+        - highRiskRecipient
+        - largeAmount
+        - foreignCurrency
+        - cryptoCurrencyPurchase
+        - moneyTransfer
+        - overseasTransaction
+        - recurringPayment
+        - suspiciousPaymentPattern
+        - other
+    userNonVisibleData_payment:
+      maxLength: 1000
+      minLength: 1
+      type: string
+      description: |-
+        Data that you wish to include but not display to the user.
+
+        The value must be base 64-encoded.
+      example: VGV4dCBpbmNsdWRlZCBidXQgbm90IGRpc3BsYXllZCB0byB0aGUgdXNlcg==
+    userVisibleData_payment:
+      maxLength: 1000
+      minLength: 1
+      type: string
+      description: |-
+        Text displayed to the user during the order.
+
+        The purpose is to provide context, thereby enabling the user to detect identification errors and avert fraud
+        attempts.
+
+        The text can be formatted using CR, LF and CRLF for new lines. The text must be encoded as UTF-8 and then base 64
+        encoded.
+      example: VGhpcyBpcyBhIHNhbXBsZSB0ZXh0Cg==
+    userVisibleTransaction:
+      required:
+      - recipient
+      - transactionType
+      type: object
+      properties:
+        transactionType:
+          type: string
+          description: |-
+            The type of transaction.
+
+            The possible values have the following meaning:
+
+            -  `card`: Card payment.
+            -  `npa`: Non-payment authentication.
+          enum:
+          - card
+          - npa
+        recipient:
+          $ref: "#/components/schemas/userVisibleTransaction_recipient"
+        money:
+          $ref: "#/components/schemas/userVisibleTransaction_money"
+        riskWarning:
+          type: string
+          description: |-
+            Indicate to the user that the payment has higher risk or is unusual for the user.
+
+            This will be indicated in the UI.
+          enum:
+          - newRecipient
+          - largeAmount
+          - foreignCurrency
+          - cryptoCurrencyPurchase
+          - moneyTransfer
+          - overseasTransaction
+          - recurringPayment
+          - other
+      description: Information about the transaction being approved.
+    callInitiator:
+      type: string
+      description: |-
+        Indicates if the user or your organization initiated the phone call.
+
+        The possible values have the following meaning:
+
+        *  `user`: The user called your organization.
+        *  `RP`: Your organization called the user.
+      example: user
+      enum:
+      - user
+      - RP
+    personalNumber_1:
+      maxLength: 12
+      minLength: 12
+      pattern: "^[0-9]*$"
+      type: string
+      description: |-
+        The ID number of the user.
+
+        The ID number is a Swedish national identification number (12 digits).
+      example: "200001012384"
+    limited_response:
+      required:
+      - orderRef
+      type: object
+      properties:
+        orderRef:
+          $ref: "#/components/schemas/orderRef"
+      example:
+        orderRef: 131daac9-16c6-4618-beb0-365768f37288
+    returnRisk_other:
+      type: boolean
+      description: If this is set to `true` a risk indicator will be included in the
+        collect response when the order completes.
+      example: true
+    risk_other:
+      type: string
+      description: |-
+        Set the acceptable risk level.
+
+        The possible values have the following meaning:
+
+        -  `low`: Only accept orders with low risk.
+        -  `moderate`: Accept orders with low and moderate risk.
+
+        If the risk is higher, the order will be blocked.
+
+        As default, no risk level is set and the BankID service will not block any order regardless of the risk indication.
+      enum:
+      - low
+      - moderate
+    orderRef:
+      type: string
+      description: |-
+        A reference ID for an order.
+
+        This is used to query the status of the order or to cancel it.
+      example: 131daac9-16c6-4618-beb0-365768f37288
+    collect_response:
+      required:
+      - orderRef
+      - status
+      type: object
+      properties:
+        orderRef:
+          $ref: "#/components/schemas/orderRef"
+        status:
+          $ref: "#/components/schemas/status"
+        completionData:
+          $ref: "#/components/schemas/collect_response_completionData"
+        hintCode:
+          $ref: "#/components/schemas/hintCode"
+      example:
+        orderRef: 131daac9-16c6-4618-beb0-365768f37288
+        status: complete
+        completionData:
+          user:
+            personalNumber: "200001012384"
+            name: Alex Johnson
+            givenName: Alex
+            surname: Johnson
+          device:
+            ipAddress: 192.168.1.1
+            uhi: OZvYM9VvyiAmG7NA5jU5zqGcVpo=
+          bankIdIssueDate: 2023-04-01
+          stepUp:
+            mrtd: true
+          signature: <base64-encoded data>
+          ocspResponse: <base64-encoded data>
+          risk: low
+    empty_response:
+      type: object
+    autoStartToken:
+      type: string
+      description: Used to compile the start URL.
+      example: 7c40b5c9-fa74-49cf-b98c-bfe651f9a7c6
+    qrStartToken:
+      type: string
+      description: Used to compute the animated QR code.
+      example: 67df3917-fa0d-44e5-b327-edcc928297f8
+    qrStartSecret:
+      type: string
+      description: Used to compute the animated QR code.
+      example: d28db9a7-4cde-429e-a983-359be676944c
+    status:
+      type: string
+      description: |-
+        The current status of the order.
+
+        The possible values have the following meaning:
+
+        -  `pending`: The order is being processed. `hintCode` describes the status of the order.
+        -  `complete`: The order is complete. completionData holds user information.
+        -  `failed`: Something went wrong with the order. `hintCode` describes the error.
+      enum:
+      - pending
+      - complete
+      - failed
+    ipAddress:
+      type: string
+      description: |-
+        The IP address of the user agent as the BankID server sees it.
+
+        When an order is started with `autoStartToken` you can check that it matches the IP you service observes to ensure
+        session fixation.
+      example: 192.168.1.2
+    uhi:
+      type: string
+      description: Unique hardware identifier for the user's device.
+      example: OZvYM9VvyiAmG7NA5jU5zqGcVpo=
+    mrtd_1:
+      type: boolean
+      description: Whether an MRTD check was performed before the order was completed.
+    bankIdIssueDate:
+      type: string
+      description: |-
+        The date the BankID was issued to the user.
+
+        The issue date is expressed using ISO 8601 date format with a UTC time zone offset.
+      example: 2023-04-01
+    signature:
+      type: string
+      description: |-
+        The signature that is the result of the order.
+
+        This is a base 64 encoded XML signature string.
+    ocspResponse:
+      type: string
+      description: |-
+        The OCSP response.
+
+        This is a base 64 encoded OCSP response.
+
+        The OCSP response is signed by a certificate that has the same issuer as the certificate being verified, and it has
+        a nonce extension. The nonce is calculated as:
+
+        *  SHA-1 hash over the base 64 XML signature encoded as UTF-8.
+        *  12 random bytes added after the hash.
+
+        The nonce is 32 bytes (20 + 12).
+    risk:
+      type: string
+      description: |-
+        Indicates the risk level of the order based on data available in the order.
+
+        The possible values have the following meaning:
+
+        -  `low`: No or low risk identified in the available order data.
+        -  `moderate`: Might require further action, investigation or follow-up by you based on the order data.
+        -  `high`: The order should be blocked or cancelled by you and needs further action, investigation or follow-up.
+           This value will only be returned if you have requested to have the risk assement to be provided, but not
+           supplied a `risk` condition.
+
+        This is only returned if requested in the order, and it may be absent if the risk could not be calculated.
+
+        If you have sent the correct `endUserIp` and additional data, a risk indication with the value `"high"` means
+        there are signs of the channel binding being compromised, or other highly concerning circumstances.
+      enum:
+      - low
+      - moderate
+      - high
+    hintCode:
+      type: string
+      description: |-
+        When an order is pending, you should use the hintCode to provide the user with details and instructions and keep
+        calling collect until order fails or is complete.
+
+        <table>
+          <thead>
+            <tr>
+              <td>hintCode</td>
+              <td>Reason</td>
+              <td>Action by your service</td>
+            </tr>
+          </thead>
+          <tr>
+            <td>outstandingTransaction</td>
+            <td>
+              Order is pending. The BankID app has not received the order yet. The hintCode will later change to noClient,
+              started or userSign.
+            </td>
+            <td>
+              If you tried to launch the user's client automatically you should inform the user that the app is launching.
+              Message RFA13 should be used.
+              <br>
+              If you did not try to start the user's client automatically, you should prompt the user to start the app.
+              Message RFA1 should be used.
+            </td>
+          </tr>
+          <tr>
+            <td>noClient</td>
+            <td>
+              Order is pending. The client has not yet received the order.
+            </td>
+            <td>
+              If you tried to launch the user's client automatically this status indicates that the launch failed, or that
+              the user's BankID wasn't available in their client. You should inform the user. Message RFA1 should be used.
+              <br>
+              If you did not try to launch the client automatically this status indicates that the user has not launched
+              their client yet. You should inform the user. Message RFA1 should be used.
+            </td>
+          </tr>
+          <tr>
+            <td>started</td>
+            <td>
+              Order is pending. A BankID client has launched with autostarttoken but a usable ID has not yet been found in
+              the client. When the client launches there may be a short delay until all IDs are registered. The user may
+              not have any usable IDs, or has yet to insert their smart card.
+            </td>
+            <td>
+              You should inform the user of possible solutions. Message RFA15 should be used.<br>Note: started is not an
+              error, you should keep on polling using collect.
+            </td>
+          </tr>
+          <tr>
+            <td>userMrtd</td>
+            <td>
+              Order is pending. A client has launched and received the order but additional steps for providing MRTD
+              information is required to proceed with the order.
+            </td>
+            <td>
+              You should inform the user. User message RFA23 should be used.
+            </td>
+          </tr>
+          <tr>
+            <td>userCallConfirm</td>
+            <td>
+              Order is waiting for the user to confirm that they have received this order while in a call with your
+              organization.
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>userSign</td>
+            <td>
+              The order is pending. The client has received the order.
+            </td>
+            <td>
+              You should inform the user. Message RFA9 should be used.
+            </td>
+          </tr>
+          <tr>
+            <td>processing</td>
+            <td>The order is pending. The client has received and signed the order, but signature processing is underway.</td>
+            <td>
+              The RP should inform the user. Message RFA21 should be used.
+            </td>
+          </tr>
+          <tr>
+            <td>Unknown hint code</td>
+            <td>
+              We may introduce new hint codes without prior notice. You must handle unknown hint codes in your
+              implementations.
+            </td>
+            <td>
+              If an unknown hintCode is returned for a pending order, you should inform the user. Message RFA21 should be
+              used.
+              <br>
+              You should update your implementation to support the new hintCode as soon as possible.
+            </td>
+          </tr>
+        </table>
+
+        This is a final state when an order fails. You should use the hintCode to provide the user with details and
+        instructions. The same orderRef must not be used for additional collect requests.
+
+        <table>
+          <thead>
+            <tr>
+              <td>hintCode</td>
+              <td>Reason</td>
+              <td>Action by your service</td>
+            </tr>
+          </thead>
+          <tr>
+            <td>expiredTransaction</td>
+            <td>
+              The order has expired. The BankID security app / program did not launch, the user did not finalise the
+              signature or you called collect too late.
+            </td>
+            <td>
+              You must inform the user. User message RFA8 should be used.
+            </td>
+          </tr>
+          <tr>
+            <td>certificateErr</td>
+            <td>
+              This error is returned if:
+              <ul>
+                <li>
+                  The user has entered the wrong PIN code too many times. The BankID cannot be used.
+                </li>
+                <li>
+                  The user's BankID is blocked.
+                </li>
+                <li>
+                  The user's BankID is invalid.
+                </li>
+              </ul>
+            </td>
+            <td>
+              You must inform the user. User message RFA16 should be used.
+            </td>
+          </tr>
+          <tr>
+            <td>userCancel</td>
+            <td>
+              The order was cancelled by the user. userCancel may also be returned in some rare cases related to other
+              user interactions.
+            </td>
+            <td>
+              You must inform the user. User message RFA6 should be used.
+            </td>
+          </tr>
+          <tr>
+            <td>cancelled</td>
+            <td>
+              The order was cancelled or the system received a new order for the user.
+            </td>
+            <td>
+              You must inform the user. User message RFA3 should be used.
+            </td>
+          </tr>
+          <tr>
+            <td>startFailed</td>
+            <td>
+              The user did not provide their ID or the client did not launch within a certain time limit. Potential
+              causes are:
+              <ul>
+                <li>
+                  You did not use autoStartToken when launching the BankID app. You must correct this in your
+                  implementation.
+                </li>
+                <li>
+                  The user's client software was not installed or there was some other problem with the user's device.
+                </li>
+              </ul>
+            </td>
+            <td>
+              You must inform the user. User message RFA17 should be used.
+            </td>
+          </tr>
+          <tr>
+            <td>userDeclinedCall</td>
+            <td>
+              The order was cancelled because the user indicated in the app that they are not in a call with your
+              organization.
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>notSupportedByUserApp</td>
+            <td>
+              The order was picked up by a client that does not support the requested feature . The BankID client used by
+              the user needs to be updated to a later version that supports the features that are required to complete
+              the order.
+            </td>
+            <td>
+              Ask the user to update to the latest version of the BankID client.
+            </td>
+          </tr>
+          <tr>
+            <td>transactionRiskBlocked</td>
+            <td>
+              The risk for the order was too high and the order was blocked.
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>Unknown hint code</td>
+            <td>
+              We may introduce new hint codes without prior notice. You must handle unknown hint codes in your
+              implementations.
+            </td>
+            <td>
+              If an unknown hintCode is returned for a failed order, you should inform the user. Message RFA22 should be
+              used. You should update your implementation to support the new hintCode as soon as possible.
+            </td>
+          </tr>
+        </table>
+    auth_requirement:
+      type: object
+      properties:
+        cardReader:
+          $ref: "#/components/schemas/cardReader"
+        certificatePolicies:
+          $ref: "#/components/schemas/certificatePolicies"
+        mrtd:
+          $ref: "#/components/schemas/mrtd"
+        personalNumber:
+          $ref: "#/components/schemas/personalNumber"
+        pinCode:
+          $ref: "#/components/schemas/pinCode"
+      description: Requirements on how the authentication order must be performed.
+    auth_body:
+      required:
+      - endUserIp
+      type: object
+      properties:
+        app:
+          $ref: "#/components/schemas/app"
+        endUserIp:
+          $ref: "#/components/schemas/endUserIp"
+        returnRisk:
+          $ref: "#/components/schemas/returnRisk"
+        returnUrl:
+          $ref: "#/components/schemas/returnUrl"
+        userNonVisibleData:
+          $ref: "#/components/schemas/userNonVisibleData_auth"
+        userVisibleData:
+          $ref: "#/components/schemas/userVisibleData_auth"
+        userVisibleDataFormat:
+          $ref: "#/components/schemas/userVisibleDataFormat"
+        web:
+          $ref: "#/components/schemas/web"
+        requirement:
+          $ref: "#/components/schemas/auth_requirement"
+    sign_requirement:
+      type: object
+      properties:
+        cardReader:
+          $ref: "#/components/schemas/cardReader"
+        certificatePolicies:
+          $ref: "#/components/schemas/certificatePolicies"
+        mrtd:
+          $ref: "#/components/schemas/mrtd"
+        personalNumber:
+          $ref: "#/components/schemas/personalNumber"
+        pinCode:
+          $ref: "#/components/schemas/pinCode"
+      description: Requirements on how the signature order must be performed.
+    sign_body:
+      required:
+      - endUserIp
+      - userVisibleData
+      type: object
+      properties:
+        app:
+          $ref: "#/components/schemas/app"
+        endUserIp:
+          $ref: "#/components/schemas/endUserIp"
+        returnRisk:
+          $ref: "#/components/schemas/returnRisk"
+        returnUrl:
+          $ref: "#/components/schemas/returnUrl"
+        userNonVisibleData:
+          $ref: "#/components/schemas/userNonVisibleData"
+        userVisibleData:
+          $ref: "#/components/schemas/userVisibleData"
+        userVisibleDataFormat:
+          $ref: "#/components/schemas/userVisibleDataFormat"
+        web:
+          $ref: "#/components/schemas/web"
+        requirement:
+          $ref: "#/components/schemas/sign_requirement"
+    payment_requirement:
+      type: object
+      properties:
+        cardReader:
+          $ref: "#/components/schemas/cardReader"
+        certificatePolicies:
+          $ref: "#/components/schemas/certificatePolicies"
+        pinCode:
+          $ref: "#/components/schemas/pinCode"
+        mrtd:
+          $ref: "#/components/schemas/mrtd"
+        personalNumber:
+          $ref: "#/components/schemas/personalNumber"
+      description: Requirements on how the payment order must be performed.
+    payment_body:
+      required:
+      - endUserIp
+      - userVisibleTransaction
+      type: object
+      properties:
+        app:
+          $ref: "#/components/schemas/app"
+        endUserIp:
+          $ref: "#/components/schemas/endUserIp"
+        returnRisk:
+          $ref: "#/components/schemas/returnRisk"
+        returnUrl:
+          $ref: "#/components/schemas/returnUrl"
+        riskFlags:
+          $ref: "#/components/schemas/riskFlags"
+        userNonVisibleData:
+          $ref: "#/components/schemas/userNonVisibleData_payment"
+        userVisibleData:
+          $ref: "#/components/schemas/userVisibleData_payment"
+        userVisibleDataFormat:
+          $ref: "#/components/schemas/userVisibleDataFormat"
+        userVisibleTransaction:
+          $ref: "#/components/schemas/userVisibleTransaction"
+        web:
+          $ref: "#/components/schemas/web"
+        requirement:
+          $ref: "#/components/schemas/payment_requirement"
+    phoneauth_requirement:
+      type: object
+      properties:
+        cardReader:
+          $ref: "#/components/schemas/cardReader"
+        certificatePolicies:
+          $ref: "#/components/schemas/certificatePolicies"
+        mrtd:
+          $ref: "#/components/schemas/mrtd"
+        pinCode:
+          $ref: "#/components/schemas/pinCode"
+      description: Requirements on how the authentication order must be performed.
+    phone_auth_body:
+      required:
+      - callInitiator
+      type: object
+      properties:
+        callInitiator:
+          $ref: "#/components/schemas/callInitiator"
+        personalNumber:
+          $ref: "#/components/schemas/personalNumber_1"
+        userNonVisibleData:
+          $ref: "#/components/schemas/userNonVisibleData_auth"
+        userVisibleData:
+          $ref: "#/components/schemas/userVisibleData_auth"
+        userVisibleDataFormat:
+          $ref: "#/components/schemas/userVisibleDataFormat"
+        requirement:
+          $ref: "#/components/schemas/phoneauth_requirement"
+    phonesign_requirement:
+      type: object
+      properties:
+        cardReader:
+          $ref: "#/components/schemas/cardReader"
+        certificatePolicies:
+          $ref: "#/components/schemas/certificatePolicies"
+        mrtd:
+          $ref: "#/components/schemas/mrtd"
+        pinCode:
+          $ref: "#/components/schemas/pinCode"
+      description: Requirements on how the signature order must be performed.
+    phone_sign_body:
+      required:
+      - callInitiator
+      - userVisibleData
+      type: object
+      properties:
+        callInitiator:
+          $ref: "#/components/schemas/callInitiator"
+        personalNumber:
+          $ref: "#/components/schemas/personalNumber_1"
+        userNonVisibleData:
+          $ref: "#/components/schemas/userNonVisibleData"
+        userVisibleData:
+          $ref: "#/components/schemas/userVisibleData"
+        userVisibleDataFormat:
+          $ref: "#/components/schemas/userVisibleDataFormat"
+        requirement:
+          $ref: "#/components/schemas/phonesign_requirement"
+    otherpayment_requirement:
+      type: object
+      properties:
+        cardReader:
+          $ref: "#/components/schemas/cardReader"
+        certificatePolicies:
+          $ref: "#/components/schemas/certificatePolicies"
+        mrtd:
+          $ref: "#/components/schemas/mrtd"
+        pinCode:
+          $ref: "#/components/schemas/pinCode"
+        risk:
+          $ref: "#/components/schemas/risk_other"
+      description: Requirements on how the payment order must be performed.
+    other_payment_body:
+      required:
+      - personalNumber
+      - userVisibleTransaction
+      type: object
+      properties:
+        app:
+          $ref: "#/components/schemas/app"
+        personalNumber:
+          $ref: "#/components/schemas/personalNumber_1"
+        returnRisk:
+          $ref: "#/components/schemas/returnRisk_other"
+        riskFlags:
+          $ref: "#/components/schemas/riskFlags"
+        returnUrl:
+          $ref: "#/components/schemas/returnUrl"
+        userNonVisibleData:
+          $ref: "#/components/schemas/userNonVisibleData_payment"
+        userVisibleData:
+          $ref: "#/components/schemas/userVisibleData_payment"
+        userVisibleDataFormat:
+          $ref: "#/components/schemas/userVisibleDataFormat"
+        userVisibleTransaction:
+          $ref: "#/components/schemas/userVisibleTransaction"
+        web:
+          $ref: "#/components/schemas/web"
+        requirement:
+          $ref: "#/components/schemas/otherpayment_requirement"
+    collect_body:
+      required:
+      - orderRef
+      type: object
+      properties:
+        orderRef:
+          $ref: "#/components/schemas/orderRef"
+    cancel_body:
+      required:
+      - orderRef
+      type: object
+      properties:
+        orderRef:
+          $ref: "#/components/schemas/orderRef"
+    userVisibleTransaction_recipient:
+      required:
+      - name
+      type: object
+      properties:
+        name:
+          maxLength: 40
+          type: string
+          description: |-
+            The name of the recipient of the payment.
+
+            For the transaction type `"card"`, this is the merchant name.
+      description: The recipient of the payment.
+    userVisibleTransaction_money:
+      required:
+      - amount
+      - currency
+      type: object
+      properties:
+        amount:
+          maxLength: 48
+          minLength: 1
+          type: string
+          description: |-
+            The monetary amount of the payment.
+
+            The string can contain one decimal separator which must be `","`. The rest of the input must be numbers.
+
+            Examples: `"1000,00"`, `"100,000"`, `"100"`, `"0"`
+          example: "100,00"
+        currency:
+          maxLength: 3
+          minLength: 3
+          type: string
+          description: |-
+            The currency of the payment.
+
+            This must be an ISO 4217 alphabetic currency code.
+          example: EUR
+      description: Object that sets monetary amount for the payment.<br>If the transactionType
+        is npa this isn't allowed to be set.
+    collect_response_completionData_user:
+      type: object
+      properties:
+        personalNumber:
+          $ref: "#/components/schemas/personalNumber_1"
+        name:
+          type: string
+          description: The first and last name of the user.
+        givenName:
+          type: string
+          description: The first name of the user.
+        surname:
+          type: string
+          description: The surname of the user.
+      description: Information related to the user.
+    collect_response_completionData_device:
+      type: object
+      properties:
+        ipAddress:
+          $ref: "#/components/schemas/ipAddress"
+        uhi:
+          $ref: "#/components/schemas/uhi"
+      description: Information related to the device.
+    collect_response_completionData_stepUp:
+      type: object
+      properties:
+        mrtd:
+          $ref: "#/components/schemas/mrtd_1"
+      description: Information about additional verifications that were part of the
+        order.
+    collect_response_completionData:
+      type: object
+      properties:
+        user:
+          $ref: "#/components/schemas/collect_response_completionData_user"
+        device:
+          $ref: "#/components/schemas/collect_response_completionData_device"
+        stepUp:
+          $ref: "#/components/schemas/collect_response_completionData_stepUp"
+        bankIdIssueDate:
+          $ref: "#/components/schemas/bankIdIssueDate"
+        signature:
+          $ref: "#/components/schemas/signature"
+        ocspResponse:
+          $ref: "#/components/schemas/ocspResponse"
+        risk:
+          $ref: "#/components/schemas/risk"
+      description: |-
+        Information about the user and the completed order.
+
+        The user has completed the order. `completionData` includes the signature, user information and the OCSP
+        response. You should verify user information to proceed. You should retain completion data for future reference,
+        compliance and audit purposes.
+  responses:
+    "200":
+      description: Request successful.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/order_response"
+    "400":
+      description: Bad request.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/error_response"
+    "401":
+      description: You do not have access to the service.
+    "403":
+      description: You do not have access to the service.
+    "404":
+      description: An invalid URL path was used.
+    "405":
+      description: Only HTTP method POST is allowed.
+    "408":
+      description: Timeout while transmitting the request.
+    "415":
+      description: The type is missing or invalid.
+    "500":
+      description: Internal technical error in the BankID system.
+    "503":
+      description: The service is temporarily unavailable.
+    "200_limited":
+      description: Request successful.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/limited_response"
+    "200_collect":
+      description: Request successful.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/collect_response"
+    "200_cancel":
+      description: Request successful.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/empty_response"
