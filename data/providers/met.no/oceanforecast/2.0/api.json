@@ -1,0 +1,13 @@
+{
+  "name": "MET Ocean Forecast",
+  "description": "Ocean forecasts for points at sea in Northwestern Europe.\n\nDelivers wave and sea forecast in standard [MET Forecast GeoJSON](https://docs.api.met.no/doc/ForecastJSON) format. There is also an XML variant, but this is considered legacy and exists only for backwards compatibility.\n\nThe forecast is based on multiple wave and sea models. For more information on models and parameters, see [the Oceanforecast data model documentation](https://docs.api.met.no/doc/oceanforecast/datamodel).\n\nWhen importing this API, please set `https://api.met.no` as URL when prompted.",
+  "categories": [
+    "weather"
+  ],
+  "logo": "logo.svg",
+  "openApiJsonUrl": "https://api.met.no/weatherapi/oceanforecast/2.0/swagger",
+  "openApiYamlUrl": null,
+  "openApiVersion": null,
+  "externalDocsUrl": "https://api.met.no/weatherapi/oceanforecast/2.0/documentation",
+  "source": "api-provider"
+}

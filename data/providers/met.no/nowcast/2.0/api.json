@@ -1,0 +1,13 @@
+{
+  "name": "MET Nowcast",
+  "description": "Immediate weather forecast for specified locations in the Nordic area.\n\nThis service delivers two-hour weather forecasts in GeoJSON or XML for locations in Norway, Sweden, Finland and Denmark. Forecasts are updated every 5 minutes. It is our best estimate of the current weather conditions, and is especially useful for predicting immediate precipitation.\n\nWhen importing this API, please set `https://api.met.no` as URL when prompted.",
+  "categories": [
+    "weather"
+  ],
+  "logo": "logo.svg",
+  "openApiJsonUrl": "https://api.met.no/weatherapi/nowcast/2.0/swagger",
+  "openApiYamlUrl": null,
+  "openApiVersion": null,
+  "externalDocsUrl": "https://api.met.no/weatherapi/nowcast/2.0/documentation",
+  "source": "api-provider"
+}

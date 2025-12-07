@@ -1,0 +1,13 @@
+{
+  "name": "MET MetAlerts",
+  "description": "Weather alerts from the Norwegian Meteorological Institute.\n\nThis service provides meteorological warnings for land, coastal and sea regions for the next days. Each alert message (identified by its CAP id) is only issued once, and is valid until the `expires` time or updated by another alert message.\n\nThe alert messages are delivered in [CAP format](http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html), as well as a listing of current warnings in an RSS 2.0 feed. Both are in XML format, but there is an experimental GeoJSON version in beta.\n\nFor flood warnings, see [api.nve.no](https://api.nve.no/doc/flomvarsling/), also in CAP format.\n\nWhen importing this API, please set `https://api.met.no` as URL when prompted.",
+  "categories": [
+    "weather"
+  ],
+  "logo": "logo.svg",
+  "openApiJsonUrl": "https://api.met.no/weatherapi/metalerts/2.0/swagger",
+  "openApiYamlUrl": null,
+  "openApiVersion": null,
+  "externalDocsUrl": "https://api.met.no/weatherapi/metalerts/2.0/documentation",
+  "source": "api-provider"
+}

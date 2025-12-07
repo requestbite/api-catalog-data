@@ -1,0 +1,13 @@
+{
+  "name": "MET Air Quality Forecast",
+  "description": "Forecast of air-quality for locations in Norway.\n\nThis API implements a forecast of air-quality for a location in Norway, i.e. the forecast of several parameters relevant for air-quality. Besides a general air-quality index, the main parameters for air-quality like PM10, PM2.5 and O3 are given under the `/aqi-description` endpoint.\n\nA location in Norway is defined by the statistical units area-class which are a municipality (kommune), a part of a municipality (delområde) and grunnkrets, the smallest area unit for statistics in Norway. Air-quality and concentrations in the finest resolution are available as maps under [https://uemep-wms.met.no](https://uemep-wms.met.no).\n\nWhen importing this API, please set `https://api.met.no` as URL when prompted.",
+  "categories": [
+    "weather"
+  ],
+  "logo": "logo.svg",
+  "openApiJsonUrl": "https://api.met.no/weatherapi/airqualityforecast/0.1/swagger.json",
+  "openApiYamlUrl": null,
+  "openApiVersion": null,
+  "externalDocsUrl": "https://api.met.no/weatherapi/airqualityforecast/0.1/documentation",
+  "source": "api-provider"
+}
