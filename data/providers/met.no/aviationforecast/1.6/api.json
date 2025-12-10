@@ -1,0 +1,13 @@
+{
+  "name": "MET Aviation Forecast",
+  "description": "Textual aviation weather forecasts.\n\nThis product delivers text forecasts in XML format for aerodromes and IGA (International General Aviation) flight areas below FL 100.\n\nAerodrome warnings are issued irregularly only when conditions require it.\n\nAviation forecasts are only available in English.\n\nWhen importing this API, please set `https://api.met.no` as URL when prompted.",
+  "categories": [
+    "weather"
+  ],
+  "logo": "logo.svg",
+  "openApiJsonUrl": "https://api.met.no/weatherapi/aviationforecast/1.6/swagger",
+  "openApiYamlUrl": null,
+  "openApiVersion": null,
+  "externalDocsUrl": "https://api.met.no/weatherapi/aviationforecast/1.6/documentation",
+  "source": "api-provider"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "MET Geosatellite",
+  "description": "Images from geostationary satellites.\n\nThis service delivers images captured by geostationary satellites, in the visible and infrared spectra. New images are produced every hour.\n\nImages are provided for a specified area and specified time. If no time is given, the latest available image will be returned.\n\nWhen importing this API, please set `https://api.met.no` as URL when prompted.",
+  "categories": [
+    "weather"
+  ],
+  "logo": "logo.svg",
+  "openApiJsonUrl": "https://api.met.no/weatherapi/geosatellite/1.4/swagger",
+  "openApiYamlUrl": null,
+  "openApiVersion": null,
+  "externalDocsUrl": "https://api.met.no/weatherapi/geosatellite/1.4/documentation",
+  "source": "api-provider"
+}

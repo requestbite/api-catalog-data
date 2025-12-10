@@ -1,0 +1,13 @@
+{
+  "name": "MET Icemap",
+  "description": "Maps showing current ice conditions in the arctic regions.\n\nThis service delivers ice maps in JPEG format. They are made by the Norwegian Meteorological Institute’s IceService in Tromsø, and are mainly based on satellite information.\n\nThe plots show different ice-categories (Fast Ice, very close drift ice, close drift ice, open drift ice, very open drift ice, and open water). The plot gives also information about the sea-surface temperature in the area.\n\nWhen importing this API, please set `https://api.met.no` as URL when prompted.",
+  "categories": [
+    "weather"
+  ],
+  "logo": "logo.svg",
+  "openApiJsonUrl": "https://api.met.no/weatherapi/icemap/1.0/swagger",
+  "openApiYamlUrl": null,
+  "openApiVersion": null,
+  "externalDocsUrl": "https://api.met.no/weatherapi/icemap/1.0/documentation",
+  "source": "api-provider"
+}

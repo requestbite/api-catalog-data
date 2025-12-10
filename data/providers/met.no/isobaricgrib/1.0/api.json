@@ -1,0 +1,13 @@
+{
+  "name": "MET IsobaricGRIB",
+  "description": "GRIB files for air traffic.\n\nThese files are used by Avinor ATM systems but possibly also of interest to others. They contain temperature and wind forecasts for a set of isobaric layers (i.e. altitudes having the same pressure). There are two different formats, GRIB1 and GRIB2.\n\nThe files are (normally) produced every 6 hours. You can check the time when generated using the Last-Modified header or the `updated` key in `available`.\n\nWhen importing this API, please set `https://api.met.no` as URL when prompted.",
+  "categories": [
+    "weather"
+  ],
+  "logo": "logo.svg",
+  "openApiJsonUrl": "https://api.met.no/weatherapi/isobaricgrib/1.0/swagger",
+  "openApiYamlUrl": null,
+  "openApiVersion": null,
+  "externalDocsUrl": "https://api.met.no/weatherapi/isobaricgrib/1.0/documentation",
+  "source": "api-provider"
+}

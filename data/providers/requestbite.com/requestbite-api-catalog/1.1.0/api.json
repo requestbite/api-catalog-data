@@ -1,0 +1,13 @@
+{
+  "name": "RequestBite API Catalog",
+  "description": "The RequestBite API Catalog is an open API that provides access to a\ncommunity-driven catalog of interesting REST APIs from around the world.\n\nThe API allows you to:\n\n- Browse and search for APIs from various providers\n- Explore services and their associated APIs\n- Filter by categories and regions\n\nRead more about the API and how you can contribute in the [api-catalog-data\nGitHub repo](https://github.com/requestbite/api-catalog-data) (where you can\nalso find the raw data for this API).\n",
+  "categories": [
+    "developer_tools"
+  ],
+  "logo": "logo.svg",
+  "openApiJsonUrl": null,
+  "openApiYamlUrl": "https://raw.githubusercontent.com/requestbite/api-catalog-data/refs/heads/main/openapi.yaml",
+  "openApiVersion": null,
+  "externalDocsUrl": "https://github.com/requestbite/api-catalog-data",
+  "source": "api-provider"
+}

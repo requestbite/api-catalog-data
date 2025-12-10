@@ -1,0 +1,13 @@
+{
+  "name": "MET GRIB Files",
+  "description": "Serve GRIB files on the coast from Oslo and Western Norway.\n\nThis product make some of our GRIB files available for access and download. The content is made to support yachts and yachting. Note that these files are meant for downloading and used with external software. All areas have all kind of contents. The data are delivered with content type `application/octet-stream`.\n\nThe area covered is from 57°54'00\"N, 4°26'59\"E to 63°00'00\"N, 7°00'00\"E, in 0.05° increments.\n\nThe files are updated every 3 hours, or maybe every 6 hours, possibly even every 12 hours (which is actually every 24 hours, but the files are produced twice). (Yeah, we know, hopefully we can add an \"updated\" field to /available soon.)\n\nIf you need other parameters or areas, please look at [THREDDS](https://thredds.met.no/) (NetCDF only, no GRIB).",
+  "categories": [
+    "weather"
+  ],
+  "logo": "logo.svg",
+  "openApiJsonUrl": "https://api.met.no/weatherapi/gribfiles/1.1/swagger",
+  "openApiYamlUrl": null,
+  "openApiVersion": null,
+  "externalDocsUrl": "https://api.met.no/weatherapi/gribfiles/1.1/documentation",
+  "source": "api-provider"
+}
