@@ -29,7 +29,7 @@ to use the provided API to search for, and list, any APIs of interest.
 
 This repository is roughly structured as the as the catalog API itself:
 
-```
+```plaintext
 data/
 └── providers/
     └── {provider}/
@@ -42,7 +42,7 @@ data/
 
 An example of an actual API from the catalog is as follows:
 
-```
+```plaintext
 data/
 └── providers/
     └── resrobot.se/
