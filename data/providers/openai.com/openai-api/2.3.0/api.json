@@ -1,0 +1,13 @@
+{
+  "name": "OpenAI API",
+  "description": "This API reference describes the RESTful, streaming, and realtime APIs you can use to interact with the OpenAI platform. REST APIs are usable via HTTP in any environment that supports HTTP requests. Language-specific SDKs are listed [on the libraries page](https://platform.openai.com/docs/libraries).",
+  "categories": [
+    "ai"
+  ],
+  "logo": "logo.svg",
+  "openApiJsonUrl": null,
+  "openApiYamlUrl": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+  "openApiVersion": null,
+  "externalDocsUrl": "https://platform.openai.com/docs/api-reference/introduction",
+  "source": "api-provider"
+}
