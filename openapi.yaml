@@ -1,0 +1,1474 @@
+openapi: 3.1.0
+info:
+  title: RequestBite API Catalog
+  version: 1.1.0
+  description: |
+    The RequestBite API Catalog is an open API that provides access to a
+    community-driven catalog of interesting REST APIs from around the world.
+
+    The API allows you to:
+
+    - Browse and search for APIs from various providers
+    - Explore services and their associated APIs
+    - Filter by categories and regions
+
+    Read more about the API and how you can contribute in the [api-catalog-data
+    GitHub repo](https://github.com/requestbite/api-catalog-data) (where you can
+    also find the raw data for this API).
+  contact:
+    name: RequestBite
+  license:
+    name: CC0-1.0
+
+servers:
+  - url: https://api.ac.requestbite.com
+    description: Production server
+
+tags:
+  - name: Misc
+    description: Misc endpoints
+  - name: Categories
+    description: API category management
+  - name: Regions
+    description: Geographical region information
+  - name: Providers
+    description: API provider information
+  - name: Services
+    description: Service catalog
+  - name: APIs
+    description: API catalog and search
+
+paths:
+  /:
+    get:
+      summary: API root
+      description: This is the root of the API. Returns various info about the API.
+      operationId: getRoot
+      responses:
+        '200':
+          description: API identifier
+          content:
+            text/plain:
+              schema:
+                type: string
+              examples:
+                default:
+                  value: RequestBite API Catalog
+
+  /v1/health:
+    get:
+      tags:
+        - Health
+      summary: Health check
+      description: Returns the service status and version information.
+      operationId: getHealth
+      responses:
+        '200':
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - service
+                  - version
+                  - status
+                properties:
+                  service:
+                    type: string
+                  version:
+                    type: string
+                  status:
+                    type: string
+              examples:
+                default:
+                  value:
+                    service: RequestBite API Catalog
+                    version: 1.1.0
+                    status: ok
+
+  /v1/categories:
+    get:
+      tags:
+        - Categories
+      summary: List all categories
+      description: |
+        Fetch all enabled categories with API counts, ordered by name.
+
+        When region filter is applied, only categories containing APIs from that region are returned,
+        and the API count reflects only APIs in that region. Categories with zero APIs in the
+        filtered region are excluded.
+      operationId: getCategories
+      parameters:
+        - $ref: '#/components/parameters/RegionParam'
+      responses:
+        '200':
+          description: List of categories
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Category'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /v1/categories/key/{key}/apis:
+    get:
+      tags:
+        - Categories
+      summary: List APIs for a category by key
+      description: |-
+        Fetch all APIs for a specific category by its key.
+
+        Results are ordered deterministically by:
+        1. Date added (newest first)
+        2. ID (ascending) - ensures consistent ordering when timestamps are equal
+
+        When region filter is applied, only APIs from that region are returned,
+        and the total count reflects only APIs in that region.
+
+        Note: Always returns resolved APIs with full category and service objects.
+      operationId: getCategoryAPIsByKey
+      parameters:
+        - name: key
+          in: path
+          required: true
+          description: Category key identifier
+          schema:
+            type: string
+          examples:
+            default:
+              value: storage
+        - $ref: '#/components/parameters/RegionParam'
+        - $ref: '#/components/parameters/StripMarkdownParam'
+        - $ref: '#/components/parameters/LimitParam'
+        - $ref: '#/components/parameters/PageParam'
+      responses:
+        '200':
+          description: Category with paginated APIs (always resolved format)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CategoryAPIsResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /v1/categories/{uuid}/apis:
+    get:
+      tags:
+        - Categories
+      summary: List APIs for a category by UUID
+      description: |-
+        Fetch all APIs for a specific category by its UUID.
+
+        Results are ordered deterministically by:
+        1. Date added (newest first)
+        2. ID (ascending) - ensures consistent ordering when timestamps are equal
+
+        When region filter is applied, only APIs from that region are returned,
+        and the total count reflects only APIs in that region.
+
+        Note: Always returns resolved APIs with full category and service objects.
+      operationId: getCategoryAPIsByUUID
+      parameters:
+        - $ref: '#/components/parameters/UuidParam'
+        - $ref: '#/components/parameters/RegionParam'
+        - $ref: '#/components/parameters/StripMarkdownParam'
+        - $ref: '#/components/parameters/LimitParam'
+        - $ref: '#/components/parameters/PageParam'
+      responses:
+        '200':
+          description: Category with paginated APIs (always resolved format)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CategoryAPIsResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /v1/regions:
+    get:
+      tags:
+        - Regions
+      summary: List all regions
+      description: |-
+        Fetch all enabled regions ordered by name.
+
+        When apiCount is true, each region includes a count of enabled APIs that belong to services
+        in that region. The count reflects only APIs where both the API and its service_name have enabled=1.
+      operationId: getRegions
+      parameters:
+        - $ref: '#/components/parameters/ApiCountParam'
+      responses:
+        '200':
+          description: List of regions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Region'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /v1/providers:
+    get:
+      tags:
+        - Providers
+      summary: List all providers
+      description: |
+        Fetch all enabled providers with pagination.
+
+        Results are ordered deterministically by:
+        1. Date added (newest first)
+        2. ID (ascending) - ensures consistent pagination when timestamps are equal
+      operationId: getProviders
+      parameters:
+        - $ref: '#/components/parameters/LimitParam'
+        - $ref: '#/components/parameters/PageParam'
+      responses:
+        '200':
+          description: Paginated list of providers
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProvidersPaginationResponse'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /v1/providers/key/{key}:
+    get:
+      tags:
+        - Providers
+      summary: Get a provider by key
+      description: Fetch a single provider by its key (URL-friendly identifier)
+      operationId: getProviderByKey
+      parameters:
+        - name: key
+          in: path
+          required: true
+          description: Provider key identifier
+          schema:
+            type: string
+          examples:
+            default:
+              value: aws
+      responses:
+        '200':
+          description: Provider details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Provider'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /v1/providers/key/{key}/services:
+    get:
+      tags:
+        - Providers
+      summary: List services for a provider by key
+      description: |
+        Fetch all services for a specific provider by its key.
+
+        Results are ordered deterministically by:
+        1. Date added (newest first)
+        2. ID (ascending) - ensures consistent ordering when timestamps are equal
+      operationId: getProviderServicesByKey
+      parameters:
+        - name: key
+          in: path
+          required: true
+          description: Provider key identifier
+          schema:
+            type: string
+          examples:
+            default:
+              value: aws
+      responses:
+        '200':
+          description: Provider with list of services
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProviderServicesResponse'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /v1/providers/{uuid}:
+    get:
+      tags:
+        - Providers
+      summary: Get a provider by UUID
+      description: Fetch a single provider by UUID
+      operationId: getProvider
+      parameters:
+        - $ref: '#/components/parameters/UuidParam'
+      responses:
+        '200':
+          description: Provider details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Provider'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /v1/providers/{uuid}/services:
+    get:
+      tags:
+        - Providers
+      summary: List services for a provider by UUID
+      description: |
+        Fetch all services for a specific provider by UUID.
+
+        Results are ordered deterministically by:
+        1. Date added (newest first)
+        2. ID (ascending) - ensures consistent ordering when timestamps are equal
+      operationId: getProviderServices
+      parameters:
+        - $ref: '#/components/parameters/UuidParam'
+      responses:
+        '200':
+          description: Provider with list of services
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProviderServicesResponse'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /v1/services/{uuid}:
+    get:
+      tags:
+        - Services
+      summary: Get a service by UUID
+      description: Fetch a single service by UUID
+      operationId: getService
+      parameters:
+        - $ref: '#/components/parameters/UuidParam'
+      responses:
+        '200':
+          description: Service details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServiceName'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /v1/services/{uuid}/apis:
+    get:
+      tags:
+        - Services
+      summary: List APIs for a service
+      description: |
+        Fetch all APIs for a specific service.
+
+        Results are ordered deterministically by:
+        1. Date added (newest first)
+        2. ID (ascending) - ensures consistent ordering when timestamps are equal
+      operationId: getServiceAPIs
+      parameters:
+        - $ref: '#/components/parameters/UuidParam'
+        - name: resolveIds
+          in: query
+          required: false
+          description: If true, resolves category IDs and service name ID to full objects
+          schema:
+            type: boolean
+            default: false
+          examples:
+            default:
+              value: true
+      responses:
+        '200':
+          description: Service with APIs (format depends on resolveIds parameter)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServiceAPIsResponse'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /v1/apis/{uuid}:
+    get:
+      tags:
+        - APIs
+      summary: Get an API by UUID
+      description: Fetch a single API by UUID with full details including OpenAPI specification URLs
+      operationId: getAPI
+      parameters:
+        - $ref: '#/components/parameters/UuidParam'
+        - name: resolveIds
+          in: query
+          required: false
+          description: If true, resolves category IDs and service name ID to full objects
+          schema:
+            type: boolean
+            default: false
+          examples:
+            default:
+              value: true
+      responses:
+        '200':
+          description: API details (format depends on resolveIds parameter)
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: '#/components/schemas/API'
+                  - $ref: '#/components/schemas/ResolvedAPI'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /v1/apis/search:
+    get:
+      tags:
+        - APIs
+      summary: Search APIs
+      description: |
+        Search APIs by name or description with relevance ranking. Returns top 10 results.
+
+        Relevance scoring:
+        - Exact name match: 100 points
+        - Name starts with query: 90 points
+        - Name contains query: 80 points
+        - Exact description match: 50 points
+        - Description starts with query: 40 points
+        - Description contains query: 30 points
+
+        Results are sorted deterministically by:
+        1. Relevance score (descending)
+        2. Date added (newest first)
+        3. ID (ascending) - ensures consistent ordering when scores and timestamps are equal
+      operationId: searchAPIs
+      parameters:
+        - name: q
+          in: query
+          required: true
+          description: Search query to match against API name or description (case-insensitive)
+          schema:
+            type: string
+            minLength: 1
+          examples:
+            default:
+              value: storage
+        - name: resolveIds
+          in: query
+          required: false
+          description: If true, resolves category IDs and service name ID to full objects
+          schema:
+            type: boolean
+            default: false
+          examples:
+            default:
+              value: true
+        - name: fullDesc
+          in: query
+          required: false
+          description: If true, returns full description; otherwise truncates to 200 characters
+          schema:
+            type: boolean
+            default: false
+          examples:
+            default:
+              value: false
+      responses:
+        '200':
+          description: Search results (format depends on resolveIds parameter)
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - type: array
+                    title: Unresolved results (when resolveIds=false)
+                    items:
+                      $ref: '#/components/schemas/SearchAPI'
+                  - type: array
+                    title: Resolved results (when resolveIds=true)
+                    items:
+                      $ref: '#/components/schemas/SearchResolvedAPI'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /v1/apis/specurl:
+    get:
+      tags:
+        - APIs
+      summary: Get an API by OpenAPI spec URL
+      description: |
+        Fetch a single API by its OpenAPI specification URL (either JSON or YAML).
+        This endpoint searches for an API where the provided URL matches either the
+        openApiJsonUrl or openApiYamlUrl field in the database.
+
+        The URL must be provided as a URL-encoded query parameter.
+      operationId: getAPIBySpecURL
+      parameters:
+        - name: url
+          in: query
+          required: true
+          description: Full URL to the OpenAPI specification (JSON or YAML), must be URL-encoded
+          schema:
+            type: string
+            format: uri
+          examples:
+            default:
+              value: https://api.apis.guru/v2/specs/googleapis.com/abusiveexperiencereport/v1/openapi.yaml
+        - name: resolveIds
+          in: query
+          required: false
+          description: If true, resolves category IDs and service name ID to full objects
+          schema:
+            type: boolean
+            default: false
+          examples:
+            default:
+              value: true
+      responses:
+        '200':
+          description: API details (format depends on resolveIds parameter)
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: '#/components/schemas/API'
+                  - $ref: '#/components/schemas/ResolvedAPI'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /v1/apis/resolveapi:
+    get:
+      tags:
+        - APIs
+      summary: Resolve an API by provider, service, and version
+      description: |
+        Fetch a single API by resolving its provider key, service key, and API version.
+        This endpoint performs a join across provider, service_name, and api tables to find
+        the matching API entry.
+      operationId: resolveAPI
+      parameters:
+        - name: providerKey
+          in: query
+          required: true
+          description: Provider key identifier
+          schema:
+            type: string
+          examples:
+            default:
+              value: googleapis.com
+        - name: serviceKey
+          in: query
+          required: true
+          description: Service key identifier
+          schema:
+            type: string
+          examples:
+            default:
+              value: abusiveexperiencereport
+        - name: apiVersion
+          in: query
+          required: true
+          description: API version
+          schema:
+            type: string
+          examples:
+            default:
+              value: v1
+        - name: resolveIds
+          in: query
+          required: false
+          description: If true, resolves category IDs and service name ID to full objects
+          schema:
+            type: boolean
+            default: false
+          examples:
+            default:
+              value: true
+      responses:
+        '200':
+          description: API details (format depends on resolveIds parameter)
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: '#/components/schemas/API'
+                  - $ref: '#/components/schemas/ResolvedAPI'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+components:
+  parameters:
+    UuidParam:
+      name: uuid
+      in: path
+      required: true
+      description: UUID identifier
+      schema:
+        type: string
+        format: uuid
+      examples:
+        default:
+          value: 550e8400-e29b-41d4-a716-446655440000
+
+    LimitParam:
+      name: limit
+      in: query
+      required: false
+      description: Maximum number of items to return (default 10, max 100)
+      schema:
+        type: integer
+        minimum: 1
+        maximum: 100
+        default: 10
+      examples:
+        default:
+          value: 20
+
+    PageParam:
+      name: page
+      in: query
+      required: false
+      description: Page number for pagination (1-based, default 1)
+      schema:
+        type: integer
+        minimum: 1
+        default: 1
+      examples:
+        default:
+          value: 1
+
+    RegionParam:
+      name: region
+      in: query
+      required: false
+      description: Filter results by region using two-letter country code (case-insensitive, e.g., SE, US)
+      schema:
+        type: string
+        minLength: 2
+        maxLength: 2
+        pattern: '^[A-Za-z]{2}$'
+      examples:
+        default:
+          value: SE
+
+    StripMarkdownParam:
+      name: stripMarkdown
+      in: query
+      required: false
+      description: If true, strips markdown formatting from description fields
+      schema:
+        type: boolean
+        default: false
+      examples:
+        default:
+          value: true
+
+    ApiCountParam:
+      name: apiCount
+      in: query
+      required: false
+      description: If true, includes the count of enabled APIs for each region
+      schema:
+        type: boolean
+        default: false
+      examples:
+        default:
+          value: true
+
+  schemas:
+    Category:
+      type: object
+      required:
+        - id
+        - name
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: Category unique identifier
+        key:
+          type: string
+          description: Category key identifier (URL-friendly)
+        name:
+          type: string
+          description: Category name
+        description:
+          type: string
+          description: Category description
+        apis:
+          type: integer
+          description: Number of enabled APIs in this category
+      examples:
+        default:
+          value:
+            id: 550e8400-e29b-41d4-a716-446655440000
+            key: storage
+            name: Storage
+            description: Storage and data management APIs
+            apis: 42
+
+    Region:
+      type: object
+      required:
+        - id
+        - key
+        - name
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: Region unique identifier
+        key:
+          type: string
+          description: Region key (e.g., us-east-1)
+        name:
+          type: string
+          description: Region display name
+        flag:
+          type: string
+          description: Emoji flag for the region
+        apis:
+          type: integer
+          description: Number of enabled APIs in this region (only included when apiCount=true)
+      examples:
+        default:
+          value:
+            id: 550e8400-e29b-41d4-a716-446655440000
+            key: us-east-1
+            name: US East (N. Virginia)
+            flag: 🇺🇸
+            apis: 42
+
+    Provider:
+      type: object
+      required:
+        - id
+        - key
+        - addedTs
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: Provider unique identifier
+        key:
+          type: string
+          description: Provider key identifier
+        addedTs:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp when the provider was added
+      examples:
+        default:
+          value:
+            id: 550e8400-e29b-41d4-a716-446655440000
+            key: aws
+            addedTs: '2024-01-15T10:30:00Z'
+
+    ProviderSummary:
+      type: object
+      required:
+        - id
+        - key
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: Provider unique identifier
+        key:
+          type: string
+          description: Provider key identifier
+      examples:
+        default:
+          value:
+            id: 550e8400-e29b-41d4-a716-446655440000
+            key: aws
+
+    ServiceName:
+      type: object
+      required:
+        - id
+        - key
+        - providerId
+        - addedTs
+        - source
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: Service unique identifier
+        key:
+          type: string
+          description: Service key identifier
+        providerId:
+          type: string
+          format: uuid
+          description: ID of the provider offering this service
+        regionId:
+          type: string
+          format: uuid
+          description: ID of the region where this service is available
+        addedTs:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp when the service was added
+        updatedTs:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp when the service was last updated
+        source:
+          type: string
+          description: Source of the service information
+      examples:
+        default:
+          value:
+            id: 550e8400-e29b-41d4-a716-446655440000
+            key: s3
+            providerId: 660e8400-e29b-41d4-a716-446655440000
+            regionId: 770e8400-e29b-41d4-a716-446655440000
+            addedTs: '2024-01-15T10:30:00Z'
+            updatedTs: '2024-02-20T14:15:00Z'
+            source: api-catalog
+
+    ServiceNameSummary:
+      type: object
+      required:
+        - id
+        - key
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: Service unique identifier
+        key:
+          type: string
+          description: Service key identifier
+      examples:
+        default:
+          value:
+            id: 550e8400-e29b-41d4-a716-446655440000
+            key: s3
+
+    API:
+      type: object
+      required:
+        - id
+        - version
+        - name
+        - categoryIds
+        - providerId
+        - serviceNameId
+        - addedTs
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: API unique identifier
+        version:
+          type: string
+          description: API version
+        name:
+          type: string
+          description: API name
+        description:
+          type: string
+          description: API description
+        categoryIds:
+          type: array
+          items:
+            type: string
+            format: uuid
+          description: List of category IDs this API belongs to
+        providerId:
+          type: string
+          format: uuid
+          description: ID of the provider that offers this API
+        serviceNameId:
+          type: string
+          format: uuid
+          description: ID of the service this API belongs to
+        logoUrl:
+          type: string
+          format: uri
+          description: URL to the API logo image
+        openApiJsonUrl:
+          type: string
+          format: uri
+          description: URL to the OpenAPI JSON specification
+        openApiYamlUrl:
+          type: string
+          format: uri
+          description: URL to the OpenAPI YAML specification
+        openApiVersion:
+          type: string
+          description: OpenAPI specification version (e.g., 3.0.0)
+        externalDocsUrl:
+          type: string
+          format: uri
+          description: URL to external documentation
+        source:
+          type: string
+          description: Source of the API information
+        addedTs:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp when the API was added
+        updatedTs:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp when the API was last updated
+      examples:
+        default:
+          value:
+            id: 550e8400-e29b-41d4-a716-446655440000
+            version: '2006-03-01'
+            name: Amazon S3 API
+            description: Object storage built to retrieve any amount of data from anywhere
+            categoryIds:
+              - 660e8400-e29b-41d4-a716-446655440000
+            providerId: 880e8400-e29b-41d4-a716-446655440000
+            serviceNameId: 770e8400-e29b-41d4-a716-446655440000
+            logoUrl: https://example.com/logos/s3.png
+            openApiJsonUrl: https://example.com/specs/s3.json
+            openApiYamlUrl: https://example.com/specs/s3.yaml
+            openApiVersion: 3.0.0
+            externalDocsUrl: https://docs.aws.amazon.com/s3/
+            source: aws-api-catalog
+            addedTs: '2024-01-15T10:30:00Z'
+            updatedTs: '2024-02-20T14:15:00Z'
+
+    SearchAPI:
+      type: object
+      description: API search result without OpenAPI URLs
+      required:
+        - id
+        - version
+        - name
+        - categoryIds
+        - providerId
+        - serviceNameId
+        - addedTs
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: API unique identifier
+        version:
+          type: string
+          description: API version
+        name:
+          type: string
+          description: API name
+        description:
+          type: string
+          description: API description (truncated to 200 chars unless fullDesc=true)
+        categoryIds:
+          type: array
+          items:
+            type: string
+            format: uuid
+          description: List of category IDs this API belongs to
+        providerId:
+          type: string
+          format: uuid
+          description: ID of the provider that offers this API
+        serviceNameId:
+          type: string
+          format: uuid
+          description: ID of the service this API belongs to
+        logoUrl:
+          type: string
+          format: uri
+          description: URL to the API logo image
+        source:
+          type: string
+          description: Source of the API information
+        addedTs:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp when the API was added
+        updatedTs:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp when the API was last updated
+      examples:
+        default:
+          value:
+            id: 550e8400-e29b-41d4-a716-446655440000
+            version: '2006-03-01'
+            name: Amazon S3 API
+            description: Object storage built to retrieve any amount of data from anywhere
+            categoryIds:
+              - 660e8400-e29b-41d4-a716-446655440000
+            providerId: 880e8400-e29b-41d4-a716-446655440000
+            serviceNameId: 770e8400-e29b-41d4-a716-446655440000
+            logoUrl: https://example.com/logos/s3.png
+            source: aws-api-catalog
+            addedTs: '2024-01-15T10:30:00Z'
+            updatedTs: '2024-02-20T14:15:00Z'
+
+    SearchResolvedAPI:
+      type: object
+      description: API search result with resolved relationships (categories, provider, and service name as objects)
+      required:
+        - id
+        - version
+        - name
+        - categories
+        - provider
+        - serviceName
+        - addedTs
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: API unique identifier
+        version:
+          type: string
+          description: API version
+        name:
+          type: string
+          description: API name
+        description:
+          type: string
+          description: API description (truncated to 200 chars unless fullDesc=true)
+        categories:
+          type: array
+          items:
+            $ref: '#/components/schemas/Category'
+          description: List of categories this API belongs to
+        provider:
+          $ref: '#/components/schemas/ProviderSummary'
+        serviceName:
+          $ref: '#/components/schemas/ServiceNameSummary'
+        logoUrl:
+          type: string
+          format: uri
+          description: URL to the API logo image
+        source:
+          type: string
+          description: Source of the API information
+        addedTs:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp when the API was added
+        updatedTs:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp when the API was last updated
+      examples:
+        default:
+          value:
+            id: 550e8400-e29b-41d4-a716-446655440000
+            version: '2006-03-01'
+            name: Amazon S3 API
+            description: Object storage built to retrieve any amount of data from anywhere
+            categories:
+              - id: 660e8400-e29b-41d4-a716-446655440000
+                name: Storage
+            provider:
+              id: 880e8400-e29b-41d4-a716-446655440000
+              key: aws
+            serviceName:
+              id: 770e8400-e29b-41d4-a716-446655440000
+              key: s3
+            logoUrl: https://example.com/logos/s3.png
+            source: aws-api-catalog
+            addedTs: '2024-01-15T10:30:00Z'
+            updatedTs: '2024-02-20T14:15:00Z'
+
+    PaginationDetails:
+      type: object
+      required:
+        - entries
+        - page
+        - limit
+      properties:
+        entries:
+          type: integer
+          description: Total number of entries available
+        page:
+          type: integer
+          description: Current page number (1-based)
+        limit:
+          type: integer
+          description: Maximum number of items per page
+      examples:
+        default:
+          value:
+            entries: 42
+            page: 1
+            limit: 10
+
+    CategoryDetails:
+      type: object
+      required:
+        - id
+        - key
+        - name
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: Category unique identifier
+        key:
+          type: string
+          description: Category key identifier
+        name:
+          type: string
+          description: Category name
+        description:
+          type: string
+          description: Category description
+      examples:
+        default:
+          value:
+            id: 550e8400-e29b-41d4-a716-446655440000
+            key: storage
+            name: Storage
+            description: Storage and data management APIs
+
+    CategoryAPIsResponse:
+      type: object
+      description: Category with paginated APIs (always returns resolved format with full category and service objects)
+      required:
+        - paginationDetails
+        - category
+        - apis
+      properties:
+        paginationDetails:
+          $ref: '#/components/schemas/PaginationDetails'
+        category:
+          $ref: '#/components/schemas/CategoryDetails'
+        apis:
+          type: array
+          items:
+            $ref: '#/components/schemas/ResolvedAPI'
+      examples:
+        default:
+          value:
+            paginationDetails:
+              entries: 42
+              page: 1
+              limit: 10
+            category:
+              id: 550e8400-e29b-41d4-a716-446655440000
+              key: storage
+              name: Storage
+              description: Storage and data management APIs
+            apis:
+              - id: 660e8400-e29b-41d4-a716-446655440000
+                version: '2006-03-01'
+                name: Amazon S3 API
+                description: Object storage built to retrieve any amount of data
+                categories:
+                  - id: 550e8400-e29b-41d4-a716-446655440000
+                    name: Storage
+                provider:
+                  id: 880e8400-e29b-41d4-a716-446655440000
+                  key: aws
+                serviceName:
+                  id: 770e8400-e29b-41d4-a716-446655440000
+                  key: s3
+                logoUrl: https://example.com/logos/s3.png
+                openApiJsonUrl: https://example.com/specs/s3.json
+                openApiYamlUrl: https://example.com/specs/s3.yaml
+                openApiVersion: 3.0.0
+                externalDocsUrl: https://docs.aws.amazon.com/s3/
+                source: aws-api-catalog
+                addedTs: '2024-01-15T10:30:00Z'
+                updatedTs: '2024-02-20T14:15:00Z'
+
+    ProvidersPaginationResponse:
+      type: object
+      description: Paginated provider response
+      required:
+        - entries
+        - page
+        - limit
+      properties:
+        entries:
+          type: array
+          items:
+            $ref: '#/components/schemas/Provider'
+          description: List of providers in current page
+        page:
+          type: integer
+          description: Current page number (1-based)
+        limit:
+          type: integer
+          description: Maximum number of items per page
+      examples:
+        default:
+          value:
+            entries:
+              - id: 550e8400-e29b-41d4-a716-446655440000
+                key: aws
+                addedTs: '2024-01-15T10:30:00Z'
+              - id: 660e8400-e29b-41d4-a716-446655440000
+                key: gcp
+                addedTs: '2024-01-16T11:20:00Z'
+            page: 1
+            limit: 10
+
+    ProviderServicesResponse:
+      type: object
+      description: Provider with list of services
+      required:
+        - provider
+        - services
+      properties:
+        provider:
+          $ref: '#/components/schemas/Provider'
+        services:
+          type: array
+          items:
+            $ref: '#/components/schemas/ServiceName'
+      examples:
+        default:
+          value:
+            provider:
+              id: 550e8400-e29b-41d4-a716-446655440000
+              key: aws
+              addedTs: '2024-01-15T10:30:00Z'
+            services:
+              - id: 770e8400-e29b-41d4-a716-446655440000
+                key: s3
+                providerId: 550e8400-e29b-41d4-a716-446655440000
+                addedTs: '2024-01-15T10:30:00Z'
+                source: api-catalog
+              - id: 880e8400-e29b-41d4-a716-446655440000
+                key: ec2
+                providerId: 550e8400-e29b-41d4-a716-446655440000
+                addedTs: '2024-01-16T11:20:00Z'
+                source: api-catalog
+
+    ServiceAPIsResponse:
+      type: object
+      description: Service with list of APIs (format depends on resolveIds parameter)
+      required:
+        - service
+        - apis
+      properties:
+        service:
+          $ref: '#/components/schemas/ServiceName'
+        apis:
+          oneOf:
+            - type: array
+              title: Unresolved APIs (when resolveIds=false)
+              items:
+                $ref: '#/components/schemas/API'
+            - type: array
+              title: Resolved APIs (when resolveIds=true)
+              items:
+                $ref: '#/components/schemas/ResolvedAPI'
+      examples:
+        default:
+          value:
+            service:
+              id: 770e8400-e29b-41d4-a716-446655440000
+              key: s3
+              providerId: 550e8400-e29b-41d4-a716-446655440000
+              addedTs: '2024-01-15T10:30:00Z'
+              source: api-catalog
+            apis:
+              - id: 660e8400-e29b-41d4-a716-446655440000
+                version: '2006-03-01'
+                name: Amazon S3 API
+                description: Object storage built to retrieve any amount of data
+                categories:
+                  - id: 550e8400-e29b-41d4-a716-446655440000
+                    name: Storage
+                provider:
+                  id: 880e8400-e29b-41d4-a716-446655440000
+                  key: aws
+                serviceName:
+                  id: 770e8400-e29b-41d4-a716-446655440000
+                  key: s3
+                logoUrl: https://example.com/logos/s3.png
+                openApiJsonUrl: https://example.com/specs/s3.json
+                openApiYamlUrl: https://example.com/specs/s3.yaml
+                openApiVersion: 3.0.0
+                externalDocsUrl: https://docs.aws.amazon.com/s3/
+                source: aws-api-catalog
+                addedTs: '2024-01-15T10:30:00Z'
+                updatedTs: '2024-02-20T14:15:00Z'
+
+    ResolvedAPI:
+      type: object
+      description: API with resolved relationships (full category, provider, and service objects, includes OpenAPI URLs)
+      required:
+        - id
+        - version
+        - name
+        - categories
+        - provider
+        - serviceName
+        - addedTs
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: API unique identifier
+        version:
+          type: string
+          description: API version
+        name:
+          type: string
+          description: API name
+        description:
+          type: string
+          description: API description
+        categories:
+          type: array
+          items:
+            $ref: '#/components/schemas/Category'
+          description: List of categories this API belongs to
+        provider:
+          $ref: '#/components/schemas/ProviderSummary'
+        serviceName:
+          $ref: '#/components/schemas/ServiceNameSummary'
+        logoUrl:
+          type: string
+          format: uri
+          description: URL to the API logo image
+        openApiJsonUrl:
+          type: string
+          format: uri
+          description: URL to the OpenAPI JSON specification
+        openApiYamlUrl:
+          type: string
+          format: uri
+          description: URL to the OpenAPI YAML specification
+        openApiVersion:
+          type: string
+          description: OpenAPI specification version (e.g., 3.0.0)
+        externalDocsUrl:
+          type: string
+          format: uri
+          description: URL to external documentation
+        source:
+          type: string
+          description: Source of the API information
+        addedTs:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp when the API was added
+        updatedTs:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp when the API was last updated
+      examples:
+        default:
+          value:
+            id: 550e8400-e29b-41d4-a716-446655440000
+            version: '2006-03-01'
+            name: Amazon S3 API
+            description: Object storage built to retrieve any amount of data from anywhere
+            categories:
+              - id: 660e8400-e29b-41d4-a716-446655440000
+                name: Storage
+            provider:
+              id: 880e8400-e29b-41d4-a716-446655440000
+              key: aws
+            serviceName:
+              id: 770e8400-e29b-41d4-a716-446655440000
+              key: s3
+            logoUrl: https://example.com/logos/s3.png
+            openApiJsonUrl: https://example.com/specs/s3.json
+            openApiYamlUrl: https://example.com/specs/s3.yaml
+            openApiVersion: 3.0.0
+            externalDocsUrl: https://docs.aws.amazon.com/s3/
+            source: aws-api-catalog
+            addedTs: '2024-01-15T10:30:00Z'
+            updatedTs: '2024-02-20T14:15:00Z'
+
+    Error:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          description: Error type (e.g., "Not Found", "Bad Request", "Internal Server Error")
+        message:
+          type: string
+          description: Detailed error message
+      examples:
+        default:
+          value:
+            error: Not Found
+            message: The requested resource was not found.
+
+  responses:
+    NotFound:
+      description: Resource not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          examples:
+            default:
+              value:
+                error: Not Found
+                message: The requested resource was not found.
+
+    BadRequest:
+      description: Invalid request parameters
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          examples:
+            default:
+              value:
+                error: Bad Request
+                message: Query parameter 'q' is required
+
+    InternalError:
+      description: Internal server error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          examples:
+            default:
+              value:
+                error: Internal Server Error
+                message: Failed to fetch providers

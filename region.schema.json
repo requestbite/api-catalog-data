@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://requestbite.com/schemas/region.schema.json",
+  "title": "RequestBite Region Configuration",
+  "description": "Schema for region.json files that specify the geographical region for a service",
+  "type": "object",
+  "properties": {
+    "region": {
+      "type": "string",
+      "description": "Region key that must exist in the database region table (ISO 3166-1 alpha-2 country codes)",
+      "enum": [
+        "AE", "AG", "AL", "AO", "AR", "AT", "AU", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BR", "BS", "BT", "BW", "BY", "BZ",
+        "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CN", "CO", "CR", "CU", "CZ",
+        "DE", "DK", "DO", "DZ",
+        "EE", "EG", "ES", "ET",
+        "FI", "FR",
+        "GB", "GD", "GH", "GM", "GN", "GR", "GT", "GW",
+        "HN", "HR", "HT", "HU",
+        "ID", "IE", "IL", "IN", "IQ", "IR", "IS", "IT",
+        "JM", "JO", "JP",
+        "KE", "KH", "KM", "KN", "KR", "KW", "KZ",
+        "LA", "LB", "LC", "LK", "LR", "LS", "LT", "LU", "LV", "LY",
+        "MA", "MD", "MG", "MK", "ML", "MM", "MN", "MR", "MU", "MV", "MW", "MX", "MY", "MZ",
+        "NA", "NC", "NE", "NG", "NI", "NL", "NO", "NP", "NZ",
+        "OM",
+        "PA", "PE", "PF", "PH", "PK", "PL", "PT",
+        "QA",
+        "RE", "RO", "RS", "RU", "RW",
+        "SA", "SC", "SD", "SE", "SG", "SI", "SK", "SL", "SN", "SS", "SV", "SY", "SZ",
+        "TG", "TH", "TN", "TR", "TT", "TZ",
+        "UA", "UG", "US", "UZ",
+        "VC", "VN",
+        "YE", "YT",
+        "ZA", "ZM", "ZW"
+      ]
+    }
+  },
+  "required": ["region"],
+  "additionalProperties": false
+}

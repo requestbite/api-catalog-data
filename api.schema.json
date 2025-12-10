@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://requestbite.com/schemas/api.schema.json",
+  "title": "RequestBite API Configuration",
+  "description": "Schema for api.json files that define API metadata for the RequestBite catalog",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Display name of the API",
+      "minLength": 1,
+      "examples": ["CalorieNinjas", "Stripe API", "GitHub REST API"]
+    },
+    "description": {
+      "type": ["string", "null"],
+      "description": "Detailed description of the API's purpose and functionality",
+      "examples": ["Natural language nutrition API to extract nutrition data from any text."]
+    },
+    "categories": {
+      "type": "array",
+      "description": "List of category keys that must exist in the database category table",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ai",
+          "analytics",
+          "application_development",
+          "backend",
+          "cloud",
+          "collaboration",
+          "communication",
+          "content",
+          "crm",
+          "data",
+          "database",
+          "developer_tools",
+          "ecommerce",
+          "education",
+          "email",
+          "enterprise",
+          "entertainment",
+          "events",
+          "finance",
+          "food",
+          "forms",
+          "games",
+          "health",
+          "hosting",
+          "iot",
+          "location",
+          "machine_learning",
+          "marketing",
+          "media",
+          "messaging",
+          "monitoring",
+          "music",
+          "news",
+          "nfts",
+          "open_data",
+          "other",
+          "payment",
+          "photography",
+          "productivity",
+          "project_management",
+          "search",
+          "security",
+          "social",
+          "sports",
+          "storage",
+          "support",
+          "telecom",
+          "text",
+          "tickets",
+          "time_management",
+          "time_tracking",
+          "tools",
+          "transport",
+          "travel",
+          "video",
+          "weather"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "logo": {
+      "type": ["string", "null"],
+      "description": "Logo reference: URL (http/https), local filename (e.g., 'logo.png'), or null for no logo",
+      "examples": [
+        "https://example.com/logo.svg",
+        "logo.png",
+        "logo.svg",
+        null
+      ]
+    },
+    "openApiJsonUrl": {
+      "type": ["string", "null"],
+      "description": "OpenAPI JSON spec URL (absolute URL or relative path like 'openapi.json').",
+      "examples": [
+        "https://api.apis.guru/v2/specs/calorieninjas.com/1.0.0/openapi.json",
+        "openapi.json",
+        "specs/openapi.json",
+        null
+      ]
+    },
+    "openApiYamlUrl": {
+      "type": ["string", "null"],
+      "description": "OpenAPI YAML spec URL (absolute URL or relative path like 'openapi.yaml').",
+      "examples": [
+        "https://api.apis.guru/v2/specs/calorieninjas.com/1.0.0/openapi.yaml",
+        "openapi.yaml",
+        "specs/openapi.yaml",
+        null
+      ]
+    },
+    "openApiVersion": {
+      "type": ["string", "null"],
+      "description": "OpenAPI specification version (e.g., '3.0.0', '3.1.0', '2.0')",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "examples": ["3.0.0", "3.0.1", "3.1.0", "2.0.0"]
+    },
+    "externalDocsUrl": {
+      "type": ["string", "null"],
+      "description": "URL to external documentation for the API",
+      "examples": [
+        "https://docs.example.com/api",
+        "www.calorieninjas.com/api",
+        null
+      ]
+    },
+    "source": {
+      "type": "string",
+      "description": "Source of the API specification (e.g., 'api-provider', 'community')",
+      "minLength": 1,
+      "examples": ["apis.guru", "api-provider", "community"]
+    }
+  },
+  "required": [
+    "name",
+    "categories",
+    "logo",
+    "source"
+  ]
+}
