@@ -1,0 +1,13 @@
+{
+  "name": "Datacircle API",
+  "description": "Find the best GTM APIs. Free and open, no key: list every API, see who is best for each and search every plan.",
+  "categories": [
+    "data"
+  ],
+  "logo": null,
+  "openApiJsonUrl": "https://api.datacircle.dev/v1/openapi.json",
+  "openApiYamlUrl": null,
+  "openApiVersion": "3.1.0",
+  "externalDocsUrl": "https://datacircle.dev",
+  "source": "api-provider"
+}
